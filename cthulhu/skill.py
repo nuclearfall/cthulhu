@@ -3,10 +3,14 @@
 import logging
 from cthulhu.roll import skillRoll, result
 
+def get_occupation_skills(occupation):
+    pass
+
+skills = {skill for skill in occupation for hskill in hobby}
 class skill(object):
-    def __init__(self, name, value):
+    def __init__(self, name, value, dex=None):
         self.name = name
-        self.value = value
+        self.value = value if not value == "Dodge" and dex is not None DEX / 2
         self.half = int(value / 2)
         self.fifth = int(value / 5)
 
@@ -15,6 +19,7 @@ class skill(object):
 
     def check(self, penalty=0, bonus=0):
         """ This will perform a skill check and return the type of result. """
+        # If Skill is dodge, base it on Dex / 2
 
         skillroll = skillRoll(penalty=penalty, bonus=bonus)
         logstr = "{} check ({}p,{}b): rolled {} against {} ... ".format(self.name, penalty,  bonus,  skillroll, self.value)

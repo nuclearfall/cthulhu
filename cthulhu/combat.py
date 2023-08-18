@@ -155,7 +155,7 @@ def meleeAttack(attacker, defender, fight_back=True):
     penalty=0
 
     # keep track of how many times the defender has responded back
-    defender.status['combat_response'] = defender.status['combat_response'] + 1
+    defender.status['combat_response'] += defender.status['combat_response']
     if defender.outNumbered() is True:
         logging.info('Combat: {} is outnumbered, {} gets bonus die.'.format(defender.name, attacker.name))
         bonus = bonus + 1
