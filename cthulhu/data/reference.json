@@ -1,0 +1,127 @@
+{
+	"age_modifiers": 
+	{
+		"to20":
+		{
+			"ageLow": 15,
+			"ageHigh": 19,
+			"createPenalties": 
+			[
+				{"value": -5, "among": ["strength", "size"]},
+				{"value": -5, "from": "education"}
+			]
+		},
+		"to40": 
+		{
+			"ageLow": 20,
+			"ageHigh": 39,
+			"penalties": [],
+			"educationChecks": 1
+		},
+		"to50": 
+		{
+			"ageLow": 40,
+			"ageHigh": 49,
+			"createPenalties": 
+			[
+				{"value": -5, "among": ["strength", "dexterity", "constitution"]},
+				{"value": -5, "from": "appearance"},
+				{"value": -1, "from": "movement"}
+			],
+			"educationChecks": 2
+		},
+		"to60": 
+		{
+			"ageLow": 50,
+			"ageHigh": 59,
+			"createPenalties": 
+			[
+				{"value": -10, "among": ["strength", "dexterity", "constitution"]},
+				{"value": -10, "from": "appearance"},
+				{"value": -2, "from": "movement"}
+			],
+			"educationChecks": 3
+		},
+		"to70": 
+		{
+			"ageLow": 60,
+			"ageHigh": 69,
+			"createPenalties": 
+			[
+				{"value": -20, "among": ["strength", "dexterity", "constitution"]},
+				{"value": -15, "from": "appearance"},
+				{"value": -3, "from": "movement"}
+			],
+			"educationChecks": 4
+		},
+		"to80": 
+		{
+			"ageLow": 70,
+			"ageHigh": 79,
+			"createPenalties": 
+			[
+				{"value": -40, "among": ["strength", "dexterity", "constitution"]},
+				{"value": -20, "from": "appearance"},
+				{"value": -4, "from": "movement"}
+			],
+			"educationChecks": 4
+		},
+		"tilDeath": 
+		{
+			"ageLow": 80,
+			"ageHigh": 32767,
+			"createPenalties": 
+			[
+				{"value": -80, "among": ["strength", "dexterity", "constitution"]},
+				{"value": -25, "from": "appearance"},
+				{"value": -5, "from": "movement"}
+			],
+			"educationChecks": 4
+		}
+	},
+	"dice": 
+	{
+		"strength": 3,
+		"size": 2,
+		"dexterity": 3,
+		"constitution": 3,
+		"appearance": 3,
+		"intelligence": 2,
+		"power": 3,
+		"education": 2,
+		"luck": 3
+	},
+	"build_and_db": 
+	[
+		{
+			"highValue": 64,
+			"lowValue": 2,
+			"damageBonus": "-2",
+			"build": -2
+		},
+		{
+			"highValue": 84,
+			"lowValue": 64,
+			"damageBonus": "-1",
+			"build": -1
+		},
+		{
+			"highValue": 124,
+			"lowValue": 65,
+			"damageBonus": "0",
+			"build": 0
+		},
+		{
+			"highValue": 164,
+			"lowValue": 125,
+			"damageBonus": "1d4",
+			"build": 1
+		},
+		{
+			"highValue": 204,
+			"lowValue": 165,
+			"damageBonus": "1d6",
+			"build": 2
+		}
+	]
+}

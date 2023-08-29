@@ -1,0 +1,1902 @@
+{
+    "weapons": [
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1",
+            "malfunction": 99,
+            "costModernLow": 70,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 30,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 13,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".22 Bolt-Action Rifle",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 190,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 10,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 25,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".22 Short Automatic",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1",
+            "malfunction": 100,
+            "costModernLow": 0,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 2,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 3,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 12,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".25 Derringer (1B)",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1",
+            "malfunction": 98,
+            "costModernLow": 150,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 50,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 19,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".30 Lever-Action Carbine",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1",
+            "malfunction": 100,
+            "costModernLow": 175,
+            "perMag": "5",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 110,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 75,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 4
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".30-06 Bolt-Action Rifle",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1",
+            "malfunction": 100,
+            "costModernLow": 300,
+            "perMag": "5",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 110,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 50,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 4
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".303 Lee-Enfield",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 99,
+            "costModernLow": 350,
+            "perMag": "8",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "Aka 7.65mm",
+            "isImpaling": false,
+            "cost1920Low": 20,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".32 Automatic",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 200,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "Aka 7.65mm",
+            "isImpaling": false,
+            "cost1920Low": 15,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".32 Revolver",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 99,
+            "costModernLow": 375,
+            "perMag": "8",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 30,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".38 Automatic",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 200,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 25,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".38 Revolver",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 0,
+            "perMag": "8",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 2,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "Rare",
+            "isImpaling": false,
+            "cost1920Low": 30,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".41 Revolver",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 375,
+            "perMag": "7",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 40,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 2
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".45 Automatic",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1/3",
+            "malfunction": 100,
+            "costModernLow": 0,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 2,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 80,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 20,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 3
+                        },
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".45 Martini-Henry Rifle",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 100,
+            "costModernLow": 300,
+            "perMag": "6",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 30,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 2
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".45 Revolver",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1/4",
+            "malfunction": 95,
+            "costModernLow": 350,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 60,
+			"range unit": "yards",
+            "additionalInformation": "Rare",
+            "isImpaling": false,
+            "cost1920Low": 25,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 4
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": ".58 Springfield Rifle Musket",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 15,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Cosh, life-preserver",
+            "isImpaling": false,
+            "cost1920Low": 2,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Blackjack",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Bow",
+            "attacks": "1",
+            "malfunction": 97,
+            "costModernLow": 75,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 30,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 7,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 0.5,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Bow and Arrow",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 10,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 1,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 3,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Brass Knuckles",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Whip",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 50,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 10,
+			"range unit": "feet",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 5,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 3,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 0.5,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Bullwhip",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 0.5,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 0.05,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Burning Torch",
+            "burn": true,
+            "stun": false
+        },
+        {
+            "skill": "Chainsaw",
+            "attacks": "1",
+            "malfunction": 95,
+            "costModernLow": 300,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 1,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 0,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Chainsaw",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 35,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Baseball bat, cricket bat, poker",
+            "isImpaling": false,
+            "cost1920Low": 3,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Club, large",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 35,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Nightstick",
+            "isImpaling": false,
+            "cost1920Low": 3,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Club, small",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1/3",
+            "malfunction": 88,
+            "costModernLow": 0,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 2,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 20,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 200,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Col. Moran\u2019s Air Rifle",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Bow",
+            "attacks": "1/2",
+            "malfunction": 96,
+            "costModernLow": 100,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 50,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 10,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 2
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Crossbow",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1 or 2",
+            "malfunction": 100,
+            "costModernLow": 1800,
+            "perMag": "2",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 100,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 400,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 3,
+                            "type": 6,
+                            "base": 4
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Elephant Gun (2B)",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1/4",
+            "malfunction": 95,
+            "costModernLow": 300,
+            "perMag": "1",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 10,
+			"range unit": "yards",
+            "additionalInformation": "Rare",
+            "isImpaling": false,
+            "cost1920Low": 30,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Flintlock",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1",
+            "malfunction": 100,
+            "costModernLow": 400,
+            "perMag": "8",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 1,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 110,
+			"range unit": "yards",
+            "additionalInformation": "WW2 or later",
+            "isImpaling": false,
+            "cost1920Low": 400,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 4
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Garand M1, M2 Rifle",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Garrote",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 3,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 0.5,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Garrote",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Axe",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 9,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 3,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Hatchet",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 50,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Machete, etc",
+            "isImpaling": true,
+            "cost1920Low": 4,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Knife, large",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 15,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Carving knife, etc",
+            "isImpaling": true,
+            "cost1920Low": 2,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 4,
+                            "base": 2
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Knife, medium",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 6,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Switchblade, etc",
+            "isImpaling": true,
+            "cost1920Low": 2,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 4,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Knife, small",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 95,
+            "costModernLow": 0,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 1,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "220-volt charge",
+            "isImpaling": false,
+            "cost1920Low": 0,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Live Wire",
+            "burn": false,
+            "stun": true
+        },
+        {
+            "skill": "Brawl",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 10,
+            "perMag": "25 squirts",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 6,
+			"range unit": "feet",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 0,
+            "damageRolls": [],
+            "name": "Mace Spray",
+            "burn": false,
+            "stun": true
+        },
+        {
+            "skill": "Handgun",
+            "attacks": "1 (3)",
+            "malfunction": 99,
+            "costModernLow": 600,
+            "perMag": "8",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 15,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 75,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 10,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Model P08 Luger",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Flail",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 10,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 1,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Nunchaku",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Throw",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 0,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "STR",
+			"range unit": "feet",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 0,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 4,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 0.5,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Rock, Thrown",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Rifle/Shotgun",
+            "attacks": "1 (2)",
+            "malfunction": 97,
+            "costModernLow": 500,
+            "perMag": "10",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 1,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 90,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": false,
+            "cost1920Low": 0,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 2,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "SKS Carbine",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Throw",
+            "attacks": "2",
+            "malfunction": 100,
+            "costModernLow": 3,
+            "perMag": "One use",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": 20,
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 0.5,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 3,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 0.5,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Shuriken",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Fighting (Spear)",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 150,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Cavalry lance",
+            "isImpaling": false,
+            "cost1920Low": 25,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "Spear",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Throw",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 25,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "STR",
+			"range unit": "yards",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 1,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 0.5,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Spear, Thrown",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Sword",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 75,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Cavalry saber",
+            "isImpaling": false,
+            "cost1920Low": 30,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Sword, heavy",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Sword",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 100,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 25,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Sword, light",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Sword",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 100,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "Rapier, heavy epee",
+            "isImpaling": true,
+            "cost1920Low": 15,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 6,
+                            "base": 1
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Sword, medium",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Throw",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 4,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "STR",
+			"range unit": "yards",
+            "additionalInformation": "Rare",
+            "isImpaling": false,
+            "cost1920Low": 2,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 0.5,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "str": true,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": false
+                }
+            ],
+            "name": "War Boomerang",
+            "burn": false,
+            "stun": false
+        },
+        {
+            "skill": "Axe",
+            "attacks": "1",
+            "malfunction": 0,
+            "costModernLow": 10,
+            "perMag": "",
+            "isOtherSkill": false,
+            "isRare1920": false,
+            "costModernHigh": 0,
+            "isRareModern": false,
+            "era": 0,
+            "cost1920High": 0,
+            "isUncapped": false,
+            "isRange": false,
+            "isSingleUse": false,
+            "range": "Touch",
+            "additionalInformation": "",
+            "isImpaling": true,
+            "cost1920Low": 5,
+            "damageRolls": [
+                {
+                    "strBonusMultiplier": 1,
+                    "dice": [
+                        {
+                            "num": 1,
+                            "type": 8,
+                            "base": 2
+                        }
+                    ],
+                    "burn": false,
+                    "str": false,
+                    "damageBonusMultiplier": 1,
+                    "stun": false,
+                    "damageBonus": true
+                }
+            ],
+            "name": "Wood Axe",
+            "burn": false,
+            "stun": false
+        }
+    ]
+}
