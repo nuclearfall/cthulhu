@@ -10,9 +10,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
+        "groups": []
     },
     "Animal Handling": {
         "name": "Animal Handling",
@@ -26,16 +24,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Custom1_Chk": "",
-            "SkillDef_Custom1": "",
-            "Custom1": "",
-            "Custom1_half": "",
-            "Custom1_fifth": ""
-        }
+        "groups": []
     },
     "Anthropology": {
         "name": "Anthropology",
@@ -48,15 +37,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Anthropology_Chk": "False",
-            "Anthropology": "1",
-            "Anthropology_half": "0",
-            "Anthropology_fifth": "0"
-        }
+        "groups": []
     },
     "Appraise": {
         "name": "Appraise",
@@ -69,15 +50,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Appraise_Chk": "False",
-            "Appraise": "1",
-            "Appraise_half": "0",
-            "Appraise_fifth": "0"
-        }
+        "groups": []
     },
     "Archaeology": {
         "name": "Archaeology",
@@ -90,15 +63,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Archaeology_Chk": "False",
-            "Archaeology": "1",
-            "Archaeology_half": "0",
-            "Archaeology_fifth": "0"
-        }
+        "groups": []
     },
     "Art/Craft": {
         "name": "Art/Craft",
@@ -117,16 +82,7 @@
             "Technical Drawing"
         ],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Custom1_Chk": "",
-            "SkillDef_Custom1": "",
-            "Custom1": "",
-            "Custom1_half": "",
-            "Custom1_fifth": ""
-        }
+        "groups": []
     },
     "Acting": {
         "name": "Acting",
@@ -139,10 +95,7 @@
         "checked": false,
         "children": [],
         "parent": "Art/Craft",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Fine Art": {
         "name": "Fine Art",
@@ -155,15 +108,7 @@
         "checked": false,
         "children": [],
         "parent": "Art/Craft",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SkillDef_ArtCraft1": "",
-            "ArtCraft1": "",
-            "ArtCraft1_half": "",
-            "ArtCraft1_fifth": ""
-        }
+        "groups": []
     },
     "Forgery": {
         "name": "Forgery",
@@ -176,15 +121,7 @@
         "checked": false,
         "children": [],
         "parent": "Art/Craft",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SkillDef_ArtCraft1": "",
-            "ArtCraft1": "",
-            "ArtCraft1_half": "",
-            "ArtCraft1_fifth": ""
-        }
+        "groups": []
     },
     "Photography": {
         "name": "Photography",
@@ -197,15 +134,7 @@
         "checked": false,
         "children": [],
         "parent": "Art/Craft",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SkillDef_ArtCraft1": "",
-            "ArtCraft1": "",
-            "ArtCraft1_half": "",
-            "ArtCraft1_fifth": ""
-        }
+        "groups": []
     },
     "Technical Drawing": {
         "name": "Technical Drawing",
@@ -218,15 +147,7 @@
         "checked": false,
         "children": [],
         "parent": "Art/Craft",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SkillDef_ArtCraft1": "",
-            "ArtCraft1": "",
-            "ArtCraft1_half": "",
-            "ArtCraft1_fifth": ""
-        }
+        "groups": []
     },
     "Artillery": {
         "name": "Artillery",
@@ -239,15 +160,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SkillDef_ArtCraft1": "",
-            "ArtCraft1": "",
-            "ArtCraft1_half": "",
-            "ArtCraft1_fifth": ""
-        }
+        "groups": []
     },
     "Charm": {
         "name": "Charm",
@@ -262,15 +175,7 @@
         "parent": null,
         "groups": [
             "interpersonal"
-        ],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Charm_Chk": "False",
-            "Charm": "15",
-            "Charm_half": "7",
-            "Charm_fifth": "3"
-        }
+        ]
     },
     "Climb": {
         "name": "Climb",
@@ -283,15 +188,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Climb_Chk": "False",
-            "Climb": "20",
-            "Climb_half": "10",
-            "Climb_fifth": "4"
-        }
+        "groups": []
     },
     "Computer Use": {
         "name": "Computer Use",
@@ -304,16 +201,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Custom_Chk": "",
-            "SkillDef_Custom": "",
-            "Custom": "",
-            "Custom_half": "",
-            "Custom_fifth": ""
-        }
+        "groups": []
     },
     "Credit Rating": {
         "name": "Credit Rating",
@@ -326,10 +214,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Cthulhu Mythos": {
         "name": "Cthulhu Mythos",
@@ -342,10 +227,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Demoliton": {
         "name": "Demoliton",
@@ -358,14 +240,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Credit": "1",
-            "Credit_half": "1",
-            "Credit_fifth": "1"
-        }
+        "groups": []
     },
     "Disguise": {
         "name": "Disguise",
@@ -378,15 +253,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Disguise_Chk": "False",
-            "Disguise": "5",
-            "Disguise_half": "2",
-            "Disguise_fifth": "1"
-        }
+        "groups": []
     },
     "Dodge": {
         "name": "Dodge",
@@ -399,15 +266,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Dodge_Chk": "False",
-            "Dodge": "0",
-            "Dodge_half": "0",
-            "Dodge_fifth": "0"
-        }
+        "groups": []
     },
     "Diving": {
         "name": "Diving",
@@ -420,10 +279,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Drive Auto": {
         "name": "Drive Auto",
@@ -436,10 +292,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Electrical Repair": {
         "name": "Electrical Repair",
@@ -452,10 +305,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Electronics": {
         "name": "Electronics",
@@ -468,10 +318,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Fast Talk": {
         "name": "Fast Talk",
@@ -486,15 +333,7 @@
         "parent": null,
         "groups": [
             "interpersonal"
-        ],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "FastTalk_Chk": "False",
-            "FastTalk": "5",
-            "FastTalk_half": "2",
-            "FastTalk_fifth": "1"
-        }
+        ]
     },
     "Fighting": {
         "name": "Fighting",
@@ -516,15 +355,7 @@
             "Whip"
         ],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "15",
-            "Fighting_half": "7",
-            "Fighting_fifth": "3"
-        }
+        "groups": []
     },
     "Axe": {
         "name": "Axe",
@@ -537,15 +368,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "15",
-            "Fighting_half": "7",
-            "Fighting_fifth": "3"
-        }
+        "groups": ["fighting"]
     },
     "Brawl": {
         "name": "Brawl",
@@ -558,15 +381,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "20",
-            "Fighting_half": "10",
-            "Fighting_fifth": "4"
-        }
+        "groups": ["fighting"]
     },
     "Chainsaw": {
         "name": "Chainsaw",
@@ -579,15 +394,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "10",
-            "Fighting_half": "5",
-            "Fighting_fifth": "2"
-        }
+        "groups": ["fighting"]
     },
     "Flail": {
         "name": "Flail",
@@ -600,15 +407,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "10",
-            "Fighting_half": "5",
-            "Fighting_fifth": "2"
-        }
+        "groups": ["fighting"]
     },
     "Garrote": {
         "name": "Garrote",
@@ -621,15 +420,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "15",
-            "Fighting_half": "7",
-            "Fighting_fifth": "3"
-        }
+        "groups": ["fighting"]
     },
     "Spear": {
         "name": "Spear",
@@ -642,15 +433,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "20",
-            "Fighting_half": "10",
-            "Fighting_fifth": "4"
-        }
+        "groups": ["fighting"]
     },
     "Sword": {
         "name": "Sword",
@@ -663,15 +446,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "20",
-            "Fighting_half": "10",
-            "Fighting_fifth": "4"
-        }
+        "groups": ["fighting"]
     },
     "Whip": {
         "name": "Fighting",
@@ -684,15 +459,7 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": ["fighting"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Fighting_Chk": "False",
-            "Fighting": "5",
-            "Fighting_half": "2",
-            "Fighting_fifth": "1"
-        }
+        "groups": ["fighting"]
     },
     "Firearms": {
         "name": "Firearms",
@@ -713,16 +480,7 @@
             "Submachine Gun"
         ],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "15",
-            "Firearms_half": "7",
-            "Firearms_fifth": "3"
-        }
+        "groups": ["firearms"]
     },
     "Bow": {
         "name": "Bow",
@@ -735,16 +493,8 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "15",
-            "Firearms_half": "7",
-            "Firearms_fifth": "3"
-        }
+        "groups": ["firearms"],
+        "occupations": []
     },
     "Handgun": {
         "name": "Handgun",
@@ -757,15 +507,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "FireArmsHandguns_Chk": "",
-            "FireArmsHandguns": "",
-            "FireArmsHandguns_half": "",
-            "FireArmsHandguns_fifth": ""
-        }
+        "groups": ["firearms"]
     },
     "Heavy Weapon": {
         "name": "Heavy Weapon",
@@ -778,16 +520,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "10",
-            "Firearms_half": "5",
-            "Firearms_fifth": "2"
-        }
+        "groups": ["firearms"]
     },
     "Flamethrower": {
         "name": "Flamethrower",
@@ -800,16 +533,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "10",
-            "Firearms_half": "5",
-            "Firearms_fifth": "2"
-        }
+        "groups": ["firearms"]
     },
     "Machine Gun": {
         "name": "Machine Gun",
@@ -822,16 +546,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "10",
-            "Firearms_half": "5",
-            "Firearms_fifth": "2"
-        }
+        "groups": ["firearms"]
     },
     "Rifle/Shotgun": {
         "name": "Rifle/Shotgun",
@@ -844,15 +559,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "FireArmsRifles_Chk": "",
-            "FireArmsRifles": "",
-            "FireArmsRifles_half": "",
-            "FireArmsRifles_fifth": ""
-        }
+        "groups": ["firearms"]
     },
     "Submachine Gun": {
         "name": "Submachine Gun",
@@ -865,16 +572,7 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": ["firearms"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Firearms_Chk": "False",
-            "SkillDef_Firearms": "",
-            "Firearms": "15",
-            "Firearms_half": "7",
-            "Firearms_fifth": "3"
-        }
+        "groups": ["firearms"]
     },
     "History": {
         "name": "History",
@@ -887,15 +585,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "History_Chk": "False",
-            "History": "5",
-            "History_half": "2",
-            "History_fifth": "1"
-        }
+        "groups": []
     },
     "Hypnosis": {
         "name": "Hypnosis",
@@ -908,10 +598,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Intimidate": {
         "name": "Intimidate",
@@ -926,15 +613,7 @@
         "parent": null,
         "groups": [
             "interpersonal"
-        ],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Intimidate_Chk": "False",
-            "Intimidate": "15",
-            "Intimidate_half": "7",
-            "Intimidate_fifth": "3"
-        }
+        ]
     },
     "Jump": {
         "name": "Jump",
@@ -947,15 +626,7 @@
         "checked": false,
         "children": [],
         "parent": false,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Jump_Chk": "False",
-            "Jump": "20",
-            "Jump_half": "10",
-            "Jump_fifth": "4"
-        }
+        "groups": []
     },
     "Other Language": {
         "name": "Other Language",
@@ -984,16 +655,7 @@
             "Hebrew"
         ],
         "parent": true,
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "English": {
         "name": "English",
@@ -1006,16 +668,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["langauges"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["langauges"]
     },
     "German": {
         "name": "German",
@@ -1028,16 +681,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "French": {
         "name": "French",
@@ -1050,16 +694,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Portugese": {
         "name": "Portugese",
@@ -1072,16 +707,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Latin": {
         "name": "Latin",
@@ -1094,16 +720,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Italian": {
         "name": "Italian",
@@ -1116,16 +733,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Spanish": {
         "name": "Spanish",
@@ -1138,16 +746,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Russian": {
         "name": "Russian",
@@ -1160,16 +759,7 @@
         "checked": false,
         "children": ["languages"],
         "parent": "Other Language",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": []
     },
     "Hindi": {
         "name": "Hindi",
@@ -1182,16 +772,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Urdu": {
         "name": "Urdu",
@@ -1204,16 +785,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Japanese": {
         "name": "Japanese",
@@ -1226,16 +798,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Mandarin": {
         "name": "Mandarin",
@@ -1248,16 +811,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Cantonese": {
         "name": "Cantonese",
@@ -1270,16 +824,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Arabic": {
         "name": "Arabic",
@@ -1292,16 +837,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Hebrew": {
         "name": "Hebrew",
@@ -1314,16 +850,7 @@
         "checked": false,
         "children": [],
         "parent": "Other Language",
-        "groups": ["languages"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OtherLanguage_Chk": "False",
-            "SkillDef_OtherLanguage": "",
-            "OtherLanguage": "0",
-            "OtherLanguage_half": "0",
-            "OtherLanguage_fifth": "0"
-        }
+        "groups": ["languages"]
     },
     "Own Language": {
         "name": "Own Language",
@@ -1336,16 +863,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "OwnLanguage_Chk": "False",
-            "SkillDef_OwnLanguage": "",
-            "OwnLanguage": "0",
-            "OwnLanguage_half": "0",
-            "OwnLanguage_fifth": "0"
-        }
+        "groups": []
     },
     "Law": {
         "name": "Law",
@@ -1358,15 +876,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Law_Chk": "False",
-            "Law": "5",
-            "Law_half": "2",
-            "Law_fifth": "1"
-        }
+        "groups": []
     },
     "Library Use": {
         "name": "Library Use",
@@ -1379,15 +889,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "LibraryUse_Chk": "False",
-            "LibraryUse": "20",
-            "LibraryUse_half": "10",
-            "LibraryUse_fifth": "4"
-        }
+        "groups": []
     },
     "Listen": {
         "name": "Listen",
@@ -1400,15 +902,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Listen_Chk": "False",
-            "Listen": "20",
-            "Listen_half": "10",
-            "Listen_fifth": "4"
-        }
+        "groups": []
     },
     "Locksmith": {
         "name": "Locksmith",
@@ -1421,15 +915,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Locksmith_Chk": "False",
-            "Locksmith": "1",
-            "Locksmith_half": "0",
-            "Locksmith_fifth": "0"
-        }
+        "groups": []
     },
     "Lore": {
         "name": "Lore",
@@ -1442,10 +928,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Mechanical Repair": {
         "name": "Mechanical Repair",
@@ -1458,10 +941,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Medecine": {
         "name": "Medecine",
@@ -1474,10 +954,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Natural World": {
         "name": "Natural World",
@@ -1490,15 +967,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "NaturalWorld_Chk": "False",
-            "NaturalWorld": "10",
-            "NaturalWorld_half": "5",
-            "NaturalWorld_fifth": "2"
-        }
+        "groups": []
     },
     "Navigate": {
         "name": "Navigate",
@@ -1512,14 +981,7 @@
         "children": [],
         "parent": null,
         "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Navigate_Chk": "False",
-            "Navigate": "10",
-            "Navigate_half": "5",
-            "Navigate_fifth": "2"
-        }
+        "occupations": []
     },
     "Occult": {
         "name": "Occult",
@@ -1532,15 +994,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Occult_Chk": "False",
-            "Occult": "5",
-            "Occult_half": "2",
-            "Occult_fifth": "1"
-        }
+        "groups": []
     },
     "Operate Heavy Machinery": {
         "name": "Operate Heavy Machinery",
@@ -1553,10 +1007,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {}
+        "groups": []
     },
     "Persuade": {
         "name": "Persuade",
@@ -1571,15 +1022,7 @@
         "parent": null,
         "groups": [
             "interpersonal"
-        ],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Persuade_Chk": "False",
-            "Persuade": "10",
-            "Persuade_half": "5",
-            "Persuade_fifth": "2"
-        }
+        ]
     },
     "Pilot": {
         "name": "Pilot",
@@ -1595,16 +1038,7 @@
             "Boat"
         ],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Pilot_Chk": "False",
-            "SkillDef_Pilot": "",
-            "Pilot": "1",
-            "Pilot_half": "0",
-            "Pilot_fifth": "0"
-        }
+        "groups": []
     },
     "Aircraft": {
         "name": "Pilot",
@@ -1617,16 +1051,7 @@
         "checked": false,
         "children": [],
         "parent": "Pilot",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Pilot_Chk": "False",
-            "SkillDef_Pilot": "",
-            "Pilot": "1",
-            "Pilot_half": "0",
-            "Pilot_fifth": "0"
-        }
+        "groups": []
     },
     "Boat": {
         "name": "Pilot",
@@ -1639,16 +1064,7 @@
         "checked": false,
         "children": [],
         "parent": "Pilot",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Pilot_Chk": "False",
-            "SkillDef_Pilot": "",
-            "Pilot": "1",
-            "Pilot_half": "0",
-            "Pilot_fifth": "0"
-        }
+        "groups": []
     },
     "Psychoanalysis": {
         "name": "Psychoanalysis",
@@ -1661,15 +1077,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Psychoanalysis_Chk": "False",
-            "Psychoanalysis": "1",
-            "Psychoanalysis_half": "0",
-            "Psychoanalysis_fifth": "0"
-        }
+        "groups": []
     },
     "Psychology": {
         "name": "Psychology",
@@ -1682,15 +1090,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Psychology_Chk": "False",
-            "Psychology": "10",
-            "Psychology_half": "5",
-            "Psychology_fifth": "2"
-        }
+        "groups": []
     },
     "Read Lips": {
         "name": "Read Lips",
@@ -1703,16 +1103,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Custom1_Chk": "",
-            "SkillDef_Custom1": "",
-            "Custom1": "",
-            "Custom1_half": "",
-            "Custom1_fifth": ""
-        }
+        "groups": []
     },
     "Ride": {
         "name": "Ride",
@@ -1725,15 +1116,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Ride_Chk": "False",
-            "Ride": "5",
-            "Ride_half": "2",
-            "Ride_fifth": "1"
-        }
+        "groups": []
     },
     "Science": {
         "name": "Science",
@@ -1757,17 +1140,7 @@
             "Pharamacy",
             "Physics",
             "Zoology"
-        ],
-        "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        ]
     },
     "Astronomy": {
         "name": "Astronomy",
@@ -1780,15 +1153,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""    
-        }
+        "groups": ["science"]
     },
     "Biology": {
         "name": "Biology",
@@ -1801,15 +1166,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Botany": {
         "name": "Botany",
@@ -1822,15 +1179,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Chemistry": {
         "name": "Chemistry",
@@ -1843,15 +1192,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Cryptography": {
         "name": "Cryptography",
@@ -1864,15 +1205,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Engineering": {
         "name": "Engineering",
@@ -1885,15 +1218,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Geology": {
         "name": "Geology",
@@ -1906,15 +1231,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Mathematics": {
         "name": "Mathematics",
@@ -1927,15 +1244,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Meteorology": {
         "name": "Meteorology",
@@ -1948,16 +1257,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
-
+        "groups": ["science"]
     },
     "Pharamacy": {
         "name": "Pharamacy",
@@ -1970,15 +1270,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Physics": {
         "name": "Physics",
@@ -1991,15 +1283,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Zoology": {
         "name": "Zoology",
@@ -2012,15 +1296,7 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": ["science"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Science": "",
-            "Science_half": "",
-            "Science_fifth": "",
-            "Science_Chk": ""
-        }
+        "groups": ["science"]
     },
     "Sleight of Hand": {
         "name": "Sleight of Hand",
@@ -2033,15 +1309,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-             "Sleight_Chk": "",
-            "Sleight": "",
-            "Sleight_half": "",
-            "Sleight_fifth": ""
-        }
+        "groups": []
     },
     "Spot Hidden": {
         "name": "Spot Hidden",
@@ -2054,15 +1322,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "SpotHidden_Chk": "False",
-            "SpotHidden": "25",
-            "SpotHidden_half": "12",
-            "SpotHidden_fifth": "5"
-        }
+        "groups": []
     },
     "Stealth": {
         "name": "Stealth",
@@ -2075,15 +1335,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Stealth_Chk": "False",
-            "Stealth": "20",
-            "Stealth_half": "10",
-            "Stealth_fifth": "4"
-        }
+        "groups": []
     },
     "Survival": {
         "name": "Survival",
@@ -2101,16 +1353,7 @@
             "Jungle"
         ],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Survival_Chk": "False",
-            "SkillDef_Survival": "",
-            "Survival": "10",
-            "Survival_half": "5",
-            "Survival_fifth": "2"
-        }
+        "groups": []
     },
     "Arctic": {
         "name": "Arctic",
@@ -2123,16 +1366,7 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": ["survival"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Survival_Chk": "False",
-            "SkillDef_Survival": "",
-            "Survival": "10",
-            "Survival_half": "5",
-            "Survival_fifth": "2"
-        }
+        "groups": ["survival"]
     },
     "Desert": {
         "name": "Desert",
@@ -2145,16 +1379,7 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": ["survival"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Survival_Chk": "False",
-            "SkillDef_Survival": "",
-            "Survival": "10",
-            "Survival_half": "5",
-            "Survival_fifth": "2"
-        }
+        "groups": ["survival"]
     },
     "Sea": {
         "name": "Sea",
@@ -2167,16 +1392,7 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": ["survival"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Survival_Chk": "False",
-            "SkillDef_Survival": "",
-            "Survival": "10",
-            "Survival_half": "5",
-            "Survival_fifth": "2"
-        }
+        "groups": ["survival"]
     },
     "Jungle": {
         "name": "Jungle",
@@ -2189,16 +1405,7 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": ["survival"],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Survival_Chk": "False",
-            "SkillDef_Survival": "",
-            "Survival": "10",
-            "Survival_half": "5",
-            "Survival_fifth": "2"
-        }
+        "groups": ["survival"]
     },
     "Swim": {
         "name": "Swim",
@@ -2211,15 +1418,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Swim_Chk": "False",
-            "Swim": "20",
-            "Swim_half": "10",
-            "Swim_fifth": "4"
-        }
+        "groups": []
     },
     "Throw": {
         "name": "Throw",
@@ -2232,15 +1431,7 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Throw_Chk": "False",
-            "Throw": "20",
-            "Throw_half": "10",
-            "Throw_fifth": "4"
-        }
+        "groups": []
     },
     "Track": {
         "name": "Track",
@@ -2253,14 +1444,6 @@
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill",
-        "pdf": {
-            "Track_Chk": "False",
-            "Track": "10",
-            "Track_half": "5",
-            "Track_fifth": "2"
-        }
+        "groups": []
     }
 }
