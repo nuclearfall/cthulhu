@@ -7,7 +7,7 @@
                 10
             ],
             "sanityDice": [],
-            "officialDescription": "A portion of the caster\u2019s life essence, or \"ka,\" is transferred into one of his or her vital organs. The enchanted organ is then removed from the caster\u2019s body, to be hidden away for safekeeping and providing the wizard with a form of invulnerability\u2014as long as the enchanted organ remains safely hidden the wizard will not suffer particular attacks and may even be invulnerable to death.\n     This spell was first used by followers of the Dark Pharaoh, Nephren-Ka, who would remove a vital organ, such as the heart or liver, and lock them away in safe places. This would make the caster virtually impossible to kill, if not for the spell\u2019s one weakness. The brain is the seat of the spell\u2019s power and, as such, could not be removed. If the brain was destroyed, the other organs would lose their magical properties and the caster would die.\n     Having one\u2019s own insides removed costs 2D10 Sanity points and the permanent loss of 5 POW per organ removed. Attacks that impale cause only normal damage (unless the head is specifically targeted). Invulnerability stems from which organ is removed; for example if the lungs are removed then the caster is unaffected by lack of oxygen (thus drowning and suffocation are no longer threats). Removal of vital organs may also render the caster immune to poison and so forth.\n     If the caster is harmed, hit points should be reduced as usual, leading to unconsciousness but not death. Death will only occur if the brain is specifically targeted and destroyed.",
+            "officialDescription": "A portion of the caster\u2019s life essence, or \"ka,\" is transferred into one of his or her vital organs. The enchanted organ is then removed from the caster\u2019s body, to be hidden away for safekeeping and providing the wizard with a form of invulnerability\u2014as long as the enchanted organ remains safely hidden the wizard will not suffer particular attacks and may even be invulnerable to death.\n     This spell was first used by followers of the Dark Pharaoh, Nephren-Ka, who would remove a vital organ, such as the heart or liver, and lock them away in safe places. This would make the caster virtually impossible to kill, if not for the spell\u2019s one weakness. The brain is the seat of the spell\u2019s POW and, as such, could not be removed. If the brain was destroyed, the other organs would lose their magical properties and the caster would die.\n     Having one\u2019s own insides removed costs 2D10 Sanity points and the permanent loss of 5 POW per organ removed. Attacks that impale cause only normal damage (unless the head is specifically targeted). Invulnerability stems from which organ is removed; for example if the lungs are removed then the caster is unaffected by lack of oxygen (thus drowning and suffocation are no longer threats). Removal of vital organs may also render the caster immune to poison and so forth.\n     If the caster is harmed, hit points should be reduced as usual, leading to unconsciousness but not death. Death will only occur if the brain is specifically targeted and destroyed.",
             "components": "",
             "alternativeNames": "Imbue Essence, Extraction of the Will, The Deathless Breath.",
             "mpStrings": [],
@@ -207,13 +207,13 @@
             "sanityStrings": []
         },
         {
-            "deeperVersion": "The caster may empower the red sign further by investing 5 POW into its creation. This done, the sign causes 1D6 hit points loss per round to those within 10 yards and 2 hit points loss to those within 30 yards. Alternatively, the caster may elect to cause the sign to expel its dark energy in a single blast. The caster creates the sign as usual and invests it with 10 POW. On 1D4 rounds following, the sign will explode in blaze of red light causing 2D8 damage to everything within 50 yards (including the caster).",
+            "deeperVersion": "The caster may emPOW the red sign further by investing 5 POW into its creation. This done, the sign causes 1D6 hit points loss per round to those within 10 yards and 2 hit points loss to those within 30 yards. Alternatively, the caster may elect to cause the sign to expel its dark energy in a single blast. The caster creates the sign as usual and invests it with 10 POW. On 1D4 rounds following, the sign will explode in blaze of red light causing 2D8 damage to everything within 50 yards (including the caster).",
             "castingTime": "1 round",
             "mpNums": [
                 3
             ],
             "sanityDice": [],
-            "officialDescription": "An awful spell that causes one or several victims to die horribly. The caster inscribes in the air the dreaded sign of Shudde M\u2019ell, while speaking words of power. When formed correctly, a dull red symbol glows in the air as the caster\u2019s finger describes it. The sign\u2019s malevolent effects manifest the round after its creation. Once formed, the sign must be maintained by concentration and the expenditure of 3 more magic points each additional round.\n     All those within 10 yards of the sign lose 1D3 hit points per round as their bodies quake and spasm, and their internal organs and blood vessels convulse. Those further than 10 yards but nearer than 30 yards lose 1 hit point each round. Those further than 30 yards take no damage. \n     It is possible to escape the sign\u2019s effect by crawling behind a stout wall or other opaque barrier. The caster must stand next to the sign and concentrate. The caster loses 1 hit point each round because of their proximity to the sign.",
+            "officialDescription": "An awful spell that causes one or several victims to die horribly. The caster inscribes in the air the dreaded sign of Shudde M\u2019ell, while speaking words of POW. When formed correctly, a dull red symbol glows in the air as the caster\u2019s finger describes it. The sign\u2019s malevolent effects manifest the round after its creation. Once formed, the sign must be maintained by concentration and the expenditure of 3 more magic points each additional round.\n     All those within 10 yards of the sign lose 1D3 hit points per round as their bodies quake and spasm, and their internal organs and blood vessels convulse. Those further than 10 yards but nearer than 30 yards lose 1 hit point each round. Those further than 30 yards take no damage. \n     It is possible to escape the sign\u2019s effect by crawling behind a stout wall or other opaque barrier. The caster must stand next to the sign and concentrate. The caster loses 1 hit point each round because of their proximity to the sign.",
             "components": "",
             "alternativeNames": "The Red Sign, The Mark of Fiery Pain.",
             "mpStrings": [],
@@ -223,7 +223,7 @@
             "sanityStrings": []
         },
         {
-            "deeperVersion": "Calling up the powerful energies of the Mythos is one thing; shaping them through understanding and comprehension is another. Casters are able to inflict Resurrection without the need for a POW roll. In addition, the caster may elect to induce further mental terror for the victim; while reeling from the energy blast, the target believes that he or she is being assaulted by horrific Mythos entities, causing 1/1D6 Sanity loss.",
+            "deeperVersion": "Calling up the POWful energies of the Mythos is one thing; shaping them through understanding and comprehension is another. Casters are able to inflict Resurrection without the need for a POW roll. In addition, the caster may elect to induce further mental terror for the victim; while reeling from the energy blast, the target believes that he or she is being assaulted by horrific Mythos entities, causing 1/1D6 Sanity loss.",
             "castingTime": "1 or 2 rounds",
             "mpNums": [
                 3
@@ -243,7 +243,7 @@
             "castingTime": "Instantaneous",
             "mpNums": [],
             "sanityDice": [],
-            "officialDescription": "A powerful offensive spell causing physical injury to a target. The caster invests as many magic points as desired and that number halved in Sanity points. For the spell to take effect the caster must succeed in an opposed POW roll with the target. If successful, the target is subjected to a sudden and terrifying blast of energy, causing flesh to blacken and wither. The target loses 1 hit point per magic point invested in the spell.",
+            "officialDescription": "A POWful offensive spell causing physical injury to a target. The caster invests as many magic points as desired and that number halved in Sanity points. For the spell to take effect the caster must succeed in an opposed POW roll with the target. If successful, the target is subjected to a sudden and terrifying blast of energy, causing flesh to blacken and wither. The target loses 1 hit point per magic point invested in the spell.",
             "components": "",
             "alternativeNames": "Shriving, The Withering Blast of Death, The Black Words.",
             "mpStrings": [
@@ -263,7 +263,7 @@
                 1
             ],
             "sanityDice": [],
-            "officialDescription": "An ancient and powerful hand gesture used by wizards that benefits the casting of other spells. It may lessen the cost, reduce the casting time or increase the effect a little, depending on the spell in question. \n     Voorish Sign is also rumored to temporarily ward against Mythos monsters\u2014such creatures are wary of the sign and may hold off an attack until the wizard\u2019s intentions are known.",
+            "officialDescription": "An ancient and POWful hand gesture used by wizards that benefits the casting of other spells. It may lessen the cost, reduce the casting time or increase the effect a little, depending on the spell in question. \n     Voorish Sign is also rumored to temporarily ward against Mythos monsters\u2014such creatures are wary of the sign and may hold off an attack until the wizard\u2019s intentions are known.",
             "components": "",
             "alternativeNames": "Sign of Power, Cunninge Pass.",
             "mpStrings": [],

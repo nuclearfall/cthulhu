@@ -1,6 +1,7 @@
 {
     "Accounting": {
         "name": "Accounting",
+        "pdfslot": "Accounting",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -15,6 +16,8 @@
     },
     "Animal Handling": {
         "name": "Animal Handling",
+        "pdfslot": "Custom",
+        "numbered": true,
         "value": 5,
         "era": 0,
         "rarity": "Uncommon",
@@ -25,10 +28,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Custom1_Chk": "",
+            "SkillDef_Custom1": "",
+            "Custom1": "",
+            "Custom1_half": "",
+            "Custom1_fifth": ""
+        }
     },
     "Anthropology": {
         "name": "Anthropology",
+        "pdfslot": "Anthropology",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -39,10 +50,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Anthropology_Chk": "False",
+            "Anthropology": "1",
+            "Anthropology_half": "0",
+            "Anthropology_fifth": "0"
+        }
     },
     "Appraise": {
         "name": "Appraise",
+        "pdfslot": "Appraise",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -53,10 +71,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Appraise_Chk": "False",
+            "Appraise": "1",
+            "Appraise_half": "0",
+            "Appraise_fifth": "0"
+        }
     },
     "Archaeology": {
         "name": "Archaeology",
+        "pdfslot": "Archaeology",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -67,10 +92,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Archaeology_Chk": "False",
+            "Archaeology": "1",
+            "Archaeology_half": "0",
+            "Archaeology_fifth": "0"
+        }
     },
     "Art/Craft": {
         "name": "Art/Craft",
+        "pdfslot": null,
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -87,10 +119,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Custom1_Chk": "",
+            "SkillDef_Custom1": "",
+            "Custom1": "",
+            "Custom1_half": "",
+            "Custom1_fifth": ""
+        }
     },
     "Acting": {
-        "name": "Art/Craft",
+        "name": "Acting",
+        "pdfslot": "ArtCraft",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -101,10 +141,12 @@
         "parent": "Art/Craft",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Fine Art": {
-        "name": "Art/Craft",
+        "name": "Fine Art",
+        "pdfslot": "ArtCraft",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -115,10 +157,17 @@
         "parent": "Art/Craft",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SkillDef_ArtCraft1": "",
+            "ArtCraft1": "",
+            "ArtCraft1_half": "",
+            "ArtCraft1_fifth": ""
+        }
     },
     "Forgery": {
-        "name": "Art/Craft",
+        "name": "Forgery",
+        "pdfslot": "ArtCraft",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -129,10 +178,17 @@
         "parent": "Art/Craft",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SkillDef_ArtCraft1": "",
+            "ArtCraft1": "",
+            "ArtCraft1_half": "",
+            "ArtCraft1_fifth": ""
+        }
     },
     "Photography": {
-        "name": "Art/Craft",
+        "name": "Photography",
+        "pdfslot": "ArtCraft",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -143,10 +199,17 @@
         "parent": "Art/Craft",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SkillDef_ArtCraft1": "",
+            "ArtCraft1": "",
+            "ArtCraft1_half": "",
+            "ArtCraft1_fifth": ""
+        }
     },
     "Technical Drawing": {
-        "name": "Art/Craft",
+        "name": "Technical Drawing",
+        "pdfslot": "ArtCraft",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -157,10 +220,17 @@
         "parent": "Art/Craft",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SkillDef_ArtCraft1": "",
+            "ArtCraft1": "",
+            "ArtCraft1_half": "",
+            "ArtCraft1_fifth": ""
+        }
     },
     "Artillery": {
         "name": "Artillery",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
         "rarity": "Uncommon",
@@ -171,10 +241,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SkillDef_ArtCraft1": "",
+            "ArtCraft1": "",
+            "ArtCraft1_half": "",
+            "ArtCraft1_fifth": ""
+        }
     },
     "Charm": {
         "name": "Charm",
+        "pdfslot": "Charm",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -187,10 +264,17 @@
             "interpersonal"
         ],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Charm_Chk": "False",
+            "Charm": "15",
+            "Charm_half": "7",
+            "Charm_fifth": "3"
+        }
     },
     "Climb": {
         "name": "Climb",
+        "pdfslot": "Climb",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -201,10 +285,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Climb_Chk": "False",
+            "Climb": "20",
+            "Climb_half": "10",
+            "Climb_fifth": "4"
+        }
     },
     "Computer Use": {
         "name": "Computer Use",
+        "pdfslot": "SkillDef_Custom",
         "value": 15,
         "era": 1,
         "rarity": "",
@@ -215,10 +306,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Custom_Chk": "",
+            "SkillDef_Custom": "",
+            "Custom": "",
+            "Custom_half": "",
+            "Custom_fifth": ""
+        }
     },
     "Credit Rating": {
         "name": "Credit Rating",
+        "pdfslot": "Credit",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -229,10 +328,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Cthulhu Mythos": {
         "name": "Cthulhu Mythos",
+        "pdfslot": "Cthulhu",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -243,10 +344,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Demoliton": {
         "name": "Demoliton",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
         "rarity": "Uncommon",
@@ -257,10 +360,16 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Credit": "1",
+            "Credit_half": "1",
+            "Credit_fifth": "1"
+        }
     },
     "Disguise": {
         "name": "Disguise",
+        "pdfslot": "Disguise",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -271,10 +380,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Disguise_Chk": "False",
+            "Disguise": "5",
+            "Disguise_half": "2",
+            "Disguise_fifth": "1"
+        }
     },
     "Dodge": {
         "name": "Dodge",
+        "pdfslot": "Dodge",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -285,10 +401,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Dodge_Chk": "False",
+            "Dodge": "0",
+            "Dodge_half": "0",
+            "Dodge_fifth": "0"
+        }
     },
     "Diving": {
         "name": "Diving",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
         "rarity": "Uncommon",
@@ -299,10 +422,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Drive Auto": {
         "name": "Drive Auto",
+        "pdfslot": "Drive",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -313,10 +438,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Electrical Repair": {
         "name": "Electrical Repair",
+        "pdfslot": "ElecRepair",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -327,10 +454,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Electronics": {
         "name": "Electronics",
+        "skill": "Custom",
         "value": 1,
         "era": 1,
         "rarity": "",
@@ -341,10 +470,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Fast Talk": {
         "name": "Fast Talk",
+        "pdfslot": "FastTalk",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -357,10 +488,17 @@
             "interpersonal"
         ],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "FastTalk_Chk": "False",
+            "FastTalk": "5",
+            "FastTalk_half": "2",
+            "FastTalk_fifth": "1"
+        }
     },
     "Fighting": {
         "name": "Fighting",
+        "pdfslot": null,
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -380,10 +518,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "15",
+            "Fighting_half": "7",
+            "Fighting_fifth": "3"
+        }
     },
     "Axe": {
-        "name": "Fighting",
+        "name": "Axe",
+        "pdfslot": "Fighting",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -392,12 +537,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "15",
+            "Fighting_half": "7",
+            "Fighting_fifth": "3"
+        }
     },
     "Brawl": {
-        "name": "Fighting",
+        "name": "Brawl",
+        "pdfslot": "Fighting",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -406,12 +558,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "20",
+            "Fighting_half": "10",
+            "Fighting_fifth": "4"
+        }
     },
     "Chainsaw": {
-        "name": "Fighting",
+        "name": "Chainsaw",
+        "pdfslot": "Fighting",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -420,12 +579,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "10",
+            "Fighting_half": "5",
+            "Fighting_fifth": "2"
+        }
     },
     "Flail": {
-        "name": "Fighting",
+        "name": "Flail",
+        "pdfslot": "Fighting",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -434,12 +600,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "10",
+            "Fighting_half": "5",
+            "Fighting_fifth": "2"
+        }
     },
     "Garrote": {
-        "name": "Fighting",
+        "name": "Garrote",
+        "pdfslot": "Fighting",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -448,12 +621,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "15",
+            "Fighting_half": "7",
+            "Fighting_fifth": "3"
+        }
     },
     "Spear": {
-        "name": "Fighting",
+        "name": "Spear",
+        "pdfslot": "Fighting",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -462,12 +642,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "20",
+            "Fighting_half": "10",
+            "Fighting_fifth": "4"
+        }
     },
     "Sword": {
-        "name": "Fighting",
+        "name": "Sword",
+        "pdfslot": "Fighting",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -476,12 +663,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "20",
+            "Fighting_half": "10",
+            "Fighting_fifth": "4"
+        }
     },
     "Whip": {
         "name": "Fighting",
+        "pdfslot": "Fighting",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -490,12 +684,19 @@
         "checked": false,
         "children": [],
         "parent": "Fighting",
-        "groups": [],
+        "groups": ["fighting"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Fighting_Chk": "False",
+            "Fighting": "5",
+            "Fighting_half": "2",
+            "Fighting_fifth": "1"
+        }
     },
     "Firearms": {
         "name": "Firearms",
+        "pdfslot": null,
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -514,10 +715,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "15",
+            "Firearms_half": "7",
+            "Firearms_fifth": "3"
+        }
     },
     "Bow": {
-        "name": "Firearms",
+        "name": "Bow",
+        "pdfslot": "Firearms",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -528,10 +737,18 @@
         "parent": "Firearms",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "15",
+            "Firearms_half": "7",
+            "Firearms_fifth": "3"
+        }
     },
     "Handgun": {
-        "name": "Firearms",
+        "name": "Handgun",
+        "pdfslot": "FireArmsHandguns",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -540,12 +757,19 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "FireArmsHandguns_Chk": "",
+            "FireArmsHandguns": "",
+            "FireArmsHandguns_half": "",
+            "FireArmsHandguns_fifth": ""
+        }
     },
     "Heavy Weapon": {
-        "name": "Firearms",
+        "name": "Heavy Weapon",
+        "pdfslot": "Firearms",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -554,13 +778,21 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "10",
+            "Firearms_half": "5",
+            "Firearms_fifth": "2"
+        }
     },
     "Flamethrower": {
-        "name": "Firearms",
+        "name": "Flamethrower",
         "value": 10,
+        "pdfslot": "Firearms",
         "era": 0,
         "rarity": "",
         "notes": "",
@@ -568,12 +800,20 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "10",
+            "Firearms_half": "5",
+            "Firearms_fifth": "2"
+        }
     },
     "Machine Gun": {
-        "name": "Firearms",
+        "name": "Machine Gun",
+        "pdfslot": "Firearms",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -582,12 +822,20 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "10",
+            "Firearms_half": "5",
+            "Firearms_fifth": "2"
+        }
     },
     "Rifle/Shotgun": {
-        "name": "Firearms",
+        "name": "Rifle/Shotgun",
+        "pdfslot": "FireArmsRifles",
         "value": 25,
         "era": 0,
         "rarity": "",
@@ -596,12 +844,19 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "FireArmsRifles_Chk": "",
+            "FireArmsRifles": "",
+            "FireArmsRifles_half": "",
+            "FireArmsRifles_fifth": ""
+        }
     },
     "Submachine Gun": {
-        "name": "Firearms",
+        "name": "Submachine Gun",
+        "pdfslot": "Firearms",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -610,12 +865,20 @@
         "checked": false,
         "children": [],
         "parent": "Firearms",
-        "groups": [],
+        "groups": ["firearms"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Firearms_Chk": "False",
+            "SkillDef_Firearms": "",
+            "Firearms": "15",
+            "Firearms_half": "7",
+            "Firearms_fifth": "3"
+        }
     },
     "History": {
         "name": "History",
+        "pdfslot": "History",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -626,10 +889,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "History_Chk": "False",
+            "History": "5",
+            "History_half": "2",
+            "History_fifth": "1"
+        }
     },
     "Hypnosis": {
         "name": "Hypnosis",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
         "rarity": "Uncommon",
@@ -640,10 +910,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Intimidate": {
         "name": "Intimidate",
+        "pdfslot": "Intimidate",
         "value": 15,
         "era": 0,
         "rarity": "",
@@ -656,10 +928,17 @@
             "interpersonal"
         ],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Intimidate_Chk": "False",
+            "Intimidate": "15",
+            "Intimidate_half": "7",
+            "Intimidate_fifth": "3"
+        }
     },
     "Jump": {
         "name": "Jump",
+        "pdfslot": "Jump",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -667,13 +946,20 @@
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": null,
+        "parent": false,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Jump_Chk": "False",
+            "Jump": "20",
+            "Jump_half": "10",
+            "Jump_fifth": "4"
+        }
     },
-    "Language Other": {
-        "name": "Language Other",
+    "Other Language": {
+        "name": "Other Language",
+        "pdfslot": null,
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -689,336 +975,359 @@
             "Italian",
             "Spanish",
             "Russian",
-            "Old Church Slavonic",
-            "Ukrainian",
-            "Czech",
-            "Polish",
-            "Croatian",
-            "Serbian",
             "Hindi",
             "Urdu",
             "Japanese",
-            "Korean",
             "Mandarin",
             "Cantonese",
             "Arabic",
             "Hebrew"
         ],
-        "parent": null,
-        "groups": [],
+        "parent": true,
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "English": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "English",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["langauges"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "German": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "German",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "French": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "French",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Portugese": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Portugese",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Latin": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Latin",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Italian": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Italian",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Spanish": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Spanish",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Russian": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Russian",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
-        "children": [],
-        "parent": "Language Other",
+        "children": ["languages"],
+        "parent": "Other Language",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
-    },
-    "Old Church Slavonic": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
-    },
-    "Ukrainian": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
-    },
-    "Czech": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
-    },
-    "Polish": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
-    },
-    "Croatian": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
-    },
-    "Serbian": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Hindi": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Hindi",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Urdu": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Urdu",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Japanese": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Japanese",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
-    },
-    "Korean": {
-        "name": "Language Other",
-        "value": 0,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": "Language Other",
-        "groups": [],
-        "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Mandarin": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Mandarin",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Cantonese": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Cantonese",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Arabic": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Arabic",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
     "Hebrew": {
-        "name": "Language Other",
-        "value": 0,
+        "name": "Hebrew",
+        "pdfslot": "OtherLanguage",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": "Language Other",
-        "groups": [],
+        "parent": "Other Language",
+        "groups": ["languages"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OtherLanguage_Chk": "False",
+            "SkillDef_OtherLanguage": "",
+            "OtherLanguage": "0",
+            "OtherLanguage_half": "0",
+            "OtherLanguage_fifth": "0"
+        }
     },
-    "Language Own": {
-        "name": "Language Own",
+    "Own Language": {
+        "name": "Own Language",
+        "pdfslot": "OwnLanguage",
         "value": 0,
         "era": 0,
         "rarity": "",
@@ -1029,10 +1338,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "OwnLanguage_Chk": "False",
+            "SkillDef_OwnLanguage": "",
+            "OwnLanguage": "0",
+            "OwnLanguage_half": "0",
+            "OwnLanguage_fifth": "0"
+        }
     },
     "Law": {
         "name": "Law",
+        "pdfslot": "Law",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -1043,10 +1360,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Law_Chk": "False",
+            "Law": "5",
+            "Law_half": "2",
+            "Law_fifth": "1"
+        }
     },
     "Library Use": {
         "name": "Library Use",
+        "pdfslot": "LibraryUse",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -1057,10 +1381,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "LibraryUse_Chk": "False",
+            "LibraryUse": "20",
+            "LibraryUse_half": "10",
+            "LibraryUse_fifth": "4"
+        }
     },
     "Listen": {
         "name": "Listen",
+        "pdfslot": "Listen",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -1071,10 +1402,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Listen_Chk": "False",
+            "Listen": "20",
+            "Listen_half": "10",
+            "Listen_fifth": "4"
+        }
     },
     "Locksmith": {
         "name": "Locksmith",
+        "pdfslot": "Locksmith",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1085,10 +1423,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Locksmith_Chk": "False",
+            "Locksmith": "1",
+            "Locksmith_half": "0",
+            "Locksmith_fifth": "0"
+        }
     },
     "Lore": {
         "name": "Lore",
+        "pdfslot": "Custom",
         "value": 0,
         "era": 0,
         "rarity": "Uncommon",
@@ -1099,10 +1444,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Mechanical Repair": {
         "name": "Mechanical Repair",
+        "pdfslot": "MechRepair",
         "value": 10,
         "era": 0,
         "rarity": "Uncommon",
@@ -1113,10 +1460,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Medecine": {
         "name": "Medecine",
+        "pdfslot": "Medicine",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1127,10 +1476,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Natural World": {
         "name": "Natural World",
+        "pdfslot": "NaturalWorld",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1141,10 +1492,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "NaturalWorld_Chk": "False",
+            "NaturalWorld": "10",
+            "NaturalWorld_half": "5",
+            "NaturalWorld_fifth": "2"
+        }
     },
     "Navigate": {
         "name": "Navigate",
+        "pdfslot": "Navigate",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1155,10 +1513,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Navigate_Chk": "False",
+            "Navigate": "10",
+            "Navigate_half": "5",
+            "Navigate_fifth": "2"
+        }
     },
     "Occult": {
         "name": "Occult",
+        "pdfslot": "Occult",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -1169,13 +1534,20 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Occult_Chk": "False",
+            "Occult": "5",
+            "Occult_half": "2",
+            "Occult_fifth": "1"
+        }
     },
     "Operate Heavy Machinery": {
         "name": "Operate Heavy Machinery",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
-        "rarity": "",
+        "rarity": "Uncommon",
         "notes": "",
         "custom": false,
         "checked": false,
@@ -1183,10 +1555,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {}
     },
     "Persuade": {
         "name": "Persuade",
+        "pdfslot": "Persuade",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1199,10 +1573,17 @@
             "interpersonal"
         ],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Persuade_Chk": "False",
+            "Persuade": "10",
+            "Persuade_half": "5",
+            "Persuade_fifth": "2"
+        }
     },
     "Pilot": {
         "name": "Pilot",
+        "pdfslot": null,
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1216,10 +1597,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Pilot_Chk": "False",
+            "SkillDef_Pilot": "",
+            "Pilot": "1",
+            "Pilot_half": "0",
+            "Pilot_fifth": "0"
+        }
     },
     "Aircraft": {
         "name": "Pilot",
+        "pdfslot": "Pilot",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1230,10 +1619,18 @@
         "parent": "Pilot",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Pilot_Chk": "False",
+            "SkillDef_Pilot": "",
+            "Pilot": "1",
+            "Pilot_half": "0",
+            "Pilot_fifth": "0"
+        }
     },
     "Boat": {
         "name": "Pilot",
+        "pdfslot": "Pilot",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1244,10 +1641,18 @@
         "parent": "Pilot",
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Pilot_Chk": "False",
+            "SkillDef_Pilot": "",
+            "Pilot": "1",
+            "Pilot_half": "0",
+            "Pilot_fifth": "0"
+        }
     },
     "Psychoanalysis": {
         "name": "Psychoanalysis",
+        "pdfslot": "Psychoanalysis",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1258,10 +1663,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Psychoanalysis_Chk": "False",
+            "Psychoanalysis": "1",
+            "Psychoanalysis_half": "0",
+            "Psychoanalysis_fifth": "0"
+        }
     },
     "Psychology": {
         "name": "Psychology",
+        "pdfslot": "Psychology",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1272,10 +1684,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Psychology_Chk": "False",
+            "Psychology": "10",
+            "Psychology_half": "5",
+            "Psychology_fifth": "2"
+        }
     },
     "Read Lips": {
         "name": "Read Lips",
+        "pdfslot": "Custom",
         "value": 1,
         "era": 0,
         "rarity": "Uncommon",
@@ -1286,10 +1705,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Custom1_Chk": "",
+            "SkillDef_Custom1": "",
+            "Custom1": "",
+            "Custom1_half": "",
+            "Custom1_fifth": ""
+        }
     },
     "Ride": {
         "name": "Ride",
+        "pdfslot": "Ride",
         "value": 5,
         "era": 0,
         "rarity": "",
@@ -1300,10 +1727,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Ride_Chk": "False",
+            "Ride": "5",
+            "Ride_half": "2",
+            "Ride_fifth": "1"
+        }
     },
     "Science": {
         "name": "Science",
+        "pdfslot": null,
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1327,10 +1761,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Astronomy": {
-        "name": "Science",
+        "name": "Astronomy",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1339,12 +1780,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""    
+        }
     },
     "Biology": {
-        "name": "Science",
+        "name": "Biology",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1353,12 +1801,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Botany": {
-        "name": "Science",
+        "name": "Botany",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1367,12 +1822,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Chemistry": {
-        "name": "Science",
+        "name": "Chemistry",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1381,12 +1843,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Cryptography": {
-        "name": "Science",
+        "name": "Cryptography",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1395,12 +1864,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Engineering": {
-        "name": "Science",
+        "name": "Engineering",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1409,12 +1885,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Geology": {
-        "name": "Science",
+        "name": "Geology",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1423,12 +1906,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Mathematics": {
-        "name": "Science",
+        "name": "Mathematics",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1437,12 +1927,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Meteorology": {
-        "name": "Science",
+        "name": "Meteorology",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1451,12 +1948,20 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
+
     },
     "Pharamacy": {
-        "name": "Science",
+        "name": "Pharamacy",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1465,12 +1970,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Physics": {
-        "name": "Science",
+        "name": "Physics",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1479,12 +1991,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Zoology": {
-        "name": "Science",
+        "name": "Zoology",
+        "pdfslot": "Science",
         "value": 1,
         "era": 0,
         "rarity": "",
@@ -1493,12 +2012,19 @@
         "checked": false,
         "children": [],
         "parent": "Science",
-        "groups": [],
+        "groups": ["science"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Science": "",
+            "Science_half": "",
+            "Science_fifth": "",
+            "Science_Chk": ""
+        }
     },
     "Sleight of Hand": {
         "name": "Sleight of Hand",
+        "pdfslot": "Sleight",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1509,10 +2035,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+             "Sleight_Chk": "",
+            "Sleight": "",
+            "Sleight_half": "",
+            "Sleight_fifth": ""
+        }
     },
     "Spot Hidden": {
         "name": "Spot Hidden",
+        "pdfslot": "SpotHidden",
         "value": 25,
         "era": 0,
         "rarity": "",
@@ -1523,10 +2056,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "SpotHidden_Chk": "False",
+            "SpotHidden": "25",
+            "SpotHidden_half": "12",
+            "SpotHidden_fifth": "5"
+        }
     },
     "Stealth": {
         "name": "Stealth",
+        "pdfslot": "Stealth",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -1537,10 +2077,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Stealth_Chk": "False",
+            "Stealth": "20",
+            "Stealth_half": "10",
+            "Stealth_fifth": "4"
+        }
     },
     "Survival": {
         "name": "Survival",
+        "pdfslot": null,
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1556,10 +2103,18 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Survival_Chk": "False",
+            "SkillDef_Survival": "",
+            "Survival": "10",
+            "Survival_half": "5",
+            "Survival_fifth": "2"
+        }
     },
     "Arctic": {
-        "name": "Survival",
+        "name": "Arctic",
+        "pdfslot": "Survival",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1568,12 +2123,20 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": [],
+        "groups": ["survival"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Survival_Chk": "False",
+            "SkillDef_Survival": "",
+            "Survival": "10",
+            "Survival_half": "5",
+            "Survival_fifth": "2"
+        }
     },
     "Desert": {
-        "name": "Survival",
+        "name": "Desert",
+        "pdfslot": "Survival",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1582,12 +2145,20 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": [],
+        "groups": ["survival"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Survival_Chk": "False",
+            "SkillDef_Survival": "",
+            "Survival": "10",
+            "Survival_half": "5",
+            "Survival_fifth": "2"
+        }
     },
     "Sea": {
-        "name": "Survival",
+        "name": "Sea",
+        "pdfslot": "Survival",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1596,12 +2167,20 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": [],
+        "groups": ["survival"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Survival_Chk": "False",
+            "SkillDef_Survival": "",
+            "Survival": "10",
+            "Survival_half": "5",
+            "Survival_fifth": "2"
+        }
     },
     "Jungle": {
-        "name": "Survival",
+        "name": "Jungle",
+        "pdfslot": "Survival",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1610,12 +2189,20 @@
         "checked": false,
         "children": [],
         "parent": "Survival",
-        "groups": [],
+        "groups": ["survival"],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Survival_Chk": "False",
+            "SkillDef_Survival": "",
+            "Survival": "10",
+            "Survival_half": "5",
+            "Survival_fifth": "2"
+        }
     },
     "Swim": {
         "name": "Swim",
+        "pdfslot": "Swim",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -1626,10 +2213,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Swim_Chk": "False",
+            "Swim": "20",
+            "Swim_half": "10",
+            "Swim_fifth": "4"
+        }
     },
     "Throw": {
         "name": "Throw",
+        "pdfslot": "Throw",
         "value": 20,
         "era": 0,
         "rarity": "",
@@ -1640,10 +2234,17 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Throw_Chk": "False",
+            "Throw": "20",
+            "Throw_half": "10",
+            "Throw_fifth": "4"
+        }
     },
     "Track": {
         "name": "Track",
+        "pdfslot": "Track",
         "value": 10,
         "era": 0,
         "rarity": "",
@@ -1654,6 +2255,12 @@
         "parent": null,
         "groups": [],
         "occupations": [],
-        "oftype": "skill"
+        "oftype": "skill",
+        "pdf": {
+            "Track_Chk": "False",
+            "Track": "10",
+            "Track_half": "5",
+            "Track_fifth": "2"
+        }
     }
 }

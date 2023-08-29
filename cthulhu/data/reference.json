@@ -5,10 +5,10 @@
 		{
 			"ageLow": 15,
 			"ageHigh": 19,
-			"createPenalties": 
+			"penalties": 
 			[
-				{"value": -5, "among": ["strength", "size"]},
-				{"value": -5, "from": "education"}
+				[-5, "str", "SIZ"],
+				[-5, "edu"]
 			]
 		},
 		"to40": 
@@ -16,112 +16,138 @@
 			"ageLow": 20,
 			"ageHigh": 39,
 			"penalties": [],
-			"educationChecks": 1
+			"edu_checks": 1
 		},
 		"to50": 
 		{
 			"ageLow": 40,
 			"ageHigh": 49,
-			"createPenalties": 
+			"penalties": 
 			[
-				{"value": -5, "among": ["strength", "dexterity", "constitution"]},
-				{"value": -5, "from": "appearance"},
-				{"value": -1, "from": "movement"}
+				[-5, "str", "dex", "con"],
+				[-5, "app"],
+				[-1, "mov"]
 			],
-			"educationChecks": 2
+			"edu_checks": 2
 		},
 		"to60": 
 		{
 			"ageLow": 50,
 			"ageHigh": 59,
-			"createPenalties": 
+			"penalties": 
 			[
-				{"value": -10, "among": ["strength", "dexterity", "constitution"]},
-				{"value": -10, "from": "appearance"},
-				{"value": -2, "from": "movement"}
+				[-10, "str", "dex", "con"],
+				[-10, "app"],
+				[-2, "mov"]
 			],
-			"educationChecks": 3
+			"edu_checks": 3
 		},
 		"to70": 
 		{
 			"ageLow": 60,
 			"ageHigh": 69,
-			"createPenalties": 
+			"penalties": 
 			[
-				{"value": -20, "among": ["strength", "dexterity", "constitution"]},
-				{"value": -15, "from": "appearance"},
-				{"value": -3, "from": "movement"}
+				[-20, "str", "dex", "con"],
+				[-15, "app"],
+				[-3, "mov"]
 			],
-			"educationChecks": 4
+			"edu_checks": 4
 		},
 		"to80": 
 		{
 			"ageLow": 70,
 			"ageHigh": 79,
-			"createPenalties": 
+			"penalties": 
 			[
-				{"value": -40, "among": ["strength", "dexterity", "constitution"]},
-				{"value": -20, "from": "appearance"},
-				{"value": -4, "from": "movement"}
+				[-40, "str", "dex", "con"],
+				[-20, "app"],
+				[-4, "mov"]
 			],
-			"educationChecks": 4
+			"edu_checks": 4
 		},
 		"tilDeath": 
 		{
 			"ageLow": 80,
-			"ageHigh": 32767,
-			"createPenalties": 
+			"ageHigh": 100,
+			"penalties": 
 			[
-				{"value": -80, "among": ["strength", "dexterity", "constitution"]},
-				{"value": -25, "from": "appearance"},
-				{"value": -5, "from": "movement"}
+				[-80, ["str", "dex", "con"]],
+				[-25, "app"],
+				[-5, "mov"]
 			],
-			"educationChecks": 4
+			"edu_checks": 4
 		}
 	},
-	"dice": 
-	{
-		"strength": 3,
-		"size": 2,
-		"dexterity": 3,
-		"constitution": 3,
-		"appearance": 3,
-		"intelligence": 2,
-		"power": 3,
-		"education": 2,
-		"luck": 3
-	},
-	"build_and_db": 
+	"Build_and_Db": 
 	[
 		{
 			"highValue": 64,
 			"lowValue": 2,
-			"damageBonus": "-2",
-			"build": -2
+			"DamageBonus": "-2",
+			"Build": -2
 		},
 		{
 			"highValue": 84,
 			"lowValue": 64,
-			"damageBonus": "-1",
-			"build": -1
+			"DamageBonus": "-1",
+			"Build": -1
 		},
 		{
 			"highValue": 124,
 			"lowValue": 65,
-			"damageBonus": "0",
-			"build": 0
+			"DamageBonus": "0",
+			"Build": 0
 		},
 		{
 			"highValue": 164,
 			"lowValue": 125,
-			"damageBonus": "1d4",
-			"build": 1
+			"DamageBonus": "1d4",
+			"Build": 1
 		},
 		{
 			"highValue": 204,
 			"lowValue": 165,
-			"damageBonus": "1d6",
-			"build": 2
+			"DamageBonus": "1d6",
+			"Build": 2
 		}
-	]
+	],
+	"Wealth": {
+		"0-0": {
+			"name": "Penniless",
+			"Cash": 0.5,
+			"Assets": 0,
+			"SpendingLevelVal": 0.5
+		},
+		"1-10": {
+			"name": "Poor",
+			"CashMult": 1,
+			"AssetMult": 1,
+			"SpendingLevel": 250
+		},
+		"10-50": {
+			"name": "Average",
+			"CashMult": 20,
+			"AssetMult": 2000,
+			"SpendingLevel": 250
+		},
+		"50-90": {
+			"name": "Wealthy",
+			"CashMult": 5,
+			"AssetMult": 2000,
+			"SpendingLevel": 250
+		},
+		"90-99": {
+			"name": "Rich",
+			"CashMult": 20,
+			"AssetMult": 2000,
+			"SpendingLevel": 250
+		},
+		"99-100": {
+			"name": "Super Rich",
+			"Cash": 50000,
+			"Assets": 50000000,
+			"SpendingLevel": 5000
+		}
+	}
 }

@@ -5,14 +5,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "size": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "constitution": 0,
-                "power": 0,
-                "intelligence": 0,
-                "education": 4
+                "siz": 0,
+                "str": 0,
+                "dex": 0,
+                "app": 0,
+                "con": 0,
+                "pow": 0,
+                "int": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -39,14 +39,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "strength": 0,
-                "dexterity": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "power": 0,
-                "intelligence": 0,
-                "education": 2
+                "siz": 0,
+                "str": 0,
+                "dex": 2,
+                "app": 0,
+                "con": 0,
+                "pow": 0,
+                "int": 0,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -73,24 +73,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 2,
-                "strength": 0,
-                "size": 0,
-                "constitution": 0,
-                "appearance": 0
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 2,
+                "str": 0,
+                "siz": 0,
+                "con": 0,
+                "app": 0
             },
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 0,
-                "strength": 2,
-                "size": 0,
-                "constitution": 0,
-                "appearance": 0
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 0,
+                "str": 2,
+                "siz": 0,
+                "con": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -99,18 +99,16 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
+            },
+            {
+                "count": 1,
+                "group": "firearms"
             }
         ],
         "skills": [
             "Psychology",
             "Brawl",
-            "Firearms",
             "Stealth",
             "Library Use",
             "Law",
@@ -123,26 +121,30 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "intelligence": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "size": 0,
-                "education": 4,
-                "strength": 0,
-                "power": 0,
-                "constitution": 0
+                "int": 0,
+                "dex": 0,
+                "app": 0,
+                "siz": 0,
+                "edu": 4,
+                "str": 0,
+                "pow": 0,
+                "con": 0
             }
         ],
         "era": 2,
-        "content": "In the 1920s, \"alienist\" is the term given for those who treat mental illness (early psychiatrists). Psychoanalysis is barely known in the U.S., and its basis in sexual life and toilet training is felt to be indecent. Psychiatry, a standard medical education augmented by behaviorism, is more common. Intellectual wars rage between alienists, psychiatrists, and neurologists.",
+        "content": "In the 1920s, \"alienist\" is the term given for those who treat mental illness (early psychiatrists). Psychoanalysis is barely known in the U.S., and its basis in sexual life and toilet training is felt to be indecent. Psychiatry, a standard medical edu augmented by behaviorism, is more common. Intellectual wars rage between alienists, psychiatrists, and neurologists.",
         "maxcredit": 60,
-        "selections": [],
+        "selections": [
+            {
+                "count": 1,
+                "group": "languages"
+            }
+        ],
         "skills": [
             "Psychoanalysis",
             "Chemistry",
             "Biology",
             "Law",
-            "Language Other",
             "Psychology",
             "Medicine",
             "Listen"
@@ -154,24 +156,24 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "education": 2,
-                "power": 0,
-                "strength": 0
+                "siz": 0,
+                "con": 0,
+                "dex": 0,
+                "int": 0,
+                "app": 2,
+                "edu": 2,
+                "pow": 0,
+                "str": 0
             },
             {
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "education": 2,
-                "power": 2,
-                "strength": 0
+                "siz": 0,
+                "con": 0,
+                "dex": 0,
+                "int": 0,
+                "app": 0,
+                "edu": 2,
+                "pow": 2,
+                "str": 0
             }
         ],
         "era": 0,
@@ -199,30 +201,42 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "dexterity": 0,
-                "size": 0,
-                "strength": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "power": 0,
-                "intelligence": 0,
-                "education": 4
+                "dex": 0,
+                "siz": 0,
+                "str": 0,
+                "con": 0,
+                "app": 0,
+                "pow": 0,
+                "int": 0,
+                "edu": 4
             }
         ],
         "era": 0,
-        "isLovecraftian": true,
-        "content": "Antiquarians appreciate timeless design and execution and the power of lore.",
+        "content": "Antiquarians appreciate timeless design and execution and the pow of lore.",
         "maxcredit": 40,
-        "selections": [],
+        "selections": [
+            {
+                "count": 1,
+                "group": "artcraft"
+            },
+            {
+                "count": 1,
+                "group": "languages"
+            },
+            {
+                "count": 1,
+                "group": "interpersonal"
+            },
+            {
+                "count": 1,
+                "selection": []
+            }
+        ],
         "skills": [
             "Appraise",
-            "Art/Craft",
-            "Dodge",
-            "First Aid",
-            "Natural World",
-            "Medicine",
-            "Pharmacy",
-            "Animal Handling"
+            "History",
+            "Library Use",
+            "Spot Hidden"
         ]
     },
     "Antique Dealer": {
@@ -231,14 +245,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "appearance": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "power": 0,
-                "education": 4,
-                "constitution": 0,
-                "size": 0,
-                "intelligence": 0
+                "app": 0,
+                "str": 0,
+                "dex": 0,
+                "pow": 0,
+                "edu": 4,
+                "con": 0,
+                "siz": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -246,22 +260,8 @@
         "maxcredit": 50,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Fast Talk",
-                    "Charm",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -279,14 +279,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "dexterity": 0,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "education": 4
+                "int": 0,
+                "app": 0,
+                "dex": 0,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "edu": 4
             }
         ],
         "era": 3,
@@ -299,6 +299,10 @@
                     "Navigate",
                     "Science"
                 ]
+            },
+            {
+                "count": 1,
+                "group": "languages"
             }
         ],
         "skills": [
@@ -307,28 +311,27 @@
             "Library Use",
             "Spot Hidden",
             "Archaeology",
-            "Mechanical Repair",
-            "Language Other"
+            "Mechanical Repair"
         ]
     },
     "Architect": {
         "name": "Architect",
-        "contacts": "Local building and city engineer- ing departments, construction firms.",
+        "contacts": "Local Building and city engineer- ing departments, construction firms.",
         "mincredit": 30,
         "scenarios": [
             {
-                "constitution": 0,
-                "power": 0,
-                "intelligence": 0,
-                "size": 0,
-                "appearance": 0,
-                "dexterity": 0,
-                "education": 4,
-                "strength": 0
+                "con": 0,
+                "pow": 0,
+                "int": 0,
+                "siz": 0,
+                "app": 0,
+                "dex": 0,
+                "edu": 4,
+                "str": 0
             }
         ],
         "era": 0,
-        "content": "Architects are trained to design and plan buildings, whether a small conversion to a private house or a multi-million dollar construction project. The architect will work closely with the project manager and oversee the con- struction. Architects must be aware of local planning laws, health and safety regulation, and general public safety.\n\nSome may work for large firms or work free- lance. A lot will depend on reputation. In the 1920s, many try and go it alone, working out of their house or a small office. Few manage to sell the grandiose designs they all nurse.\n\nArchitecture may also encompass specialist areas like naval architecture and landscape architecture.",
+        "content": "Architects are trained to design and plan Buildings, whether a small conversion to a private house or a multi-million dollar construction project. The architect will work closely with the project manager and oversee the con- struction. Architects must be aware of local planning laws, health and safety regulation, and general public safety.\n\nSome may work for large firms or work free- lance. A lot will depend on reputation. In the 1920s, many try and go it alone, working out of their house or a small office. Few manage to sell the grandiose designs they all nurse.\n\nArchitecture may also encompass specialist areas like naval architecture and landscape architecture.",
         "maxcredit": 70,
         "selections": [
             {
@@ -355,24 +358,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "education": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "power": 2,
-                "dexterity": 0,
-                "size": 0,
-                "appearance": 0
+                "con": 0,
+                "edu": 2,
+                "str": 0,
+                "int": 0,
+                "pow": 2,
+                "dex": 0,
+                "siz": 0,
+                "app": 0
             },
             {
-                "constitution": 0,
-                "education": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "power": 0,
-                "dexterity": 2,
-                "size": 0,
-                "appearance": 0
+                "con": 0,
+                "edu": 2,
+                "str": 0,
+                "int": 0,
+                "pow": 0,
+                "dex": 2,
+                "siz": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -381,12 +384,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -398,11 +396,17 @@
             {  
                 "count": 2,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "artcraft"
+            },
+            {
+                "count": 1,
+                "group": "language"
             }
-        ],
+        ],  
         "skills": [
-            "Art/Craft",
-            "Language Other",
             "Spot Hidden",
             "Psychology"
         ]
@@ -413,36 +417,43 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "appearance": 0,
-                "power": 0,
-                "dexterity": 0,
-                "strength": 2,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "education": 2
+                "app": 0,
+                "pow": 0,
+                "dex": 0,
+                "str": 2,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "edu": 2
             },
             {
-                "appearance": 0,
-                "power": 0,
-                "dexterity": 2,
-                "strength": 0,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "education": 2
+                "app": 0,
+                "pow": 0,
+                "dex": 2,
+                "str": 0,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "edu": 2
             }
         ],
         "era": 0,
-        "content": "Criminals come in all shapes, sizes, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
+        "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 60,
-        "selections": [],
+        "selections": [
+            {
+                "count": 1,
+                "group": "fighting"
+            },
+            {
+                "count": 1,
+                "group": "firearms"
+            }
+        ],
         "skills": [
             "Psychology",
-            "Fighting",
             "Electric Repair",
             "Disguise",
-            "Firearms",
             "Locksmith",
             "Mechanical Repair",
             "Stealth"
@@ -454,38 +465,33 @@
         "mincredit": 8,
         "scenarios": [
             {
-                "dexterity": 0,
-                "constitution": 0,
-                "education": 2,
-                "strength": 2,
-                "intelligence": 0,
-                "size": 0,
-                "power": 0,
-                "appearance": 0
+                "dex": 0,
+                "con": 0,
+                "edu": 2,
+                "str": 2,
+                "int": 0,
+                "siz": 0,
+                "pow": 0,
+                "app": 0
             },
             {
-                "dexterity": 2,
-                "constitution": 0,
-                "education": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "size": 0,
-                "power": 0,
-                "appearance": 0
+                "dex": 2,
+                "con": 0,
+                "edu": 2,
+                "str": 0,
+                "int": 0,
+                "siz": 0,
+                "pow": 0,
+                "app": 0
             }
         ],
         "era": 0,
-        "content": "Although there are private sanitariums for those few who can afford them, the vast bulk of the mentally ill are housed in state and county facilities. Aside from a few doctors and nurses, they employ a large number of attendants, often chosen more for their strength and size rather than medical learning.",
+        "content": "Although there are private sanitariums for those few who can afford them, the vast bulk of the mentally ill are housed in state and county facilities. Aside from a few doctors and nurses, they employ a large number of attendants, often chosen more for their str and siz rather than medical learning.",
         "maxcredit": 20,
         "selections": [
             {
                 "count": 2,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -503,24 +509,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "education": 2,
-                "dexterity": 0,
-                "intelligence": 0,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "strength": 2,
-                "appearance": 0
+                "edu": 2,
+                "dex": 0,
+                "int": 0,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "str": 2,
+                "app": 0
             },
             {
-                "education": 2,
-                "dexterity": 2,
-                "intelligence": 0,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "strength": 0,
-                "appearance": 0
+                "edu": 2,
+                "dex": 2,
+                "int": 0,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "str": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -529,12 +535,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -556,14 +557,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "power": 0,
-                "dexterity": 0,
-                "size": 0,
-                "appearance": 0,
-                "strength": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "education": 4
+                "pow": 0,
+                "dex": 0,
+                "siz": 0,
+                "app": 0,
+                "str": 0,
+                "con": 0,
+                "int": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -591,28 +592,28 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "strength": 2,
-                "intelligence": 0,
-                "size": 0,
-                "power": 0,
-                "constitution": 0,
-                "education": 2,
-                "dexterity": 0,
-                "appearance": 0
+                "str": 2,
+                "int": 0,
+                "siz": 0,
+                "pow": 0,
+                "con": 0,
+                "edu": 2,
+                "dex": 0,
+                "app": 0
             },
             {
-                "strength": 0,
-                "intelligence": 0,
-                "size": 0,
-                "power": 0,
-                "constitution": 0,
-                "education": 2,
-                "dexterity": 2,
-                "appearance": 0
+                "str": 0,
+                "int": 0,
+                "siz": 0,
+                "pow": 0,
+                "con": 0,
+                "edu": 2,
+                "dex": 2,
+                "app": 0
             }
         ],
         "era": 0,
-        "content": "Criminals come in all shapes, sizes, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
+        "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 75,
         "selections": [
             {
@@ -625,15 +626,21 @@
             {
                 "count": 1,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "firearms"
+            },
+            {
+                "count": 1,
+                "group": "fighting"
             }
         ],
         "skills": [
-            "Firearms",
             "Intimidate",
             "Locksmith",
             "Op. Hv. Machine",
-            "Drive Auto",
-            "Fighting"
+            "Drive Auto"
         ]
     },
     "Bartender": {
@@ -642,14 +649,14 @@
         "mincredit": 8,
         "scenarios": [
             {
-                "strength": 0,
-                "intelligence": 0,
-                "size": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "appearance": 2
+                "str": 0,
+                "int": 0,
+                "siz": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 0,
+                "con": 0,
+                "app": 2
             }
         ],
         "era": 0,
@@ -657,22 +664,8 @@
         "maxcredit": 25,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
+                "count": 2,
+                "group": "interpersonl"
             },
             {
                 "count": 1,
@@ -693,24 +686,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "dexterity": 0,
-                "intelligence": 0,
-                "education": 2,
-                "size": 0,
-                "power": 0,
-                "strength": 2,
-                "appearance": 0,
-                "constitution": 0
+                "dex": 0,
+                "int": 0,
+                "edu": 2,
+                "siz": 0,
+                "pow": 0,
+                "str": 2,
+                "app": 0,
+                "con": 0
             },
             {
-                "dexterity": 2,
-                "intelligence": 0,
-                "education": 2,
-                "size": 0,
-                "power": 0,
-                "strength": 0,
-                "appearance": 0,
-                "constitution": 0
+                "dex": 2,
+                "int": 0,
+                "edu": 2,
+                "siz": 0,
+                "pow": 0,
+                "str": 0,
+                "app": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -735,13 +728,16 @@
                 "count": 1,
                 "selections": [
                     "Survival",
-                    "Language Other"
+                    "Other Language"
                 ]
+            },
+            {
+                "count": 1,
+                "group": "firaarms"
             }
         ],
         "skills": [
             "Stealth",
-            "Firearms",
             "Track",
             "Natural World",
             "Navigate"
@@ -753,14 +749,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "dexterity": 0,
-                "education": 4,
-                "size": 0,
-                "constitution": 0,
-                "power": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "strength": 0
+                "dex": 0,
+                "edu": 4,
+                "siz": 0,
+                "con": 0,
+                "pow": 0,
+                "int": 0,
+                "app": 0,
+                "str": 0
             }
         ],
         "era": 0,
@@ -769,12 +765,11 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
+            },
+            {
+                "count": 1,
+                "group": "languages"
             }
         ],
         "skills": [
@@ -782,7 +777,6 @@
             "History",
             "Library Use",
             "Language Own",
-            "Language Other",
             "Accounting",
             "Appraise"
         ]
@@ -793,46 +787,38 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "appearance": 0,
-                "education": 2,
-                "constitution": 0,
-                "intelligence": 0,
-                "power": 0,
-                "strength": 2,
-                "dexterity": 0,
-                "size": 0
+                "app": 0,
+                "edu": 2,
+                "con": 0,
+                "int": 0,
+                "pow": 0,
+                "str": 2,
+                "dex": 0,
+                "siz": 0
             }
         ],
         "era": 0,
-        "content": "Criminals come in all shapes, sizes, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
+        "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 30,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Intimidate",
-                    "Charm",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "group": "firearms"
+            },
+            {
+                "count": 1,
+                "group": "fighting"
             }
         ],
         "skills": [
             "Psychology",
             "Stealth",
             "Drive Auto",
-            "Spot Hidden",
-            "Fighting",
-            "Firearms"
+            "Spot Hidden"
         ]
     },
     "Bounty Hunter": {
@@ -841,24 +827,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "strength": 0,
-                "appearance": 0,
-                "dexterity": 2,
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "size": 0
+                "con": 0,
+                "str": 0,
+                "app": 0,
+                "dex": 2,
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "siz": 0
             },
             {
-                "constitution": 0,
-                "strength": 2,
-                "appearance": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "size": 0
+                "con": 0,
+                "str": 2,
+                "app": 0,
+                "dex": 0,
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -881,12 +867,7 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Intimidate",
-                    "Charm",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -903,14 +884,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "strength": 2,
-                "size": 0,
-                "power": 0,
-                "education": 2,
-                "appearance": 0
+                "con": 0,
+                "dex": 0,
+                "int": 0,
+                "str": 2,
+                "siz": 0,
+                "pow": 0,
+                "edu": 2,
+                "app": 0
             }
         ],
         "era": 0,
@@ -937,18 +918,18 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0,
-                "power": 0,
-                "strength": 0,
-                "education": 2,
-                "dexterity": 2
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0,
+                "pow": 0,
+                "str": 0,
+                "edu": 2,
+                "dex": 2
             }
         ],
         "era": 0,
-        "content": "Criminals come in all shapes, sizes, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
+        "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 40,
         "selections": [
             {
@@ -975,14 +956,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "education": 4,
-                "strength": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "power": 0,
-                "size": 0,
-                "constitution": 0
+                "int": 0,
+                "edu": 4,
+                "str": 0,
+                "dex": 0,
+                "app": 0,
+                "pow": 0,
+                "siz": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -999,14 +980,20 @@
             {
                 "count": 1,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "languages"
+            },
+            {
+                "count": 1,
+                "group": "artcraft"
             }
         ],
         "skills": [
             "Listen",
-            "Language Other",
             "Psychology",
             "Spot Hidden",
-            "Art/Craft",
             "First Aid"
         ]
     },
@@ -1016,14 +1003,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "appearance": 0
+                "siz": 0,
+                "con": 0,
+                "dex": 2,
+                "str": 0,
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -1031,22 +1018,8 @@
         "maxcredit": 40,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Intimidate",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -1067,14 +1040,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "education": 4,
-                "constitution": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "power": 0,
-                "strength": 0
+                "siz": 0,
+                "edu": 4,
+                "con": 0,
+                "dex": 0,
+                "int": 0,
+                "app": 0,
+                "pow": 0,
+                "str": 0
             }
         ],
         "era": 0,
@@ -1083,20 +1056,18 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "languages"
             }
         ],
         "skills": [
-            "Language Other",
             "Psychology",
             "Accounting",
             "History",
@@ -1110,28 +1081,23 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "dexterity": 0,
-                "strength": 0,
-                "power": 0,
-                "appearance": 0,
-                "education": 4,
-                "size": 0,
-                "intelligence": 0,
-                "constitution": 0
+                "dex": 0,
+                "str": 0,
+                "pow": 0,
+                "app": 0,
+                "edu": 4,
+                "siz": 0,
+                "int": 0,
+                "con": 0
             }
         ],
         "era": 0,
-        "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sized locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
+        "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sizd locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
         "maxcredit": 20,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -1158,24 +1124,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "appearance": 0,
-                "strength": 2,
-                "power": 0,
-                "size": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "education": 2,
-                "intelligence": 0
+                "app": 0,
+                "str": 2,
+                "pow": 0,
+                "siz": 0,
+                "dex": 0,
+                "con": 0,
+                "edu": 2,
+                "int": 0
             },
             {
-                "appearance": 0,
-                "strength": 0,
-                "power": 0,
-                "size": 0,
-                "dexterity": 2,
-                "constitution": 0,
-                "education": 2,
-                "intelligence": 0
+                "app": 0,
+                "str": 0,
+                "pow": 0,
+                "siz": 0,
+                "dex": 2,
+                "con": 0,
+                "edu": 2,
+                "int": 0
             }
         ],
         "era": 0,
@@ -1184,12 +1150,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -1208,14 +1169,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "strength": 0,
-                "education": 4,
-                "dexterity": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "size": 0,
-                "power": 0,
-                "intelligence": 0
+                "str": 0,
+                "edu": 4,
+                "dex": 0,
+                "con": 0,
+                "app": 0,
+                "siz": 0,
+                "pow": 0,
+                "int": 0
             }
         ],
         "era": 1,
@@ -1224,12 +1185,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -1250,14 +1206,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "intelligence": 0,
-                "size": 0,
-                "education": 4,
-                "power": 0,
-                "constitution": 0,
-                "strength": 0,
-                "appearance": 0,
-                "dexterity": 0
+                "int": 0,
+                "siz": 0,
+                "edu": 4,
+                "pow": 0,
+                "con": 0,
+                "str": 0,
+                "app": 0,
+                "dex": 0
             }
         ],
         "era": 1,
@@ -1284,43 +1240,29 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "power": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "size": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "education": 2,
-                "constitution": 0
+                "pow": 0,
+                "dex": 0,
+                "str": 0,
+                "siz": 0,
+                "int": 0,
+                "app": 2,
+                "edu": 2,
+                "con": 0
             }
         ],
         "era": 0,
-        "content": "Criminals come in all shapes, sizes, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
+        "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 65,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
                 "selections": [
                     "Law",
-                    "Language Other"
+                    "Other Language"
                 ]
             }
         ],
@@ -1338,24 +1280,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "education": 2,
-                "strength": 2,
-                "intelligence": 0,
-                "dexterity": 0,
-                "size": 0,
-                "power": 0,
-                "appearance": 0
+                "con": 0,
+                "edu": 2,
+                "str": 2,
+                "int": 0,
+                "dex": 0,
+                "siz": 0,
+                "pow": 0,
+                "app": 0
             },
             {
-                "constitution": 0,
-                "education": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "dexterity": 2,
-                "size": 0,
-                "power": 0,
-                "appearance": 0
+                "con": 0,
+                "edu": 2,
+                "str": 0,
+                "int": 0,
+                "dex": 2,
+                "siz": 0,
+                "pow": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -1392,14 +1334,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "power": 0,
-                "strength": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "education": 2,
-                "size": 0,
-                "intelligence": 0,
-                "dexterity": 2
+                "pow": 0,
+                "str": 0,
+                "con": 0,
+                "app": 0,
+                "edu": 2,
+                "siz": 0,
+                "int": 0,
+                "dex": 2
             }
         ],
         "era": 0,
@@ -1409,15 +1351,17 @@
             {
                 "count": 2,
                 "selections": []
+            },
+            {
+                "count": 2,
+                "group": "artcraft"
             }
         ],
         "skills": [
             "Mechanical Repair",
             "Spot Hidden",
             "Natural World",
-            "Accounting",
-            "Art/Craft",
-            "Art/Craft"
+            "Accounting"
         ]
     },
     "Cult Leader": {
@@ -1426,37 +1370,23 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "constitution": 0,
-                "size": 0,
-                "dexterity": 0,
-                "appearance": 2,
-                "intelligence": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0
+                "con": 0,
+                "siz": 0,
+                "dex": 0,
+                "app": 2,
+                "int": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0
             }
         ],
         "era": 0,
-        "content": "America has always generated new religions, from the New England Transcendentalists to the Children of God, as well as many others, right up to modern times. The leader is either a firm believer in the dogma they impart to the cult\u2019s members or simply in it for the money and power\n\nDuring the 1920s, any number of char- ismatic cult leaders emerge. Some espouse forms of Christianity while others incor- porate Eastern mysticism and occult practices. These groups are particularly familiar to America\u2019s West Coast but are found all around the country in different forms. The southern Bible Belt supports many traveling tent shows featuring song, dance, and gospel reviv- al. Other countries also see such fringe religions springing up wherever there are those in need of something to believe in.",
+        "content": "America has always generated new religions, from the New England Transcendentalists to the Children of God, as well as many others, right up to modern times. The leader is either a firm believer in the dogma they impart to the cult\u2019s members or simply in it for the money and pow\n\nDuring the 1920s, any number of char- ismatic cult leaders emerge. Some espouse forms of Christianity while others incor- porate Eastern mysticism and occult practices. These groups are particularly familiar to America\u2019s West Coast but are found all around the country in different forms. The southern Bible Belt supports many traveling tent shows featuring song, dance, and gospel reviv- al. Other countries also see such fringe religions springing up wherever there are those in need of something to believe in.",
         "maxcredit": 60,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -1476,14 +1406,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "dexterity": 0,
-                "power": 0,
-                "education": 4,
-                "appearance": 0,
-                "strength": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "size": 0
+                "dex": 0,
+                "pow": 0,
+                "edu": 4,
+                "app": 0,
+                "str": 0,
+                "con": 0,
+                "int": 0,
+                "siz": 0
             }
         ],
         "era": 1,
@@ -1498,22 +1428,8 @@
                 ]
             },
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -1530,14 +1446,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "power": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "constitution": 0,
-                "education": 4,
-                "size": 0,
-                "appearance": 0
+                "pow": 0,
+                "int": 0,
+                "dex": 0,
+                "str": 0,
+                "con": 0,
+                "edu": 4,
+                "siz": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -1554,11 +1470,14 @@
             {
                 "count": 1,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "artcraft"
             }
         ],
         "skills": [
             "Photography",
-            "Art/Craft",
             "Mechanical Repair",
             "Psychology",
             "Spot Hidden",
@@ -1572,35 +1491,40 @@
         "maxcredit": 99,
         "scenarios": [
             {
-                "power": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "constitution": 0,
-                "education": 2,
-                "size": 0,
-                "appearance": 2
+                "pow": 0,
+                "int": 0,
+                "dex": 0,
+                "str": 0,
+                "con": 0,
+                "edu": 2,
+                "siz": 0,
+                "app": 2
             }
         ],
         "era": 3,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Intimidate",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
+            },
+            {
+                "count": 1,
+                "group": "interpersonal"
             },
             {
                 "count": 3,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "firearms"
+            },
+            {
+                "count": 1,
+                "group": "languages"
             }
         ],
         "skills": [
-            "Firearms",
-            "Language Other",
             "Ride"
         ]
     },
@@ -1610,14 +1534,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "appearance": 0,
-                "strength": 0,
-                "size": 0,
-                "power": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "education": 2,
-                "dexterity": 2
+                "app": 0,
+                "str": 0,
+                "siz": 0,
+                "pow": 0,
+                "con": 0,
+                "int": 0,
+                "edu": 2,
+                "dex": 2
             }
         ],
         "era": 0,
@@ -1647,14 +1571,14 @@
         "content": "Most likely a general practitioner, surgeon or other specialist, such as a psychiatrist or an independent medical researcher.",
         "scenarios": [
             {
-                "appearance": 0,
-                "strength": 0,
-                "size": 0,
-                "power": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "education": 4,
-                "dexterity": 0
+                "app": 0,
+                "str": 0,
+                "siz": 0,
+                "pow": 0,
+                "con": 0,
+                "int": 0,
+                "edu": 4,
+                "dex": 0
             }
         ],
         "selections": [
@@ -1679,34 +1603,34 @@
         "mincredit": 0,
         "scenarios": [
             {
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "dexterity": 2,
-                "intelligence": 0,
-                "size": 0,
-                "education": 2
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "app": 0,
+                "dex": 2,
+                "int": 0,
+                "siz": 0,
+                "edu": 2
             },
             {
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "appearance": 2,
-                "dexterity": 0,
-                "intelligence": 0,
-                "size": 0,
-                "education": 2
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "app": 2,
+                "dex": 0,
+                "int": 0,
+                "siz": 0,
+                "edu": 2
             },
             {
-                "strength": 2,
-                "power": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "size": 0,
-                "education": 2
+                "str": 2,
+                "pow": 0,
+                "con": 0,
+                "app": 0,
+                "dex": 0,
+                "int": 0,
+                "siz": 0,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -1715,12 +1639,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Fast Talk",
-                    "Charm",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             },
             {   "count": 1,
                 "selections": [
@@ -1747,24 +1666,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "dexterity": 2,
-                "education": 2,
-                "intelligence": 0,
-                "appearance": 0
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "dex": 2,
+                "edu": 2,
+                "int": 0,
+                "app": 0
             },
             {
-                "strength": 2,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "dexterity": 0,
-                "education": 2,
-                "intelligence": 0,
-                "appearance": 0
+                "str": 2,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "dex": 0,
+                "edu": 2,
+                "int": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -1773,12 +1692,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -1800,14 +1714,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "intelligence": 0,
-                "size": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "strength": 0,
-                "education": 4,
-                "appearance": 0,
-                "power": 0
+                "int": 0,
+                "siz": 0,
+                "dex": 0,
+                "con": 0,
+                "str": 0,
+                "edu": 4,
+                "app": 0,
+                "pow": 0
             }
         ],
         "era": 0,
@@ -1815,22 +1729,8 @@
         "maxcredit": 30,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate",
-                    "Charm"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -1851,18 +1751,18 @@
         "mincredit": 50,
         "scenarios": [
             {
-                "power": 0,
-                "strength": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "education": 2,
-                "size": 0,
-                "appearance": 2,
-                "intelligence": 0
+                "pow": 0,
+                "str": 0,
+                "con": 0,
+                "dex": 0,
+                "edu": 2,
+                "siz": 0,
+                "app": 2,
+                "int": 0
             }
         ],
         "era": 0,
-        "content": "Popularly elected officials enjoy prestige commensurate with their position. Small-town mayors and township supervisors find their influence extends little beyond their municipality\u2019s borders. Often these jobs are part-time, paying but small compensation. The mayors of big cities are well paid, however, often ruling their cities like little kingdoms and wielding more influence and power than the governor of their respective state.\n\nLocal Representatives and Senators elected to state houses enjoy a fair amount of respect, particularly with the business community and often at a statewide level.\n\nGovernors are responsible for entire states and have connections across the country.\n\nFederal positions carry the most clout. States send a number of Representatives to Congress based upon popu- lation count, and the House seats over 400 members, each elected to a two-year term. Each state, regardless of size, also sends two Senators to Washington. Elected to six-year terms and numbering less than a hundred, Senators hold consid- erably more influence than Representatives, and some elder Senators receive nearly as much respect as the President.\n\nIn the United Kingdom, Members of Parliament are popularly elected every four to five years. Representatives in the House of Lords are unelected, receiving their member- ships through either birth or appointment.",
+        "content": "Popularly elected officials enjoy prestige commensurate with their position. Small-town mayors and township supervisors find their influence extends little beyond their municipality\u2019s borders. Often these jobs are part-time, paying but small compensation. The mayors of big cities are well paid, however, often ruling their cities like little kingdoms and wielding more influence and pow than the governor of their respective state.\n\nLocal Representatives and Senators elected to state houses enjoy a fair amount of respect, particularly with the business community and often at a statewide level.\n\nGovernors are responsible for entire states and have connections across the country.\n\nFederal positions carry the most clout. States send a number of Representatives to Congress based upon popu- lation count, and the House seats over 400 members, each elected to a two-year term. Each state, regardless of siz, also sends two Senators to Washington. Elected to six-year terms and numbering less than a hundred, Senators hold consid- erably more influence than Representatives, and some elder Senators receive nearly as much respect as the President.\n\nIn the United Kingdom, Members of Parliament are popularly elected every four to five years. Representatives in the House of Lords are unelected, receiving their member- ships through either birth or appointment.",
         "maxcredit": 90,
         "selections": [],
         "skills": [
@@ -1882,14 +1782,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "strength": 0,
-                "constitution": 0,
-                "education": 4,
-                "power": 0,
-                "dexterity": 0,
-                "size": 0,
-                "intelligence": 0,
-                "appearance": 0
+                "str": 0,
+                "con": 0,
+                "edu": 4,
+                "pow": 0,
+                "dex": 0,
+                "siz": 0,
+                "int": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -1917,14 +1817,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "appearance": 2,
-                "power": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "education": 2,
-                "size": 0,
-                "dexterity": 0,
-                "strength": 0
+                "app": 2,
+                "pow": 0,
+                "int": 0,
+                "con": 0,
+                "edu": 2,
+                "siz": 0,
+                "dex": 0,
+                "str": 0
             }
         ],
         "era": 0,
@@ -1932,31 +1832,20 @@
         "maxcredit": 70,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "artcraft"
             }
         ],
         "skills": [
             "Psychology",
-            "Art/Craft",
             "Disguise",
             "Listen"
         ]
@@ -1967,34 +1856,34 @@
         "mincredit": 55,
         "scenarios": [
             {
-                "dexterity": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "appearance": 2,
-                "education": 2,
-                "power": 0,
-                "size": 0,
-                "constitution": 0
+                "dex": 0,
+                "int": 0,
+                "str": 0,
+                "app": 2,
+                "edu": 2,
+                "pow": 0,
+                "siz": 0,
+                "con": 0
             },
             {
-                "dexterity": 2,
-                "intelligence": 0,
-                "strength": 0,
-                "appearance": 0,
-                "education": 2,
-                "power": 0,
-                "size": 0,
-                "constitution": 0
+                "dex": 2,
+                "int": 0,
+                "str": 0,
+                "app": 0,
+                "edu": 2,
+                "pow": 0,
+                "siz": 0,
+                "con": 0
             },
             {
-                "dexterity": 0,
-                "intelligence": 0,
-                "strength": 2,
-                "appearance": 0,
-                "education": 2,
-                "power": 0,
-                "size": 0,
-                "constitution": 0
+                "dex": 0,
+                "int": 0,
+                "str": 2,
+                "app": 0,
+                "edu": 2,
+                "pow": 0,
+                "siz": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2007,15 +1896,24 @@
                     "Climb",
                     "Swim"
                 ]
+            },
+            {
+                "count": 1,
+                "group": "languages"
+            },
+            {
+                "count": 1,
+                "group": "survival" 
+            },
+            {
+                "count": 1,
+                "group": "firearms"
             }
         ],
         "skills": [
             "Jump",
             "Natural World",
             "Navigate",
-            "Language Other",
-            "Survival",
-            "Firearms",
             "History"
         ]
     },
@@ -2025,24 +1923,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "education": 2,
-                "dexterity": 2
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "edu": 2,
+                "dex": 2
             },
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "strength": 2,
-                "power": 0,
-                "constitution": 0,
-                "education": 2,
-                "dexterity": 0
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "str": 2,
+                "pow": 0,
+                "con": 0,
+                "edu": 2,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -2058,12 +1956,7 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -2084,14 +1977,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "strength": 0,
-                "appearance": 0,
-                "power": 0,
-                "intelligence": 0,
-                "size": 0,
-                "dexterity": 0,
-                "education": 4,
-                "constitution": 0
+                "str": 0,
+                "app": 0,
+                "pow": 0,
+                "int": 0,
+                "siz": 0,
+                "dex": 0,
+                "edu": 4,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2101,13 +1994,16 @@
             {
                 "count": 2,
                 "selections": []
+            },
+            {
+                "count": 1,
+                "group": "firearms"
             }
         ],
         "skills": [
             "Stealth",
             "Spot Hidden",
             "Drive Auto",
-            "Firearms",
             "Brawl",
             "Law",
             "Persuade"
@@ -2119,14 +2015,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "strength": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "power": 0,
-                "size": 0,
-                "intelligence": 0,
-                "education": 2,
-                "appearance": 2
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "pow": 0,
+                "siz": 0,
+                "int": 0,
+                "edu": 2,
+                "app": 2
             }
         ],
         "era": 0,
@@ -2135,12 +2031,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -2162,14 +2053,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "constitution": 0,
-                "education": 2,
-                "power": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "size": 0
+                "con": 0,
+                "edu": 2,
+                "pow": 0,
+                "str": 0,
+                "dex": 0,
+                "int": 0,
+                "app": 2,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -2177,22 +2068,8 @@
         "maxcredit": 90,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -2212,24 +2089,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "strength": 0,
-                "constitution": 0,
-                "size": 0,
-                "appearance": 0,
-                "dexterity": 2
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "str": 0,
+                "con": 0,
+                "siz": 0,
+                "app": 0,
+                "dex": 2
             },
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "strength": 2,
-                "constitution": 0,
-                "size": 0,
-                "appearance": 0,
-                "dexterity": 0
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "str": 2,
+                "con": 0,
+                "siz": 0,
+                "app": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -2253,14 +2130,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "intelligence": 0,
-                "size": 0,
-                "power": 0,
-                "education": 4,
-                "strength": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "constitution": 0
+                "int": 0,
+                "siz": 0,
+                "pow": 0,
+                "edu": 4,
+                "str": 0,
+                "dex": 0,
+                "app": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2268,22 +2145,8 @@
         "maxcredit": 40,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -2291,7 +2154,7 @@
             }
         ],
         "skills": [
-            "Language Other",
+            "Other Language",
             "Language Own",
             "Listen",
             "Psychology",
@@ -2304,14 +2167,14 @@
         "mincredit": 40,
         "scenarios": [
             {
-                "size": 0,
-                "education": 4,
-                "power": 0,
-                "appearance": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "constitution": 0
+                "siz": 0,
+                "edu": 4,
+                "pow": 0,
+                "app": 0,
+                "int": 0,
+                "dex": 0,
+                "str": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2335,14 +2198,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "education": 4,
-                "appearance": 0,
-                "strength": 0,
-                "power": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "size": 0
+                "edu": 4,
+                "app": 0,
+                "str": 0,
+                "pow": 0,
+                "int": 0,
+                "dex": 0,
+                "con": 0,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -2370,24 +2233,24 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "education": 2,
-                "appearance": 2,
-                "constitution": 0,
-                "power": 0,
-                "size": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "intelligence": 0
+                "edu": 2,
+                "app": 2,
+                "con": 0,
+                "pow": 0,
+                "siz": 0,
+                "dex": 0,
+                "str": 0,
+                "int": 0
             },
             {
-                "education": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "power": 0,
-                "size": 0,
-                "dexterity": 2,
-                "strength": 0,
-                "intelligence": 0
+                "edu": 2,
+                "app": 0,
+                "con": 0,
+                "pow": 0,
+                "siz": 0,
+                "dex": 2,
+                "str": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -2403,12 +2266,7 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -2438,24 +2296,24 @@
         "mincredit": 8,
         "scenarios": [
             {
-                "strength": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 2,
-                "education": 2,
-                "power": 0
+                "str": 0,
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0,
+                "dex": 2,
+                "edu": 2,
+                "pow": 0
             },
             {
-                "strength": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "education": 2,
-                "power": 0
+                "str": 0,
+                "int": 0,
+                "app": 2,
+                "siz": 0,
+                "con": 0,
+                "dex": 0,
+                "edu": 2,
+                "pow": 0
             }
         ],
         "era": 0,
@@ -2463,22 +2321,8 @@
         "maxcredit": 50,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -2496,14 +2340,14 @@
         "mincredit": 60,
         "scenarios": [
             {
-                "power": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "education": 2,
-                "appearance": 2,
-                "size": 0,
-                "strength": 0
+                "pow": 0,
+                "int": 0,
+                "con": 0,
+                "dex": 0,
+                "edu": 2,
+                "app": 2,
+                "siz": 0,
+                "str": 0
             }
         ],
         "era": 0,
@@ -2511,22 +2355,8 @@
         "maxcredit": 95,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -2546,24 +2376,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "dexterity": 0,
-                "appearance": 0,
-                "strength": 2,
-                "power": 0,
-                "size": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "education": 2
+                "dex": 0,
+                "app": 0,
+                "str": 2,
+                "pow": 0,
+                "siz": 0,
+                "int": 0,
+                "con": 0,
+                "edu": 2
             },
             {
-                "dexterity": 2,
-                "appearance": 0,
-                "strength": 0,
-                "power": 0,
-                "size": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "education": 2
+                "dex": 2,
+                "app": 0,
+                "str": 0,
+                "pow": 0,
+                "siz": 0,
+                "int": 0,
+                "con": 0,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -2571,22 +2401,8 @@
         "maxcredit": 20,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -2606,14 +2422,14 @@
         "mincredit": 40,
         "scenarios": [
             {
-                "size": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0,
-                "appearance": 2,
-                "constitution": 0
+                "siz": 0,
+                "int": 0,
+                "dex": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0,
+                "app": 2,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2621,27 +2437,13 @@
         "maxcredit": 90,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
             "History",
-            "Language Other",
+            "Other Language",
             "Navigate",
             "Art/Craft",
             "Ride",
@@ -2654,14 +2456,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "size": 0,
-                "education": 2,
-                "appearance": 2,
-                "intelligence": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "power": 0,
-                "constitution": 0
+                "siz": 0,
+                "edu": 2,
+                "app": 2,
+                "int": 0,
+                "str": 0,
+                "dex": 0,
+                "pow": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -2670,21 +2472,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -2711,24 +2499,24 @@
         "mincredit": 1,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 2,
-                "education": 2,
-                "strength": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "size": 0,
-                "power": 0
+                "int": 0,
+                "app": 2,
+                "edu": 2,
+                "str": 0,
+                "con": 0,
+                "dex": 0,
+                "siz": 0,
+                "pow": 0
             },
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "education": 2,
-                "strength": 0,
-                "constitution": 0,
-                "dexterity": 2,
-                "size": 0,
-                "power": 0
+                "int": 0,
+                "app": 0,
+                "edu": 2,
+                "str": 0,
+                "con": 0,
+                "dex": 2,
+                "siz": 0,
+                "pow": 0
             }
         ],
         "era": 0,
@@ -2762,14 +2550,14 @@
         "mincredit": 6,
         "scenarios": [
             {
-                "power": 0,
-                "strength": 2,
-                "dexterity": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0,
-                "education": 2
+                "pow": 0,
+                "str": 2,
+                "dex": 0,
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -2778,12 +2566,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -2802,14 +2585,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "power": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "education": 4,
-                "size": 0
+                "con": 0,
+                "pow": 0,
+                "dex": 0,
+                "app": 0,
+                "int": 0,
+                "str": 0,
+                "edu": 4,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -2825,12 +2608,7 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -2850,14 +2628,14 @@
         "mincredit": 50,
         "scenarios": [
             {
-                "size": 0,
-                "power": 0,
-                "strength": 0,
-                "appearance": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "education": 4
+                "siz": 0,
+                "pow": 0,
+                "str": 0,
+                "app": 0,
+                "int": 0,
+                "con": 0,
+                "dex": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -2881,14 +2659,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "education": 4,
-                "appearance": 0,
-                "strength": 0,
-                "power": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "size": 0,
-                "intelligence": 0
+                "edu": 4,
+                "app": 0,
+                "str": 0,
+                "pow": 0,
+                "con": 0,
+                "dex": 0,
+                "siz": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -2910,7 +2688,7 @@
         "skills": [
             "Spot Hidden",
             "Electric Repair",
-            "Language Other",
+            "Other Language",
             "Chemistry",
             "Science",
             "Science"
@@ -2922,14 +2700,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "appearance": 0,
-                "intelligence": 0,
-                "education": 4,
-                "constitution": 0,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 0,
-                "size": 0
+                "app": 0,
+                "int": 0,
+                "edu": 4,
+                "con": 0,
+                "str": 0,
+                "pow": 0,
+                "dex": 0,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -2937,22 +2715,8 @@
         "maxcredit": 80,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -2972,14 +2736,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "power": 0,
-                "size": 0,
-                "constitution": 0,
-                "education": 4,
-                "appearance": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "strength": 0
+                "pow": 0,
+                "siz": 0,
+                "con": 0,
+                "edu": 4,
+                "app": 0,
+                "int": 0,
+                "dex": 0,
+                "str": 0
             }
         ],
         "era": 3,
@@ -2994,7 +2758,7 @@
         "skills": [
             "Accounting",
             "Library Use",
-            "Language Other",
+            "Other Language",
             "Language Own"
         ]
     },
@@ -3004,24 +2768,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "education": 2,
-                "size": 0,
-                "power": 0,
-                "intelligence": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 2
+                "edu": 2,
+                "siz": 0,
+                "pow": 0,
+                "int": 0,
+                "dex": 0,
+                "con": 0,
+                "app": 0,
+                "str": 2
             },
             {
-                "education": 2,
-                "size": 0,
-                "power": 0,
-                "intelligence": 0,
-                "dexterity": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 0
+                "edu": 2,
+                "siz": 0,
+                "pow": 0,
+                "int": 0,
+                "dex": 2,
+                "con": 0,
+                "app": 0,
+                "str": 0
             }
         ],
         "era": 0,
@@ -3053,14 +2817,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "power": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0,
-                "strength": 0,
-                "education": 4,
-                "dexterity": 0,
-                "intelligence": 0
+                "pow": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0,
+                "str": 0,
+                "edu": 4,
+                "dex": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -3087,37 +2851,23 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "intelligence": 0,
-                "constitution": 0,
-                "size": 0,
-                "education": 4,
-                "appearance": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "power": 0
+                "int": 0,
+                "con": 0,
+                "siz": 0,
+                "edu": 4,
+                "app": 0,
+                "str": 0,
+                "dex": 0,
+                "pow": 0
             }
         ],
         "era": 0,
-        "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sized locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
+        "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sizd locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
         "maxcredit": 80,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -3127,7 +2877,7 @@
         "skills": [
             "Psychology",
             "Accounting",
-            "Language Other",
+            "Other Language",
             "Law"
         ]
     },
@@ -3137,47 +2887,33 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "dexterity": 2,
-                "intelligence": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0
+                "dex": 2,
+                "int": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0
             },
             {
-                "dexterity": 0,
-                "intelligence": 0,
-                "strength": 2,
-                "education": 2,
-                "power": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0
+                "dex": 0,
+                "int": 0,
+                "str": 2,
+                "edu": 2,
+                "pow": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0
             }
         ],
         "era": 0,
-        "content": "Officers are command rank and most commissions demand some form of higher education. All armed services have es- tablished officer training programs that may include univer- sity education\u2014in the U.S., most major universities provide cadet training programs, allowing simultaneous training for the military while attending school. Upon graduation the cadet is promoted to the rank of Army or Marine Second Lieutenant or Naval Ensign, and assigned to a station\n\nUsually such recruits owe the Government four years\u2019 active service, after which time they may return to civilian life. Many of the officers trained this way hold professional commissions and serve as doctors, lawyers, or engineers.\n\nThose looking for a career in the military may try to get themselves appointed to one of the military academies: the U.S. Army\u2019s West Point or the Navy\u2019s Annapolis, for exam- ple. Graduating from one of these schools earns the officer respect. Once out of school, some officers opt for special training, such as air pilot.\n\nOccasionally, an experienced and exceptionally worthy enlisted person is promoted to Warrant Officer. Although technically at the bottom of the officers\u2019 list of ranks, the time and experience required to achieve this promotion car- ries a respect and reverence far exceeding that of any junior or middle-grade officer. Most commissions are for life. Even a long-retired officer has the right to call himself Captain or General.",
+        "content": "Officers are command rank and most commissions demand some form of higher edu. All armed services have es- tablished officer training programs that may include univer- sity edu\u2014in the U.S., most major universities provide cadet training programs, allowing simultaneous training for the military while attending school. Upon graduation the cadet is promoted to the rank of Army or Marine Second Lieutenant or Naval Ensign, and assigned to a station\n\nUsually such recruits owe the Government four years\u2019 active service, after which time they may return to civilian life. Many of the officers trained this way hold professional commissions and serve as doctors, lawyers, or engineers.\n\nThose looking for a career in the military may try to get themselves appointed to one of the military academies: the U.S. Army\u2019s West Point or the Navy\u2019s Annapolis, for exam- ple. Graduating from one of these schools earns the officer respect. Once out of school, some officers opt for special training, such as air pilot.\n\nOccasionally, an experienced and exceptionally worthy enlisted person is promoted to Warrant Officer. Although technically at the bottom of the officers\u2019 list of ranks, the time and experience required to achieve this promotion car- ries a respect and reverence far exceeding that of any junior or middle-grade officer. Most commissions are for life. Even a long-retired officer has the right to call himself Captain or General.",
         "maxcredit": 70,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate",
-                    "Persuade"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -3198,24 +2934,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "constitution": 0,
-                "strength": 0,
-                "size": 0,
-                "dexterity": 2,
-                "power": 0,
-                "appearance": 0,
-                "education": 2
+                "int": 0,
+                "con": 0,
+                "str": 0,
+                "siz": 0,
+                "dex": 2,
+                "pow": 0,
+                "app": 0,
+                "edu": 2
             },
             {
-                "intelligence": 0,
-                "constitution": 0,
-                "strength": 2,
-                "size": 0,
-                "dexterity": 0,
-                "power": 0,
-                "appearance": 0,
-                "education": 2
+                "int": 0,
+                "con": 0,
+                "str": 2,
+                "siz": 0,
+                "dex": 0,
+                "pow": 0,
+                "app": 0,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -3243,14 +2979,14 @@
         "mincredit": 1,
         "scenarios": [
             {
-                "size": 0,
-                "power": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "strength": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "education": 2
+                "siz": 0,
+                "pow": 0,
+                "dex": 0,
+                "con": 0,
+                "str": 0,
+                "int": 0,
+                "app": 2,
+                "edu": 2
             }
         ],
         "era": 0,
@@ -3259,12 +2995,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -3285,24 +3016,24 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "size": 0,
-                "dexterity": 2,
-                "intelligence": 0,
-                "power": 0,
-                "education": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 0
+                "siz": 0,
+                "dex": 2,
+                "int": 0,
+                "pow": 0,
+                "edu": 2,
+                "con": 0,
+                "app": 0,
+                "str": 0
             },
             {
-                "size": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "power": 0,
-                "education": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 2
+                "siz": 0,
+                "dex": 0,
+                "int": 0,
+                "pow": 0,
+                "edu": 2,
+                "con": 0,
+                "app": 0,
+                "str": 2
             }
         ],
         "era": 0,
@@ -3315,7 +3046,7 @@
             "Jump",
             "Listen",
             "Navigate",
-            "Language Other",
+            "Other Language",
             "Survival",
             "Climb"
         ]
@@ -3326,14 +3057,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "appearance": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "power": 0,
-                "education": 4
+                "app": 0,
+                "dex": 0,
+                "str": 0,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "pow": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -3341,7 +3072,7 @@
         "maxcredit": 30,
         "selections": [],
         "skills": [
-            "Language Other",
+            "Other Language",
             "Accounting",
             "Spot Hidden",
             "Appraise",
@@ -3357,38 +3088,33 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "appearance": 2,
-                "power": 0,
-                "intelligence": 0,
-                "education": 2,
-                "size": 0
+                "con": 0,
+                "str": 0,
+                "dex": 0,
+                "app": 2,
+                "pow": 0,
+                "int": 0,
+                "edu": 2,
+                "siz": 0
             },
             {
-                "constitution": 0,
-                "strength": 0,
-                "dexterity": 2,
-                "appearance": 0,
-                "power": 0,
-                "intelligence": 0,
-                "education": 2,
-                "size": 0
+                "con": 0,
+                "str": 0,
+                "dex": 2,
+                "app": 0,
+                "pow": 0,
+                "int": 0,
+                "edu": 2,
+                "siz": 0
             }
         ],
         "era": 0,
-        "content": "May perform in an orchestra, group, or solo, with any instrument you care to think of. Getting noticed is hard and then getting a recording contract is difficult. Most musicians are poor and do not get noticed, eking a living by playing small venues as often as they can. A fortunate few might get regular work, such as play- ing a piano in a bar or hotel or within a city orchestra. For the minority, great success and wealth can\nbe found by being in the right place at the right time, plus having a modicum of talent.\n\nThe 1920s is, of course, the Jazz Age, and musicians work in small combos and\ndance orchestras in large and medium-sized cities and towns across America. A few musicians living large cities, like Chicago or New York, find steady work in their hometown, but most spend significant amounts of time on the road, touring either by bus, automobile, or by train.",
+        "content": "May perform in an orchestra, group, or solo, with any instrument you care to think of. Getting noticed is hard and then getting a recording contract is difficult. Most musicians are poor and do not get noticed, eking a living by playing small venues as often as they can. A fortunate few might get regular work, such as play- ing a piano in a bar or hotel or within a city orchestra. For the minority, great success and wealth can\nbe found by being in the right place at the right time, plus having a modicum of talent.\n\nThe 1920s is, of course, the Jazz Age, and musicians work in small combos and\ndance orchestras in large and medium-sizd cities and towns across America. A few musicians living large cities, like Chicago or New York, find steady work in their hometown, but most spend significant amounts of time on the road, touring either by bus, automobile, or by train.",
         "maxcredit": 30,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 4,
@@ -3407,24 +3133,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "power": 0,
-                "size": 0,
-                "strength": 2,
-                "intelligence": 0,
-                "education": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "dexterity": 0
+                "pow": 0,
+                "siz": 0,
+                "str": 2,
+                "int": 0,
+                "edu": 2,
+                "app": 0,
+                "con": 0,
+                "dex": 0
             },
             {
-                "power": 0,
-                "size": 0,
-                "strength": 0,
-                "intelligence": 0,
-                "education": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "dexterity": 2
+                "pow": 0,
+                "siz": 0,
+                "str": 0,
+                "int": 0,
+                "edu": 2,
+                "app": 0,
+                "con": 0,
+                "dex": 2
             }
         ],
         "era": 0,
@@ -3455,28 +3181,23 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "power": 0,
-                "education": 4,
-                "dexterity": 0,
-                "appearance": 0,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "strength": 0
+                "pow": 0,
+                "edu": 4,
+                "dex": 0,
+                "app": 0,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "str": 0
             }
         ],
         "era": 0,
-        "content": "Nurses are trained healthcare assistants, usually working in hospitals, nursing homes, or with General Practitioners. Generally, a nurse will assist an individual, sick or well, with activities contributing to health or recovery (or to a peaceful death) that a person might perform unaided if they had the necessary strength, will, or knowledge.",
+        "content": "Nurses are trained healthcare assistants, usually working in hospitals, nursing homes, or with General Practitioners. Generally, a nurse will assist an individual, sick or well, with activities contributing to health or recovery (or to a peaceful death) that a person might perform unaided if they had the necessary str, will, or knowledge.",
         "maxcredit": 30,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -3495,28 +3216,23 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "power": 0,
-                "dexterity": 0,
-                "education": 4,
-                "size": 0,
-                "strength": 0,
-                "intelligence": 0,
-                "appearance": 0
+                "con": 0,
+                "pow": 0,
+                "dex": 0,
+                "edu": 4,
+                "siz": 0,
+                "str": 0,
+                "int": 0,
+                "app": 0
             }
         ],
         "era": 0,
-        "content": "Occultists are students of esoteric secrets and arcane magic. They fully believe in paranormal abilities and actively attempt to learn about and discover these powers within themselves. Most are familiar with a broad range of different philosophies and magical theories, some believing that they can actually perform feats of magic\u2014the veracity of such abilities is left to the Keeper to determine.\n\nIt should be noted that, in the main, occultists are familiar with \"earthly magic\"\u2014the secrets of Mythos magic are unknown to them, save in tantalizing hints referenced in ancient books.",
+        "content": "Occultists are students of esoteric secrets and arcane magic. They fully believe in paranormal abilities and actively attempt to learn about and discover these pows within themselves. Most are familiar with a broad range of different philosophies and magical theories, some believing that they can actually perform feats of magic\u2014the veracity of such abilities is left to the Keeper to determine.\n\nIt should be noted that, in the main, occultists are familiar with \"earthly magic\"\u2014the secrets of Mythos magic are unknown to them, save in tantalizing hints referenced in ancient books.",
         "maxcredit": 65,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -3524,7 +3240,7 @@
             }
         ],
         "skills": [
-            "Language Other",
+            "Other Language",
             "Astronomy",
             "Anthropology",
             "History",
@@ -3538,24 +3254,24 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "constitution": 0,
-                "strength": 0,
-                "size": 0,
-                "intelligence": 0,
-                "education": 2,
-                "dexterity": 2,
-                "appearance": 0,
-                "power": 0
+                "con": 0,
+                "str": 0,
+                "siz": 0,
+                "int": 0,
+                "edu": 2,
+                "dex": 2,
+                "app": 0,
+                "pow": 0
             },
             {
-                "constitution": 0,
-                "strength": 2,
-                "size": 0,
-                "intelligence": 0,
-                "education": 2,
-                "dexterity": 0,
-                "appearance": 0,
-                "power": 0
+                "con": 0,
+                "str": 2,
+                "siz": 0,
+                "int": 0,
+                "edu": 2,
+                "dex": 0,
+                "app": 0,
+                "pow": 0
             }
         ],
         "era": 0,
@@ -3579,18 +3295,18 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "strength": 0,
-                "power": 0,
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "education": 4,
-                "appearance": 0
+                "int": 0,
+                "str": 0,
+                "pow": 0,
+                "siz": 0,
+                "con": 0,
+                "dex": 0,
+                "edu": 4,
+                "app": 0
             }
         ],
         "era": 0,
-        "content": "Parapsychologists do not pretend to enjoy extraordinary powers, but instead spend their efforts attempting to observe, record, and study such instances. Sometimes nick- named \u201cghost hunters,\u201d they make use of technology to try to capture hard evidence of paranormal activity that may be centered on a person or a location. A major portion of their time is spent debunking fake mediums and mistaken phenomena rather than recording actual evidence.\n\nSome parapsychologists will specialize in the study of particular phenomenon, such as extra sensory perception, telekinesis, hauntings, and others.\n\nPrestigious universities grant no degrees for parapsy- chology. Standards in the field are based entirely upon per- sonal reputation, and so the most acceptable representatives tend to hold degrees in related areas\u2014physics, psychology, or medicine.\n\nThose who choose this path are unusually sympathetic to the notion of invisible mystical powers and in validating that belief to the satisfaction of physical scientists. This would represent an unusual cohabitation of faith and doubt\u2014the parapsychologist may have difficulty separating the conflicting desires. A person uninterested in observation, experimentation, and proof is not a scientist, though he or she may be an occultist.",
+        "content": "Parapsychologists do not pretend to enjoy extraordinary pows, but instead spend their efforts attempting to observe, record, and study such instances. Sometimes nick- named \u201cghost hunters,\u201d they make use of technology to try to capture hard evidence of paranormal activity that may be centered on a person or a location. A major portion of their time is spent debunking fake mediums and mistaken phenomena rather than recording actual evidence.\n\nSome parapsychologists will specialize in the study of particular phenomenon, such as extra sensory perception, telekinesis, hauntings, and others.\n\nPrestigious universities grant no degrees for parapsy- chology. Standards in the field are based entirely upon per- sonal reputation, and so the most acceptable representatives tend to hold degrees in related areas\u2014physics, psychology, or medicine.\n\nThose who choose this path are unusually sympathetic to the notion of invisible mystical pows and in validating that belief to the satisfaction of physical scientists. This would represent an unusual cohabitation of faith and doubt\u2014the parapsychologist may have difficulty separating the conflicting desires. A person uninterested in observation, experimentation, and proof is not a scientist, though he or she may be an occultist.",
         "maxcredit": 30,
         "selections": [
             {
@@ -3605,7 +3321,7 @@
             "History",
             "Library Use",
             "Occult",
-            "Language Other"
+            "Other Language"
         ]
     },
     "Pharmacist": {
@@ -3614,28 +3330,23 @@
         "mincredit": 35,
         "scenarios": [
             {
-                "strength": 0,
-                "dexterity": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "size": 0,
-                "appearance": 0,
-                "education": 4,
-                "power": 0
+                "str": 0,
+                "dex": 0,
+                "int": 0,
+                "con": 0,
+                "siz": 0,
+                "app": 0,
+                "edu": 4,
+                "pow": 0
             }
         ],
         "era": 0,
-        "content": "Pharmacists have long been more closely regulated than physicians. They are licensed by individual states, most of them requiring a high school education and three years of pharmacy school. A pharmacist may be employed in a hospital or a drug store, or perhaps they own a dispensary.",
+        "content": "Pharmacists have long been more closely regulated than physicians. They are licensed by individual states, most of them requiring a high school edu and three years of pharmacy school. A pharmacist may be employed in a hospital or a drug store, or perhaps they own a dispensary.",
         "maxcredit": 75,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -3654,14 +3365,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "constitution": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "size": 0,
-                "education": 4,
-                "power": 0,
-                "intelligence": 0,
-                "appearance": 0
+                "con": 0,
+                "dex": 0,
+                "str": 0,
+                "siz": 0,
+                "edu": 4,
+                "pow": 0,
+                "int": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -3670,12 +3381,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -3696,14 +3402,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "size": 0,
-                "constitution": 0,
-                "education": 4,
-                "intelligence": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "power": 0,
-                "appearance": 0
+                "siz": 0,
+                "con": 0,
+                "edu": 4,
+                "int": 0,
+                "str": 0,
+                "dex": 0,
+                "pow": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -3712,12 +3418,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -3727,7 +3428,7 @@
         "skills": [
             "Photography",
             "Climb",
-            "Language Other",
+            "Other Language",
             "Psychology",
             "Chemistry"
         ]
@@ -3738,14 +3439,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "strength": 0,
-                "constitution": 0,
-                "size": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 2
+                "int": 0,
+                "app": 0,
+                "str": 0,
+                "con": 0,
+                "siz": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 2
             }
         ],
         "era": 0,
@@ -3772,24 +3473,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 2,
-                "strength": 0,
-                "size": 0,
-                "constitution": 0,
-                "appearance": 0
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 2,
+                "str": 0,
+                "siz": 0,
+                "con": 0,
+                "app": 0
             },
             {
-                "intelligence": 0,
-                "education": 2,
-                "power": 0,
-                "dexterity": 0,
-                "strength": 2,
-                "size": 0,
-                "constitution": 0,
-                "appearance": 0
+                "int": 0,
+                "edu": 2,
+                "pow": 0,
+                "dex": 0,
+                "str": 2,
+                "siz": 0,
+                "con": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -3805,12 +3506,7 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 2,
@@ -3830,14 +3526,14 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "intelligence": 0,
-                "education": 4,
-                "power": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "size": 0,
-                "constitution": 0,
-                "appearance": 0
+                "int": 0,
+                "edu": 4,
+                "pow": 0,
+                "dex": 0,
+                "str": 0,
+                "siz": 0,
+                "con": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -3852,7 +3548,7 @@
         "skills": [
             "Library Use",
             "Own Language",
-            "Language Other",
+            "Other Language",
             "Psychology"
         ]
     },
@@ -3862,24 +3558,24 @@
         "mincredit": 1,
         "scenarios": [
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "dexterity": 2
+                "int": 0,
+                "app": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "dex": 2
             },
             {
-                "intelligence": 0,
-                "appearance": 0,
-                "strength": 2,
-                "education": 2,
-                "power": 0,
-                "constitution": 0,
-                "size": 0,
-                "dexterity": 0
+                "int": 0,
+                "app": 0,
+                "str": 2,
+                "edu": 2,
+                "pow": 0,
+                "con": 0,
+                "siz": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -3907,14 +3603,14 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "appearance": 2,
-                "education": 2,
-                "strength": 0,
-                "size": 0,
-                "power": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "dexterity": 0
+                "app": 2,
+                "edu": 2,
+                "str": 0,
+                "siz": 0,
+                "pow": 0,
+                "con": 0,
+                "int": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -3922,22 +3618,8 @@
         "maxcredit": 50,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -3958,14 +3640,14 @@
         "mincredit": 30,
         "scenarios": [
             {
-                "education": 4,
-                "constitution": 0,
-                "appearance": 0,
-                "power": 0,
-                "dexterity": 0,
-                "strength": 0,
-                "size": 0,
-                "intelligence": 0
+                "edu": 4,
+                "con": 0,
+                "app": 0,
+                "pow": 0,
+                "dex": 0,
+                "str": 0,
+                "siz": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -3974,7 +3656,7 @@
         "selections": [],
         "skills": [
             "Biology",
-            "Language Other",
+            "Other Language",
             "Chemistry",
             "Listen",
             "Medicine",
@@ -3989,14 +3671,14 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "appearance": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "power": 0,
-                "size": 0,
-                "strength": 0,
-                "intelligence": 0,
-                "education": 4
+                "app": 0,
+                "dex": 0,
+                "con": 0,
+                "pow": 0,
+                "siz": 0,
+                "str": 0,
+                "int": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -4023,14 +3705,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "power": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "education": 4,
-                "strength": 0,
-                "dexterity": 0,
-                "appearance": 0
+                "siz": 0,
+                "pow": 0,
+                "int": 0,
+                "con": 0,
+                "edu": 4,
+                "str": 0,
+                "dex": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -4039,12 +3721,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -4063,14 +3740,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "education": 4,
-                "strength": 0,
-                "intelligence": 0,
-                "size": 0,
-                "appearance": 0,
-                "power": 0,
-                "dexterity": 0,
-                "constitution": 0
+                "edu": 4,
+                "str": 0,
+                "int": 0,
+                "siz": 0,
+                "app": 0,
+                "pow": 0,
+                "dex": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -4079,12 +3756,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 3,
@@ -4095,7 +3767,7 @@
             "Spot Hidden",
             "History",
             "Library Use",
-            "Language Other"
+            "Other Language"
         ]
     },
     "Salesperson": {
@@ -4104,14 +3776,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "intelligence": 0,
-                "dexterity": 0,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "education": 2,
-                "constitution": 0,
-                "appearance": 2
+                "int": 0,
+                "dex": 0,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "edu": 2,
+                "con": 0,
+                "app": 2
             }
         ],
         "era": 0,
@@ -4126,22 +3798,8 @@
                 ]
             },
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4161,14 +3819,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "education": 4,
-                "appearance": 0,
-                "intelligence": 0
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "dex": 0,
+                "con": 0,
+                "edu": 4,
+                "app": 0,
+                "int": 0
             }
         ],
         "era": 0,
@@ -4184,19 +3842,14 @@
             },
             {
                 "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate",
-                    "Persuade"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
             "Spot Hidden",
             "Science",
             "Science",
-            "Language Other",
+            "Other Language",
             "Language Own",
             "Science"
         ]
@@ -4207,24 +3860,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "education": 2,
-                "intelligence": 0,
-                "dexterity": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "power": 0,
-                "strength": 0
+                "siz": 0,
+                "edu": 2,
+                "int": 0,
+                "dex": 2,
+                "app": 0,
+                "con": 0,
+                "pow": 0,
+                "str": 0
             },
             {
-                "size": 0,
-                "education": 2,
-                "intelligence": 0,
-                "dexterity": 0,
-                "appearance": 0,
-                "constitution": 0,
-                "power": 0,
-                "strength": 2
+                "siz": 0,
+                "edu": 2,
+                "int": 0,
+                "dex": 0,
+                "app": 0,
+                "con": 0,
+                "pow": 0,
+                "str": 2
             }
         ],
         "era": 0,
@@ -4239,22 +3892,8 @@
                 ]
             },
             {
-                "count": 1,
-                "selections": [
-                    "Fast Talk",
-                    "Intimidate",
-                    "Charm",
-                    "Persuade"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade",
-                    "Intimidate"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4280,24 +3919,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "constitution": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "size": 0,
-                "education": 2,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 2
+                "con": 0,
+                "int": 0,
+                "app": 0,
+                "siz": 0,
+                "edu": 2,
+                "str": 0,
+                "pow": 0,
+                "dex": 2
             },
             {
-                "constitution": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "size": 0,
-                "education": 2,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 0
+                "con": 0,
+                "int": 0,
+                "app": 2,
+                "siz": 0,
+                "edu": 2,
+                "str": 0,
+                "pow": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -4305,22 +3944,8 @@
         "maxcredit": 40,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -4338,24 +3963,24 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "constitution": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "education": 2,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 2
+                "con": 0,
+                "int": 0,
+                "app": 0,
+                "edu": 2,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "dex": 2
             },
             {
-                "constitution": 0,
-                "intelligence": 0,
-                "appearance": 2,
-                "education": 2,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "dexterity": 0
+                "con": 0,
+                "int": 0,
+                "app": 2,
+                "edu": 2,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -4364,12 +3989,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4395,24 +4015,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "strength": 2,
-                "intelligence": 0,
-                "power": 0,
-                "dexterity": 0,
-                "education": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "size": 0
+                "str": 2,
+                "int": 0,
+                "pow": 0,
+                "dex": 0,
+                "edu": 2,
+                "app": 0,
+                "con": 0,
+                "siz": 0
             },
             {
-                "strength": 0,
-                "intelligence": 0,
-                "power": 0,
-                "dexterity": 2,
-                "education": 2,
-                "appearance": 0,
-                "constitution": 0,
-                "size": 0
+                "str": 0,
+                "int": 0,
+                "pow": 0,
+                "dex": 2,
+                "edu": 2,
+                "app": 0,
+                "con": 0,
+                "siz": 0
             }
         ],
         "era": 0,
@@ -4424,7 +4044,7 @@
                 "selections": [
                     "First Aid",
                     "Mechanical Repair",
-                    "Language Other"
+                    "Other Language"
                 ]
             },
             {
@@ -4439,7 +4059,7 @@
                 "selections": [
                     "First Aid",
                     "Mechanical Repair",
-                    "Language Other"
+                    "Other Language"
                 ]
             }
         ],
@@ -4457,38 +4077,33 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "appearance": 2,
-                "power": 0,
-                "dexterity": 0,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "education": 2
+                "app": 2,
+                "pow": 0,
+                "dex": 0,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "str": 0,
+                "edu": 2
             },
             {
-                "appearance": 0,
-                "power": 0,
-                "dexterity": 2,
-                "size": 0,
-                "constitution": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "education": 2
+                "app": 0,
+                "pow": 0,
+                "dex": 2,
+                "siz": 0,
+                "con": 0,
+                "int": 0,
+                "str": 0,
+                "edu": 2
             }
         ],
         "era": 0,
-        "content": "Spies work for the intelligence community of a political state or organization. They may appear in any form of occupation, from ambassador to kitchen cleaner, in order to obtain the information they require. Some work deep cover for many years, while others change their identity at the drop of a hat. While spies may be posted within their own country, they can more usually be found working aboard.\n\nWhile information gathering and counter intelligence comprise the key work of a spy, other tasks may be per- formed, such as recruiting moles or carrying out state-sanctioned assassinations.",
+        "content": "Spies work for the int community of a political state or organization. They may appear in any form of occupation, from ambassador to kitchen cleaner, in order to obtain the information they require. Some work deep cover for many years, while others change their identity at the drop of a hat. While spies may be posted within their own country, they can more usually be found working aboard.\n\nWhile information gathering and counter int comprise the key work of a spy, other tasks may be per- formed, such as recruiting moles or carrying out state-sanctioned assassinations.",
         "maxcredit": 60,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4501,7 +4116,7 @@
         "skills": [
             "Firearms",
             "Listen",
-            "Language Other",
+            "Other Language",
             "Psychology",
             "Sleight of Hand",
             "Stealth"
@@ -4513,14 +4128,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "education": 2,
-                "constitution": 0,
-                "size": 0,
-                "strength": 0,
-                "power": 0,
-                "appearance": 2,
-                "intelligence": 0,
-                "dexterity": 0
+                "edu": 2,
+                "con": 0,
+                "siz": 0,
+                "str": 0,
+                "pow": 0,
+                "app": 2,
+                "int": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -4528,22 +4143,8 @@
         "maxcredit": 40,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4564,24 +4165,24 @@
         "mincredit": 3,
         "scenarios": [
             {
-                "intelligence": 0,
-                "dexterity": 2,
-                "constitution": 0,
-                "education": 2,
-                "power": 0,
-                "strength": 0,
-                "size": 0,
-                "appearance": 0
+                "int": 0,
+                "dex": 2,
+                "con": 0,
+                "edu": 2,
+                "pow": 0,
+                "str": 0,
+                "siz": 0,
+                "app": 0
             },
             {
-                "intelligence": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "education": 2,
-                "power": 0,
-                "strength": 2,
-                "size": 0,
-                "appearance": 0
+                "int": 0,
+                "dex": 0,
+                "con": 0,
+                "edu": 2,
+                "pow": 0,
+                "str": 2,
+                "siz": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -4590,12 +4191,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -4614,14 +4210,14 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "education": 4,
-                "intelligence": 0,
-                "constitution": 0,
-                "strength": 0,
-                "dexterity": 0,
-                "size": 0,
-                "power": 0,
-                "appearance": 0
+                "edu": 4,
+                "int": 0,
+                "con": 0,
+                "str": 0,
+                "dex": 0,
+                "siz": 0,
+                "pow": 0,
+                "app": 0
             }
         ],
         "era": 0,
@@ -4632,7 +4228,7 @@
                 "count": 1,
                 "selections": [
                     "Language Own",
-                    "Language Other"
+                    "Other Language"
                 ]
             },
             {
@@ -4651,28 +4247,28 @@
         "mincredit": 10,
         "scenarios": [
             {
-                "size": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 2,
-                "power": 0,
-                "education": 2,
-                "dexterity": 0
+                "siz": 0,
+                "int": 0,
+                "con": 0,
+                "app": 0,
+                "str": 2,
+                "pow": 0,
+                "edu": 2,
+                "dex": 0
             },
             {
-                "size": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 0,
-                "power": 0,
-                "education": 2,
-                "dexterity": 2
+                "siz": 0,
+                "int": 0,
+                "con": 0,
+                "app": 0,
+                "str": 0,
+                "pow": 0,
+                "edu": 2,
+                "dex": 2
             }
         ],
         "era": 0,
-        "content": "The film and television industry employs stuntmen and women to simulate falls from buildings, car crashes, and other catastrophes. Stunt performers will usually be trained in fighting techniques and stage combat. There is always risk in the performance of all stunt work, and health and safety is a key element.\n\nIn modern times, stunt performers will largely be members of a union where they have had to prove their creden- tials (such as advanced driver\u2019s license, diver\u2019s license, and so on). All television and film work will be supervised by a stunt director. However in the 1920s, there are no equivalent organizations nor any regulation of the industry. Accidents and fatalities are frequent.",
+        "content": "The film and television industry employs stuntmen and women to simulate falls from Buildings, car crashes, and other catastrophes. Stunt performers will usually be trained in fighting techniques and stage combat. There is always risk in the performance of all stunt work, and health and safety is a key element.\n\nIn modern times, stunt performers will largely be members of a union where they have had to prove their creden- tials (such as advanced driver\u2019s license, diver\u2019s license, and so on). All television and film work will be supervised by a stunt director. However in the 1920s, there are no equivalent organizations nor any regulation of the industry. Accidents and fatalities are frequent.",
         "maxcredit": 50,
         "selections": [
             {
@@ -4707,14 +4303,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "dexterity": 2,
-                "size": 0,
-                "power": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "appearance": 0,
-                "education": 2,
-                "constitution": 0
+                "dex": 2,
+                "siz": 0,
+                "pow": 0,
+                "int": 0,
+                "str": 0,
+                "app": 0,
+                "edu": 2,
+                "con": 0
             }
         ],
         "era": 0,
@@ -4742,28 +4338,28 @@
         "mincredit": 1,
         "scenarios": [
             {
-                "intelligence": 0,
-                "power": 0,
-                "education": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 2,
-                "dexterity": 0,
-                "size": 0
+                "int": 0,
+                "pow": 0,
+                "edu": 2,
+                "con": 0,
+                "app": 0,
+                "str": 2,
+                "dex": 0,
+                "siz": 0
             },
             {
-                "intelligence": 0,
-                "power": 0,
-                "education": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "strength": 0,
-                "dexterity": 2,
-                "size": 0
+                "int": 0,
+                "pow": 0,
+                "edu": 2,
+                "con": 0,
+                "app": 0,
+                "str": 0,
+                "dex": 2,
+                "siz": 0
             }
         ],
         "era": 0,
-        "content": "In the sense of family allegiance, at least, tribalism is ev- erywhere. In a tribe, the primacy of kinship and custom is self-evident. A tribal group is nominally relatively small. In place of a blanket of law and general individual rights, the tribal personality defers to personal honor. Praise, vengeance, gifts, and glory\u2014all must be personal to the tribe member, and if leaders or enemies are to be treated as men of honor, they too must be personally known in some way. The notion of exile has real power in such a setting.",
+        "content": "In the sense of family allegiance, at least, tribalism is ev- erywhere. In a tribe, the primacy of kinship and custom is self-evident. A tribal group is nominally relatively small. In place of a blanket of law and general individual rights, the tribal personality defers to personal honor. Praise, vengeance, gifts, and glory\u2014all must be personal to the tribe member, and if leaders or enemies are to be treated as men of honor, they too must be personally known in some way. The notion of exile has real pow in such a setting.",
         "maxcredit": 15,
         "selections": [
             {
@@ -4790,28 +4386,23 @@
         "mincredit": 20,
         "scenarios": [
             {
-                "constitution": 0,
-                "strength": 0,
-                "size": 0,
-                "intelligence": 0,
-                "education": 4,
-                "power": 0,
-                "dexterity": 0,
-                "appearance": 0
+                "con": 0,
+                "str": 0,
+                "siz": 0,
+                "int": 0,
+                "edu": 4,
+                "pow": 0,
+                "dex": 0,
+                "app": 0
             }
         ],
         "era": 0,
-        "content": "Undertakers, also known as morticians or funeral directors, manage the business of funeral rites. This work includes the burial or cremation of the dead. With burials, the undertaker will perform embalming, as well as dressing, casketing, and cosmetising the appearance of the deceased\n\nUndertakers are licensed by the state. They either own their own funeral parlors or work for someone who does.",
+        "content": "Undertakers, also known as morticians or funeral directors, manage the business of funeral rites. This work includes the burial or cremation of the dead. With burials, the undertaker will perform embalming, as well as dressing, casketing, and cosmetising the app of the deceased\n\nUndertakers are licensed by the state. They either own their own funeral parlors or work for someone who does.",
         "maxcredit": 40,
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm"
-                ]
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -4830,24 +4421,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "size": 0,
-                "appearance": 0,
-                "dexterity": 2,
-                "education": 2,
-                "strength": 0,
-                "intelligence": 0,
-                "power": 0,
-                "constitution": 0
+                "siz": 0,
+                "app": 0,
+                "dex": 2,
+                "edu": 2,
+                "str": 0,
+                "int": 0,
+                "pow": 0,
+                "con": 0
             },
             {
-                "size": 0,
-                "appearance": 0,
-                "dexterity": 0,
-                "education": 2,
-                "strength": 2,
-                "intelligence": 0,
-                "power": 0,
-                "constitution": 0
+                "siz": 0,
+                "app": 0,
+                "dex": 0,
+                "edu": 2,
+                "str": 2,
+                "int": 0,
+                "pow": 0,
+                "con": 0
             }
         ],
         "era": 0,
@@ -4856,12 +4447,7 @@
         "selections": [
             {
                 "count": 1,
-                "selections": [
-                    "Charm",
-                    "Persuade",
-                    "Fast Talk",
-                    "Intimidate"
-                ]
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -4886,14 +4472,14 @@
         "mincredit": 5,
         "scenarios": [
             {
-                "size": 0,
-                "constitution": 0,
-                "dexterity": 0,
-                "power": 0,
-                "strength": 0,
-                "intelligence": 0,
-                "appearance": 0,
-                "education": 4
+                "siz": 0,
+                "con": 0,
+                "dex": 0,
+                "pow": 0,
+                "str": 0,
+                "int": 0,
+                "app": 0,
+                "edu": 4
             }
         ],
         "era": 0,
@@ -4901,22 +4487,8 @@
         "maxcredit": 30,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             }
         ],
         "skills": [
@@ -4934,28 +4506,28 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "power": 0,
-                "strength": 0,
-                "size": 0,
-                "dexterity": 2,
-                "constitution": 0,
-                "appearance": 0,
-                "education": 2,
-                "intelligence": 0
+                "pow": 0,
+                "str": 0,
+                "siz": 0,
+                "dex": 2,
+                "con": 0,
+                "app": 0,
+                "edu": 2,
+                "int": 0
             },
             {
-                "power": 0,
-                "strength": 2,
-                "size": 0,
-                "dexterity": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "education": 2,
-                "intelligence": 0
+                "pow": 0,
+                "str": 2,
+                "siz": 0,
+                "dex": 0,
+                "con": 0,
+                "app": 0,
+                "edu": 2,
+                "int": 0
             }
         ],
         "era": 0,
-        "content": "Laborers include factory workers, mill hands, stevedores, road crews, miners, construction, and so on. Laborers fall into two camps: skilled and unskilled. While technically unskilled, the average laborer is often an expert in the use of power tools, lifting gear, and other equipment to be found on site.",
+        "content": "Laborers include factory workers, mill hands, stevedores, road crews, miners, construction, and so on. Laborers fall into two camps: skilled and unskilled. While technically unskilled, the average laborer is often an expert in the use of pow tools, lifting gear, and other equipment to be found on site.",
         "maxcredit": 30,
         "selections": [
             {
@@ -4979,24 +4551,24 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "dexterity": 0,
-                "intelligence": 0,
-                "constitution": 0,
-                "appearance": 2,
-                "size": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0
+                "dex": 0,
+                "int": 0,
+                "con": 0,
+                "app": 2,
+                "siz": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0
             },
             {
-                "dexterity": 2,
-                "intelligence": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "size": 0,
-                "strength": 0,
-                "education": 2,
-                "power": 0
+                "dex": 2,
+                "int": 0,
+                "con": 0,
+                "app": 0,
+                "siz": 0,
+                "str": 0,
+                "edu": 2,
+                "pow": 0
             }
         ],
         "era": 0,
@@ -5004,22 +4576,8 @@
         "maxcredit": 20,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Charm",
-                    "Intimidate"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 1,
@@ -5040,24 +4598,24 @@
         "mincredit": 1,
         "scenarios": [
             {
-                "size": 0,
-                "power": 2,
-                "intelligence": 0,
-                "strength": 0,
-                "appearance": 0,
-                "education": 2,
-                "constitution": 0,
-                "dexterity": 0
+                "siz": 0,
+                "pow": 2,
+                "int": 0,
+                "str": 0,
+                "app": 0,
+                "edu": 2,
+                "con": 0,
+                "dex": 0
             },
             {
-                "size": 0,
-                "power": 0,
-                "intelligence": 0,
-                "strength": 0,
-                "appearance": 2,
-                "education": 2,
-                "constitution": 0,
-                "dexterity": 0
+                "siz": 0,
+                "pow": 0,
+                "int": 0,
+                "str": 0,
+                "app": 2,
+                "edu": 2,
+                "con": 0,
+                "dex": 0
             }
         ],
         "era": 0,
@@ -5065,22 +4623,8 @@
         "maxcredit": 30,
         "selections": [
             {
-                "count": 1,
-                "selections": [
-                    "Persuade",
-                    "Fast Talk",
-                    "Intimidate",
-                    "Charm"
-                ]
-            },
-            {
-                "count": 1,
-                "selections": [
-                    "Intimidate",
-                    "Charm",
-                    "Fast Talk",
-                    "Persuade"
-                ]
+                "count": 2,
+                "group": "interpersonal"
             },
             {
                 "count": 3,
@@ -5099,14 +4643,14 @@
         "mincredit": 9,
         "scenarios": [
             {
-                "dexterity": 0,
-                "size": 0,
-                "strength": 0,
-                "constitution": 0,
-                "appearance": 0,
-                "power": 0,
-                "intelligence": 0,
-                "education": 4
+                "dex": 0,
+                "siz": 0,
+                "str": 0,
+                "con": 0,
+                "app": 0,
+                "pow": 0,
+                "int": 0,
+                "edu": 4
             }
         ],
         "era": 0,
