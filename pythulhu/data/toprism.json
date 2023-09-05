@@ -1,0 +1,655 @@
+{
+    "strangeEncounters": "",
+    "build": 0,
+    "currentMagicPoints": 8,
+    "treasuredPossessions": "His Blue Infantry Cord ",
+    "isDying": false,
+    "occupation": {
+        "name": "Military Officer",
+        "customOccupation": {
+            "highCreditRating": 70,
+            "skillSelections": [
+                {
+                    "free": {
+                        "isCustom": false,
+                        "base": 0,
+                        "specialty": "",
+                        "name": "First Aid",
+                        "isSelected": false,
+                        "additionalNotes": ""
+                    }
+                },
+                {
+                    "numSelect": 1,
+                    "selections": [
+                        {
+                            "base": 0,
+                            "isCustom": false,
+                            "additionalNotes": "",
+                            "name": "Fast Talk",
+                            "specialty": "",
+                            "isSelected": false
+                        },
+                        {
+                            "base": 0,
+                            "isCustom": false,
+                            "additionalNotes": "",
+                            "name": "Intimidate",
+                            "specialty": "",
+                            "isSelected": false
+                        },
+                        {
+                            "base": 0,
+                            "isCustom": false,
+                            "additionalNotes": "",
+                            "name": "Persuade",
+                            "specialty": "",
+                            "isSelected": false
+                        },
+                        {
+                            "base": 0,
+                            "isCustom": false,
+                            "additionalNotes": "",
+                            "name": "Charm",
+                            "specialty": "",
+                            "isSelected": false
+                        }
+                    ]
+                },
+                {
+                    "free": {
+                        "base": 0,
+                        "isCustom": false,
+                        "additionalNotes": "",
+                        "name": "Navigate",
+                        "specialty": "",
+                        "isSelected": false
+                    }
+                },
+                {
+                    "free": {
+                        "base": 0,
+                        "isCustom": false,
+                        "additionalNotes": "",
+                        "name": "Firearms",
+                        "specialty": "",
+                        "isSelected": false
+                    }
+                },
+                {
+                    "free": {
+                        "base": 0,
+                        "isCustom": false,
+                        "additionalNotes": "",
+                        "name": "Accounting",
+                        "specialty": "",
+                        "isSelected": false
+                    }
+                },
+                {
+                    "numSelect": 1,
+                    "selections": []
+                },
+                {
+                    "numSelect": 1,
+                    "selections": [
+                        {
+                            "isCustom": false,
+                            "isSelected": false,
+                            "base": 0,
+                            "specialty": "",
+                            "name": "Fast Talk",
+                            "additionalNotes": ""
+                        },
+                        {
+                            "isCustom": false,
+                            "isSelected": false,
+                            "base": 0,
+                            "specialty": "",
+                            "name": "Charm",
+                            "additionalNotes": ""
+                        },
+                        {
+                            "isCustom": false,
+                            "isSelected": false,
+                            "base": 0,
+                            "specialty": "",
+                            "name": "Persuade",
+                            "additionalNotes": ""
+                        },
+                        {
+                            "isCustom": false,
+                            "isSelected": false,
+                            "base": 0,
+                            "specialty": "",
+                            "name": "Intimidate",
+                            "additionalNotes": ""
+                        }
+                    ]
+                },
+                {
+                    "free": {
+                        "isCustom": false,
+                        "isSelected": false,
+                        "base": 0,
+                        "specialty": "",
+                        "name": "Psychology",
+                        "additionalNotes": ""
+                    }
+                }
+            ],
+            "lowCreditRating": 20,
+            "contacts": "Military, federal government.",
+            "name": "Military Officer",
+            "era": 0,
+            "skillPointScenarios": [
+                {
+                    "dexterity": 2,
+                    "size": 0,
+                    "power": 0,
+                    "strength": 0,
+                    "appearance": 0,
+                    "education": 2,
+                    "constitution": 0,
+                    "intelligence": 0
+                },
+                {
+                    "dexterity": 0,
+                    "size": 0,
+                    "power": 0,
+                    "strength": 2,
+                    "appearance": 0,
+                    "education": 2,
+                    "constitution": 0,
+                    "intelligence": 0
+                }
+            ],
+            "content": "Officers are command rank and most commissions demand some form of higher education. All armed services have es- tablished officer training programs that may include univer- sity education\u2014in the U.S., most major universities provide cadet training programs, allowing simultaneous training for the military while attending school. Upon graduation the cadet is promoted to the rank of Army or Marine Second Lieutenant or Naval Ensign, and assigned to a station\n\nUsually such recruits owe the Government four years\u2019 active service, after which time they may return to civilian life. Many of the officers trained this way hold professional commissions and serve as doctors, lawyers, or engineers.\n\nThose looking for a career in the military may try to get themselves appointed to one of the military academies: the U.S. Army\u2019s West Point or the Navy\u2019s Annapolis, for exam- ple. Graduating from one of these schools earns the officer respect. Once out of school, some officers opt for special training, such as air pilot.\n\nOccasionally, an experienced and exceptionally worthy enlisted person is promoted to Warrant Officer. Although technically at the bottom of the officers\u2019 list of ranks, the time and experience required to achieve this promotion car- ries a respect and reverence far exceeding that of any junior or middle-grade officer. Most commissions are for life. Even a long-retired officer has the right to call himself Captain or General."
+        },
+        "isCustom": true
+    },
+    "currentSanity": 40,
+    "gearPossessions": "",
+    "isUnconscious": false,
+    "playerName": "None",
+    "journalEntires": [],
+    "color": 3,
+    "damageBonusNumber": 0,
+    "name": "Captain Jonathan Miller",
+    "ideologyBeliefs": "Scientists aren\u2019t to be trusted. Military confirmation is essential to your belief in a thing, and as you are capable of such denial as previously mentioned, it\u2019s unlikely that any accounts of such advanced lifeforms will be believed.\n\nNevertheless, the safety of all those under your authority, both military and civilians is of the utmost importance. To keep the flock from stringing, you will ensure that every scientific team will be escorted by at least a squad of soldiers. ",
+    "movement": 9,
+    "maxHitpoints": 10,
+    "significantPeople": "The President of the United States",
+    "spells": [],
+    "weapons": [
+        {
+            "type": 0,
+            "stun": false,
+            "range": "",
+            "name": "Unarmed",
+            "skill": "Fighting (Brawl)",
+            "malfunction": -32768,
+            "base": 25,
+            "damage": "1D3 + DB",
+            "additionalNotes": "",
+            "ammo": -32768,
+            "burn": false,
+            "attacks": 1,
+            "damageRolls": [
+                {
+                    "dice": [
+                        {
+                            "type": 3,
+                            "num": 1,
+                            "base": 0
+                        }
+                    ],
+                    "burn": false,
+                    "strBonusMultiplier": 0,
+                    "stun": false,
+                    "damageBonus": true,
+                    "damageBonusMultiplier": 1,
+                    "str": false
+                }
+            ],
+            "qty": 0
+        }
+    ],
+    "personalDescription": "",
+    "dodge": 40,
+    "age": 36,
+    "phobiasManias": "",
+    "stats": {
+        "dexterity": 80,
+        "size": 50,
+        "power": 40,
+        "strength": 60,
+        "appearance": 60,
+        "education": 75,
+        "constitution": 50,
+        "intelligence": 50
+    },
+    "isTemporarilyInsane": false,
+    "luck": 45,
+    "isIndefinitelyInsane": false,
+    "currentHitpoints": 10,
+    "skills": [
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 15,
+            "specialty": "",
+            "name": "Accounting",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Anthropology",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Appraise",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Archaeology",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Art/Craft",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Artillery",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 15,
+            "specialty": "",
+            "name": "Charm",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 50,
+            "specialty": "",
+            "name": "Climb",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 30,
+            "specialty": "",
+            "name": "Credit Rating",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 0,
+            "specialty": "",
+            "name": "Cthulhu Mythos",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Demolitions",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Disguise",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 40,
+            "specialty": "",
+            "name": "Dodge",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "",
+            "name": "Drive Auto",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 10,
+            "specialty": "",
+            "name": "Electric Repair",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Fast Talk",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 35,
+            "specialty": "",
+            "name": "Fighting",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 25,
+            "specialty": "Brawl",
+            "name": "Fighting (Brawl)",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 76,
+            "specialty": "",
+            "name": "Firearms",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "Handgun",
+            "name": "Firearms (Handgun)",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 25,
+            "specialty": "Rifle/Shotgun",
+            "name": "Firearms (Rifle/Shotgun)",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 45,
+            "specialty": "",
+            "name": "First Aid",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "History",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 70,
+            "specialty": "",
+            "name": "Intimidate",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "",
+            "name": "Jump",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Language Other",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 75,
+            "specialty": "",
+            "name": "Language Own",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Law",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "",
+            "name": "Library Use",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "",
+            "name": "Listen",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Locksmith",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 10,
+            "specialty": "",
+            "name": "Mechanical Repair",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Medicine",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 10,
+            "specialty": "",
+            "name": "Natural World",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 46,
+            "specialty": "",
+            "name": "Navigate",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Occult",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Op. Hv. Machine",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 30,
+            "specialty": "",
+            "name": "Persuade",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Pilot",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Psychoanalysis",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 29,
+            "specialty": "",
+            "name": "Psychology",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 5,
+            "specialty": "",
+            "name": "Ride",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 1,
+            "specialty": "",
+            "name": "Science",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 10,
+            "specialty": "",
+            "name": "Sleight of Hand",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 25,
+            "specialty": "",
+            "name": "Spot Hidden",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 69,
+            "specialty": "",
+            "name": "Stealth",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 25,
+            "specialty": "",
+            "name": "Survival",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 40,
+            "specialty": "",
+            "name": "Swim",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 20,
+            "specialty": "",
+            "name": "Throw",
+            "additionalNotes": ""
+        },
+        {
+            "isCustom": false,
+            "isSelected": false,
+            "base": 10,
+            "specialty": "",
+            "name": "Track",
+            "additionalNotes": ""
+        }
+    ],
+    "maxMagicPoints": 8,
+    "cash": "$60",
+    "assets": "$1500",
+    "damageBonus": "",
+    "meaningfulLocations": "Ft Benning, Georgia - Home of the Army Rangers",
+    "spendingLevel": "$10",
+    "startSanity": 40,
+    "items": [],
+    "sex": "",
+    "maxSanity": 40,
+    "hasMajorWound": false,
+    "birthplace": "",
+    "residence": "",
+    "injuriesScars": "",
+    "traits": "Dedicated\nLoyal",
+    "era": 2,
+    "arcaneTomesSpellsArtifacts": ""
+}
