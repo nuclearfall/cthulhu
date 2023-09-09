@@ -1,0 +1,326 @@
+
+// I. Is it a combat roll?
+//   A. 
+//		1.
+// 			a.
+// 				i.
+// II. is it pushable?
+//	A.	Yes
+// 		1. 
+// III. Is it a static roll?
+// 	A. Yes. 
+//
+// Roll Types are ["luck", "sanity", "sanity_loss", "damage", 
+// 		"combat", "opposed", "combined", "skill", "characteristic"]
+// edgecase skills (Credit Rating and Cthulhu Mythos are eliminated by many criteria)
+// 1. Is it d100?
+// 	a. no eliminates 2: ["damage", "sanity_loss"]
+// 2. Is it pushable?
+// 	a. no eliminates 5: ["luck", "sanity", "sanity_loss", "damage", "combat"]
+// 3. Is it opposed?
+// 	a. no elminates everything but opposed skill rolls
+// 4. Is it checkable? 
+// 	a. eliminates: ["skill", "combined", "opposed", "pushed"]
+// 
+// The majority of rolls will be skill/characteristic roll
+// A very small portion of those will 
+// Then combat rolls
+// Primary opposed rolls: Combat rolls and skill rolls
+// Primary outliers are: ["luck", "sanity", "sanity_loss", "damage", 
+// 		"Cthulhu Mythos", "Credit Rating", and "combat"]
+
+{
+	"dice": {
+		"name": "ndx",
+		"quantity": 1,
+		"faces": 100,
+		"min": -1,
+		"step": 1,
+		"modifier": 0,
+		"is_custom": false
+	},
+},
+{
+	// "types": ["skill", "combined", "opposed", "pushed", "luck", "sanity", "sanity_loss", 
+	// 		"credit", "mythos"],
+	"flag exclusion": {
+		"is_checkable": 
+		[
+			"Credit Rating", 
+			"Cthulhu Mythos", 
+			"sanity_loss",
+			"damage",
+			"luck"
+		],
+		"is_pushable": 
+		[
+			"combat",
+			"luck",
+			"sanity_loss",
+			"damage",
+			"sanity"
+		],
+		"is_d100": 
+		[
+			"sanity_loss",
+			"damage",
+		],
+		"is_noncombat":
+		[
+			"damage",
+			"combat"
+		],
+		"is_d100":
+		[
+			"damage",
+			"sanity_loss"
+		]
+	}
+},
+
+"participants": [] or obj
+(if multiple partcipants, each recieves thier own data, let another function determine whether a tie breaker is necessayr and then send value/roll data for that function seperatley
+
+"success_level": all d100 rolls are based on success/fail criteria. Return only this value to each particpant.
+"value": (if there is a value other than -1 it isn't a success driven roll
+"bonus":
+"penalty":
+
+// further skills shouldn't be sent as part of a list to the primary skill function. It's only job is to take and return (obj, success rate) to caller
+"dice_type": 
+
+
+			{
+				"bonus": 0,
+				"penalty": 0,
+				"modifier": 0,
+				"value": 0,
+				"is_opposed": {
+					"is_pushable": {
+						"is_skill": {
+							"rolltype": "skill",
+						},
+						"isnt_skill": 
+						{
+							"rolltype": "characteristic",
+							"name": "",
+							"value": 0,
+						}
+					"isnt_pushable": {
+						"type": "combat",
+							"is_skill": {
+								"rolltype": "skill",
+								"name": "",
+							},
+							"isnt_skill": 
+							{
+								"rolltype": "characteristic",
+								"name": "",
+								"value": 0,
+							}
+					}
+				"is_checkable": true,
+			"reference": ["base"],
+			"exclude": ["luck", "damage", "sanity_loss", "san"]	
+		},
+		{
+			"is_d100": true,
+			"is_opposed": true,
+			"is_pushable": false,
+			"is_checkable": true,
+			"reference": ["combat"]
+		},
+		{
+			"is_d100": false,
+			"is_opposed": false,
+			"is_pushable": false,
+			"reference": ["damage", "sanity_loss"]
+		},
+		{
+			"is_d100": false,
+			"is_opposed": false,
+			"is_pushable": false,
+			"reference": ["damage", "sanity_loss"]
+		},
+
+	],
+
+	"base":
+		{
+			"name": "skill",
+			"skill/char": "",			
+			"die": "d100",
+			"count": 1,
+			"modifier": 0,
+			"penalty": 0,
+			"bonus": 0,
+			"result": -1,
+			"success_level": "",
+			"is_pushable": true,
+			"is_opposed": false,
+			"skill_difficulty": null,
+
+			"dice": "d100",
+			"count": 1,
+			"modifier": 0,
+			"penalty": 0,
+			"bonus": 0,
+			"result": -1,
+			"success_levels":
+			[
+				"crit",
+				"extreme",
+				"hard",
+				"regular",
+				"fail",
+				"fumble"
+			],
+		},
+		{
+			"combat": {
+				"is_opposed": true,
+				"tie_break": true,
+				"roll_off": true,
+				"is_pushable": false,
+				"rolls": {
+					"opponent": {
+					"type": "being skill roll"
+					"name": "opponent",
+					"object": null,
+					"skill": "",
+					"characteristic": "",
+					"die": "d100",
+					"count": 1,
+					"modifier": 0,
+					"penalty": 0,
+					"bonus": 0,
+					"result": -1,
+					"success_level": "",
+					"is_pushable": true,
+					"is_opposed": true,
+					"is_setdifficulty": false,
+					"is_d100": true,
+					"dice": "d100",
+					"count": 1,
+					"modifier": 0,
+					"penalty": 0,
+					"bonus": 0,
+					"result": -1,
+					"success_levels": 
+					[
+						"crit",
+						"extreme",
+						"hard",
+						"regular",
+						"fail",
+						"fumble"
+					],
+			}
+			},
+		"opposition combat":
+			{
+				"name": "combined",
+				"object": null,
+				"skill": "",
+				"characteristic": "",
+				"die": "d100",
+				"count": 1,
+				"modifier": 0,
+				"penalty": 0,
+				"bonus": 0,
+				"result": -1,
+				"success_level": "",
+				"is_combined": true,
+				"is_pushable": true,
+				"is_opposed": true,
+				"is_setdifficulty": false,
+				"is_d100": true,
+				"count": 1,
+				"modifier": 0,
+				"penalty": 0,
+				"bonus": 0,
+				"result": -1,
+				"success_levels": 
+				[
+					"crit",
+					"extreme",
+					"hard",
+					"regular",
+					"fail",
+					"fumble"
+				],
+		}
+	},
+	"pushed": 
+	{
+		"include": 
+		[
+			"skill",
+			"characteristic"
+		],
+		"exclude": 
+		[
+			"combat",
+			"damage",
+			"luck",
+			"sanity",
+			"sanity_loss"
+			"opposed"
+		]
+	},
+	"luck":
+	{
+		"name": "luck",
+		"die": "d100",
+		"count": 1,
+		"modifier": 0,
+		"penalty": 0,
+		"bonus": 0,
+		"result": -1,
+		"success_level": 
+		{
+			"crit": false,
+			"extreme": false,
+			"hard": false,
+			"regular": false,
+			"fail": false,
+			"fumble": false
+		},
+		"is_pushable": false
+	},
+	"sanity": 
+	{
+		"name": "luck",
+		"die": "d100",
+		"count": 1,
+		"modifier": 0,
+		"penalty": 0,
+		"bonus": 0,
+		"result": -1,
+		"success_level": 
+		{
+			"crit": false,
+			"extreme": false,
+			"hard": false,
+			"regular": false,
+			"fail": false,
+			"fumble": false
+		},
+		"is_pushable": false,
+		""
+	},
+	"sanity_loss":
+	{
+		"is_d100": true,
+		"die": "udn",
+		"is_pushable": false
+	},
+	"damage": 
+	{
+		"is_d100": true,
+		"die": "udn",
+		"is_pushable": false
+	},
+}
+
+

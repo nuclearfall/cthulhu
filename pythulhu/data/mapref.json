@@ -1,0 +1,70 @@
+{
+	"scene0": 
+	{
+		"key": 0,
+		"name": "This room",
+		"enter_from": 
+		[
+			"scene1"
+		],
+		"leave_to": 
+		[
+			"scene1"
+		],
+		"subscenes": {
+			"0_0":
+			{
+				"key": 0,
+				"name": "This sub location",
+				"enter_from": 
+				[
+					"scene1"
+				],
+				"leave_to": 
+				[
+					"scene1"
+					],		
+			}
+		}
+	},
+	"scene1": {
+		"key": 1,
+		"name": "That room",
+		"enter_from": 
+		[
+			"scene0",
+			"scene2"
+		],
+		"leave_to": 
+		[
+			"scene0",
+			"scene2"
+		]
+	},
+	"2": {
+		"key": 2,
+		"name": "That room",
+		"enter_from": 
+		[
+			"scene1"
+		],
+		"leave_to": 
+		[
+			"scene3"
+		]
+	},
+	"3": {
+		"key": 3,
+		"room": "That room",
+		"enter_from": 
+		[
+			"3"
+			"1_1"
+		],
+		"leave_to": 
+		[
+			"3"
+		]
+	}	
+
+}
