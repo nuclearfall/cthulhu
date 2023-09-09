@@ -2,16 +2,18 @@ import json
 import random
 import fillpdf
 import refs
+from refs import *
 from pprint import pprint
 from fillpdf import fillpdfs
-import .skills as skl
-import .occupations as occ
-import .character.character
-from .occupations import Occupation
-from .skills import is_group, members, getslots
-from .refs import genref, occref, skillref, topdftemp, svalget
+import skills as skl
+import occupations as occ
+import character
+from occupations import Occupation
+from skills import getslots, is_parent, children, getskval
+# from refs import genref, occref, skillref, topdftemp, svalget
 from functools import reduce
 from pathlib import Path
+from copy import deepcopy
 random.seed()
 
 _primary = ["pow", "str", "con", "dex", "app", "siz", "edu", "int"]
@@ -25,14 +27,13 @@ def validate_input(data, typeof=[dict, tuple, list], fn=None, error=""):
 		raise ValueError(error)
 
 class CharacterGen:
-	def __init__(self, name, occupation="", language="English",
+	def __init__(self, inv, name, language="English",
 				age_adjustment=None, occ_skill_choices=[], era=0,
 				presets=None, pdf=None, **kwargs):
 		self.is_age_adjusted = False
 		self.era = era
 		self.name = name
 		self.age = kwargs.get("age", None)
-		self.occname = occupation
 		self.language = language
 		self.skills = {}
 		if presets:
@@ -40,6 +41,10 @@ class CharacterGen:
 				if key in topdftemp.values():
 					setattr(self.character, key, preval)
 					self.age_adjusted = True
+		self.occ_skillpoints = 0
+		self.skillpoints = 0
+		self.character = None
+		self.skills = {}
 
 	def approve(self, method, appflag=True, step=0):
 		step_method = self.mget(step)
@@ -83,7 +88,7 @@ class CharacterGen:
 		return None
 
 	def set_wealth(self, wealth_key=""):
-		credit = svalget(self, "Credit Rating")
+		credit = attrget(self, "skills", "Credit Rating", "value")
 		wealth_ref = genref.get("Wealth")
 		wealthrng = [list(map(int, w.split("-"))) for w in wealth_ref]
 		for w in wealth_ref:
@@ -152,60 +157,53 @@ class CharacterGen:
 			self.character.mov = 7
 		return True
 
-# ensure player has submitted all necessary decisions or decided 
-	# on random_skills decision making for choices:
-	def set_skillpoints(self, best=0):
-		chars = self.chars
-		for scenario in self.selections:
-			total = 0
-			for key, val in scenario.items():
-				total += chars.get(key) * val
-				if total > best:
-					best = total
-		return best
-
 	def generate_random(self, **kwargs):
-		self.selections = rget(occref, self.occname, "selections")
-		self.character = character.Investigator(name=self.name 
-				occupation=self.occname, language=kwargs.get("language"), **kwargs)
+		self.occ_skillpoints = 0
+		self.skillpoints = 0
+		self.character = None
+		self.skills = {}
+		self.character = character.Investigator(name=self.name,
+				language=kwargs.get("language"), **kwargs)
 		self.language = kwargs.get("language", "English")
 		chars = self.rollchars()
 		for char, roll in chars.items():
-			setattr(self.character, char, roll)	
-		self.occupation = Occupation(self, self.occname)		
+			setattr(self.character, char, roll)
+		# set occupation, skillpoints if occupation isn't set, then set randomly
+		self.set_occ(kwargs.get("occupation", None), mincredit=kwargs.get("mincredit", True))	
 		self.age = self.random_age()
 		self.set_age_reference()
 		self.age_adjust()
 		self.is_age_adjusted = True
 		self.set_secondary_chars()
-		self.occ_skillpoints = self.set_skillpoints()
-		self.pi_skillpoints = self.character.int * 2
-		self.set_occ(occname, mincredit=kwargs.get("mincredit", True))
 		self.random_set_skills()
 		self.character.skills = self.skills
 		self.set_wealth()
 		self.character.dodge = self.skills.get("Dodge")
+
 		return self.character
 
 
 	def generate(self, **kwargs):
-		if kwargs.get("random_age"):
-			return self.generate_random()
+		self.occ_skillpoints = 0
+		self.skillpoints = 0
+		self.character = None
+		self.skills = {}
+		if kwargs.get("random"):
+			return self.generate_random(**kwargs)
 		self.language = kwargs.get("language", "English")
 		self.character = character.Investigator(name=self.name, age=self.age, 
-				occupation=self.occname, language=kwargs.get("language"), **kwargs)
+				language=kwargs.get("language"), **kwargs)
 		self.rollchars()
 		self.age = kwargs.get("age", self.age)
 		self.age_adjust(kwargs.get("age_adjustments"))
 		self.set_secondary_chars()
-		# set occupation, occ_skillpoints
-		self.occ_set(kwargs.get("occupation"))
-		self.pi_skillpoints = self.character.int * 2
+		# set occupation, skillpoints
+		self.set_occ(kwargs.get("occupation", self.occname))
 		# allow players to revisit with skill selections.
 		if kwargs.get("skill_selection", None) or kwargs.get("random_skills"):
 			# skill selection should either be a dict of skill:value pairs or
 			# "random_skills=True
-			self.occ_skillpoints = self.set_skillpoints()
+			self.skillpoints = self.character.int * 2
 			self.set_skills(choices=kwargs.get("skill_selections", None))
 			self.set_wealth()
 			self.character.skills = self.skills
@@ -214,26 +212,28 @@ class CharacterGen:
 		else:
 			return None
 
-	def set_occ(self, occname=None, mincredit=True, custom=False):
+	def set_occ(self, occname=None, custom=False, mincredit=True, occmin=0):
 		if occref.get(occname):
 			self.occname = occname
+			self.character.occupation = occname
 		else:
-			self.occname = random.choice([occ for occ in occref])
-			occmin = 0
-		if mincredit:
-			occmin = rget(occref, occname, "mincredit")
-		self.occupation = Occupation(self, kwargs.get("occupation"))
-		self.occ_skillpoints -= occmin
+			self.occname = occname = random.choice([occ for occ in occref if occref[occ].get("era") == self.era])
+			self.character.occupation = occname
+		
+		occmin = 0 if not mincredit else rget(occref, occname, "mincredit")
+		self.occ_skillpoints = self.set_occskillpoints(occname)
 		self.init_skill("Credit Rating", value=occmin)
-		return 
 
-	def set_skillpoints(self, occname, total=0, best=0):
-		chars = self.character.getchars()
+	def set_occskillpoints(self, occname):
+		scenarios = []
+
 		for scenario in rget(occref, occname, "scenarios"):
+			scenario_vals = []
 			for key, val in scenario.items():
-				total += self.character.getchars(). * val
-				best = total if total > best else best
-		return best
+				scenario_vals.append(self.chars.get(key) * val)
+			scenarios.append(sum(scenario_vals))
+
+		return max(scenarios)
 
 	def init_skill(self, key:str, value=0, pdfslot=None, max_skill=99,
 				keys=["name", "parent", "value", "pdfslot", "checked", "custom"]):
@@ -243,79 +243,123 @@ class CharacterGen:
 		if value + start_val > max_skill:
 			raise ValueError(f"Assignment exceed maximum for {key}: {value} and {start_val}")
 		self.skills[key]["value"] += value
-		return self.skills
 
 	def expand_choices(self, selection, acc=[], index=0):
-		if index == len(selection) - 1:
-			return acc 
-		elif is_group(selection[index]):
-			acc += members(selection[index])
-			self.expand_choices(selection, acc, index+1)
+		if is_group(item):
+			acc = acc + [m for m in members(item) if m not in acc]
+		elif is_parent(item):
+			acc = acc + [c for c in children(item) if c not in acc]
 		else:
-			acc.append(selection[index])
-			self.expand_choices(selection, acc, index+1)
+			acc = acc + [item] if item not in acc else acc
+		return acc
 
-	def sample(self, total, constraints):
-		import numpy as np
-		constraints = np.array(constraints)
-		rng = np.random.default_rng()
-		samples = rng.multinomial(total, constraints / constraints.sum(), size=1).tolist()
-		return samples[0]
-		#(val for val in samples if np.all(val.any() < constraints.all()))
+	def constrained_sum(self, n, total):
+		dividers = sorted(random.sample(range(1, total), n - 1))
+		return [a - b for a, b in zip(dividers + [total], [0] + dividers)]
 
-	def constrained_pos_sum(self, n, total):
-		constraints = [random.randrange(20, 50) for i in range(n)]
-		samples = self.sample(total, constraints)
-		return samples
+	# def safe_constrained(self, n, total, initvals, maxper=75, remains=None):
+	# 	vals = self.constrained_sum(n, total)
+	# 	remains = sum([sum(x)-maxper for x in zip(initvals, vals) if sum(x) > maxper])
+	# 	index = 0
+	# 	while remains > 0:
+	# 		vals = self.constrained_sum(n, total)
+	# 		remains = sum([sum(x)-maxper for x in zip(initvals, vals) if sum(x) > maxper])
+	# 		index += 1
+	# 		if index > 20:
+	# 			break
+	# 	if remains > 0:
+	# 		return None
+	# 	else:
+	# 		return vals
 
-	def skills_from_selections(self, choices=[], selections=None, has_groups=True):
-		skillref = getref("skills")
+	def skills_from_selections(self, selections):
+		choices = []
 		for selection in selections:
-			if selection == ["any"]:
-				any_skill = [skill for skill in skillref.keys() if skill not in choices]
-				choices.append(random.choice(any_skill))
-			elif has_groups() is True:
-				choices.append(random.choice(self.expand_choices(selection, choices)))
-			if random is True:
-				choices.append(random.choice([s for s in skill_choices if s not in choices]))
-		return choices
+			if selection == ["All"]:
+				choices.append(random.choice(skl.chargen()))
+			else:
+				choices.append(random.choice(selection))
+		return self.specialize(choices)
 
-	def random_set_skills(self):
-		skills = {} 
-		occ_skills = self.skills_from_selections(selections=self.selections) + refs.jsonref("occref").get(self.occname).get("skills")
-		rand_occ_assign = self.constrained_pos_sum(8, self.occ_skillpoints)
-		occs = list(zip(occ_skills, rand_occ_assign))
-		occ_assigns = {"Occupation": dict(tuple(zip(occ_skills, rand_occ_assign)))}
-		pi_selections = [["any"] for i in range(8)]
-		#pi_selections = self.skills_from_selections().get("Personal Interest")
-		pi_skills = self.skills_from_selections(selections=pi_selections)
-		rand_pi_assign = self.constrained_pos_sum(8, self.pi_skillpoints)
-		pi_assigns = {"Personal Interest": dict(tuple(zip(pi_skills, rand_pi_assign)))}
-		for key, value in occ_assigns.get("Occupation").items():
-			self.init_skill(key, value)
-		for key, value in pi_assigns.get("Personal Interest").items():
-			self.init_skill(key, value)
-		return True
+	def specialize(self, choices):
+		specialized = []
+		for choice in choices:
+			if skl.is_parent(choice):
+				options = skl.children(choice)
+				specialized.append(random.choice(options))
+			else:
+				specialized.append(choice)
+		return specialized
+	# check skills before looking up initial value
+	def get_skillval(self, name):
+		try:
+			return self.skills.get(name).get("value") if self.skills.get(name) else rget(skillref, name, "value")
+		except:
+			raise KeyError(f"{name} isn't init'ed or isn't in skill reference.")
+
+	def reallocate(self, overflow, inits, vals, maxper=75):
+		index = 0
+		temp_vals = []
+		while overflow > 0 or index < len(vals):
+			print("am i stuck?")
+			ival = inits[index]
+			val = vals[index]
+			total = ival+val
+			cantake = maxper - total 
+			print("can take", cantake)
+			if cantake > 0:
+				if cantake > overflow:
+					val += overflow
+					overflow = 0
+				else:
+					val += cantake
+					overflow -= cantake
+			temp_vals.append(val)
+			index += 1
+		return temp_vals
+
+	def safeinit_random_skills(self, skill_list, skillpoints, maxper=75):
+		skill_count = len(skill_list)
+		init_values = [self.get_skillval(s) for s in skill_list]
+		skill_values = self.constrained_sum(len(init_values), skillpoints)
+		# its possible allocation results in values > maxper:
+		overflow = sum([sum(x)-maxper-x[0] for x in zip(init_values, skill_values) if sum(x) > maxper])
+		if overflow > 0:
+			print(overflow)
+			skill_values = self.reallocate(overflow, init_values, skill_values, maxper)
+		[self.init_skill(s, value=v) for s, v in zip(skill_list, skill_values)]
+
+	def random_set_skills(self, exclude=["Cthulhu Mythos"], maxper=75):
+		self.edgecases()
+		occ_skills = rget(occref, self.occname, "skills") + ["Credit Rating"]
+		occ_skills += self.skills_from_selections(rget(occref, self.occname, "selections"))
+
+		skillpoints = int(self.character.int * 2)
+		pi_skills = [random.choice([k for k in skillref.keys(
+				) if k not in self.skills and k not in exclude]) for i in range(int(skillpoints / 15))]
+		self.safeinit_random_skills(pi_skills, skillpoints)
+		pprint([(k,v.get("value")) for k, v in self.skills.items()])
+
+		return None
 
 	# Check for malformed data here:
 	def set_skills(self, choices):
 		occ_choices = choices.get("Occupation")
 		pi_choices = choices.get("Personal Interest")
 		if not choices:
-			return f"{self.occ_skillpoints} occupation skill points and {self.pi_skillpoints} personal interest skillpoints remain to assign."
+			return f"{self.skillpoints} occupation skill points and {self.skillpoints} personal interest skillpoints remain to assign."
 		if not self.skills:
-			for key in self.skills:
-			[self.init_skill(key) for key in occref.get("skills")
+			[self.init_skill(key) for key in occref.get("skills")]
 		# Step through and wait for all skill decisions to be made before moving on.
 		if occ_choices:
-			self.occ_skills = self.from_selections(occ_choices, "occ_skillpoints")
-			if self.occ_skillpoints > 0:
-				return f"{self.occ_skillpoints} occupation skillpoints remain to assign"
+			self.occ_skills = self.from_selections(occ_choices, "skillpoints")
+			if self.skillpoints > 0:
+				return f"{self.skillpoints} occupation skillpoints remain to assign"
 		if pi_choices:
 			pi_selections = [{"count": 99, "selections": []}]
-			if self.occ_skillpoints > 0:
-				return f"{self.pi_skillpoints} personal interest skillpoints remain to assign."
-		if self.pi_skillpoints == self.occ_skillpoints == 0:
+			if self.skillpoints > 0:
+				return f"{self.skillpoints} personal interest skillpoints remain to assign."
+		if self.skillpoints == self.skillpoints == 0:
 			[self.init_skill(k) for k, v in skillref.items() if v.get("pdfslot") and v.get(
 					"pdfslot") not in getslots() and k not in self.skills and v.get("era") == 0]
 			self.edgecases()
@@ -324,21 +368,11 @@ class CharacterGen:
 
 	def edgecases(self):
 		dkey, dval, okey, oval = ("Dodge", int(self.character.dex/2), "Own Language", self.character.edu)
-		#if (okey in self.skills and step == 0) or (okey not in self.skills and step == 1):
 		self.init_skill("Own Language", value=oval)
-		#if (dkey in self.skills and step == 0) or (dkey not in self.skills and step == 1):
 		self.init_skill("Dodge", value=dval)
+		self.init_skill("Brawl")
+		print("Set", dkey, dval, okey, oval, "Brawl", rget(skillref, "Brawl", "value"))
 
-	def valid_assignment(self, key, val, pool, max_skill=99):
-
-		if val + points < max_skill and pool - points >= 0:
-			self.init_skill(key, value=points)
-			return points
-		else:
-			raise ValueError(f"assignment to {key} exceeds {max_skill} or points assigned reduces pool to {pool-points}")
-
-	# selection index and group(if any) are required. If skill is selected from presets, index = -1
-	# 
 	def from_selections(self, choices:dict, pool:int, max_skill=99):
 		pool = getattr(self, pool)
 		expanded = []
@@ -347,22 +381,16 @@ class CharacterGen:
 			pool -= value
 		return pool
 
-	def validate_and_set_key(self, key, val, index, selections, group="", destroy=False, custom=False):
-		if destroy is True:
-			selection = selections.pop(index)
-		else:
-			selection = selections[index]
-		if custom is True:
-			self.init_skill(key, value)
-			self.skills[key]["pdfslot"] = "Custom"
-			return selections
-		for item in selection:
-			if key == item or group == item or item == "any":
-				self.init_skill(key, value)
-		return selections
-
 	def request_custom(self, kvpair):
 		pass
+
+def npcgen(name="Non Player Character"):
+	npcgen = deepcopy(CharacterGen(name))
+	npcgen.generate(random=True)
+	npc = npcgen.character
+	return npc
+
+
 
 def gendump(investigator, path):
     path = Path(path)
@@ -374,28 +402,6 @@ def genload(path):
     path = Path(path)
     if path.exists():
         return pickle.loads(path.read_bytes())
-
-# index, value, custom, group = (val.get("index"), val.get("value"),
-			# 			val.get("pdfslot"), val.get("group", ""))
-	# if is_occupation is True:
-			# 	## break into seperate method?
-			# 	if custom is True:
-			# 		custom_req = self.request_custom(key, val)
-			# 		if custom_req is False:
-			# 			raise KeyError(f"You're request for custom skill {key} was denied by the keeper.")
-			# 	if index == -1:
-			# 		selection = self.occupation.get("skills")
-			# 		self.validate_and_set_key(key, value, selection, group="",
-			# 				destroy=False, custom=custom)
-			# 	else:
-			# 		selections = self.validate_and_set_key(
-			# 					key, value, index, selections, group=group, custom=custom)
-			# else:
-			# 	if custom is True:
-			# 		custom_req = self.request_custom(key, val)
-			# 		if custom_req is False:
-			# 			raise KeyError(f"You're request for custom skill {key} was denied by the keeper.")
-			# 	self.init_skill(key, value, pdfslot=custom)
 
 
 

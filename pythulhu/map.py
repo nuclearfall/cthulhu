@@ -19,6 +19,7 @@ class SceneMap:
 	def setatkv(self, key, val):
 		self.scenemap[key] = val
 	def add(self, scene):
+		ke = KeyError(f"Node {scene.name} with key {address} exists in scenemap. Must remove that node first.")
 		# new locations must be related to a location currently on the map.
 		if not scene.address:
 			sx, sy, sz = address = (0, 0, 0)
@@ -26,7 +27,7 @@ class SceneMap:
 			for key, loc in scene.neighbors().items():
 				if key == "infrontof" and loc:
 					lx, ly, lz = loc.address
-					address = (lx+1, ly, lz)
+					address = ((lx, lx+1+scene.length), (ly+scene.width), (lz + lz.height))
 					loc.setatkv("behind", scene)
 				if key == "behind" and loc:
 					lx, ly, lz = loc.address
@@ -43,8 +44,17 @@ class SceneMap:
 					loc.setatkv("toleftof", scene)
 		else:
 			address = scene.address
-		if address in self.addresses():
-			raise KeyError(f"Node {scene.name} with key {address} exists in scenemap. Must remove that node first.")
+		for address in self.addresses():
+			for lxr, lyr, lzr in loc_address:
+				for sxr, syr, szr in scene.address:
+					maybe = []
+					for x in sxr:
+						if x in lxr:
+							for y in syr:
+								if y in lxr:
+									raise ke
+
+		
 		scene.setatkv("address", address)
 		self.setatkv(str(scene.address), scene)
 		return scene
@@ -99,30 +109,47 @@ class Scene(SceneMap):
 				"portals": [],
 				"length": 1,
 				"width": 1,
-				"depth": 1
-				"enterfrom": None
+				"height": 1,
+				"enterfrom": None,
 				"exitto": None
 			}
 		for k in self.scene_dict.keys():
 			self.setatkv(k, kwargs.get(k, self.scene_dict.get(k)))
 		self.setatkv("name", name)
-	def __str__(self):
-		return f"|=== {self.name:14}===|"
+
 	def setatkv(self, key, val):
 		setattr(self, key, val)
 		self.scene_dict[key] = val	
+
 	def neighbors(self): 
 		return {k:getattr(self, k) for k in [
 				"infrontof", "behind", "toleftof", "torightof", "topof", "bottomof"]}
 
-class FiniteStateDevice:
-	door = False
-	window = False
-	stairs = False
-	hatch = False
+	def __str__(self):
+		(x, y) = self.address
+		width = self.width
+		height = self.height
+		# lsxr = len(sxr)
+		# lyxr = len(syr)
+		# str_len = len(sxr) * len(syr)
+		scstr = drawline(width, "+", "=")
+		cntstr = drawline(width, "|", " ")
+		for i in range(height-2):
+			scstr += cntstr
+		scstr += drawline(width, "+", "=")
+		return scstr
 
-scenemap = SceneMap("Map")
-# scene0 = scenemap.scenemap.get("(0, 0, 0)")
+def drawline(width, side, center):
+	top_str = side
+	for x in range(width):
+		top_str += center
+	top_str += side
+	return top_str + "\n"
+
+
+# scenemap = SceneMap("Map")
+scene0 = Scene("George", address=(1, 8), width=22, height=6)
+print(scene0)
 # scene1 = Scene("New Scene", toleftof=scene0)
 # scenemap.add(scene1)
 # scene2 = Scene("Next Scene", toleftof=scene1)
@@ -134,25 +161,3 @@ scenemap = SceneMap("Map")
 # scene7 = Scene("Mostly Scene", torightof=scene6)
 # scene8 = Scene("Contains...", behind=scene7)
 # scene9 = Scene("Some Scene", infront=scene3)
-
-addresses = [(i, j, z) for i in range(0, 11) for j in range(0, 11) for z in range(-1, 3)]
-middle_point = (4, 4)
-
-print(addresses)
-[]
-# scenemap.add(scene3)
-# scenemap.add(scene4)
-# scenemap.add(scene5)
-# scenemap.add(scene6)
-# scenemap.add(scene7)
-# scenemap.add(scene8)
-
-print(scenemap.relations())
-enterscenefrom =
-exitsceneto = 
-
-f"""              		
-|=^ Start=|->  
-         ^
-
-"""

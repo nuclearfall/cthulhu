@@ -19,7 +19,7 @@
         "content": "Either employed within a business or working as a freelance consultant with a portfolio of self-employed clients or businesses. Diligence and an attention to detail means that most accountants can make good researchers, being able to support investigations through the careful analysis of personal and business transactions, financial statements, and other records.",
         "maxcredit": 70,
         "selections": [
-            ["any"], ["any"]
+            ["All"], ["All"]
         ],
         "skills": [
             
@@ -51,8 +51,8 @@
         "content": "Either amateur athletes or professionals employed in entertainment.",
         "maxcredit": 20,
         "selections": [
-            ["any"], 
-            ["any"]
+            ["All"], 
+            ["All"]
         ],
         "skills": [
             "Climb",
@@ -93,8 +93,8 @@
         "content": "Numerous well-known detective agencies exist around the world, with probably the most famous being the Pinkerton and Burns agencies (merged into one in modern times). Large agencies employ two types of agents: security guards and operatives.\n\nGuards are uniformed patrolmen, hired by companies and individuals to protect property and people against bur- glars, assassins and kidnappers. Use the Uniformed Police Officer\u2019s description for these characters. Company Opera- tives are plainclothes detectives, sent out on cases requiring them to solve mysteries, prevent murders, locate missing people, and so on.",
         "maxcredit": 45,
         "selections": [
-            ["interpersonal"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Firearms"]
         ],
         "skills": [
             "Psychology",
@@ -125,7 +125,7 @@
         "content": "In the 1920s, \"alienist\" is the term given for those who treat mental illness (early psychiatrists). Psychoanalysis is barely known in the U.S., and its basis in sexual life and toilet training is felt to be indecent. Psychiatry, a standard medical edu augmented by behaviorism, is more common. Intellectual wars rage between alienists, psychiatrists, and neurologists.",
         "maxcredit": 60,
         "selections": [
-            ["languages"]
+            ["Other Language"]
         ],
         "skills": [
             "Psychoanalysis",
@@ -167,7 +167,7 @@
         "content": "May be employed by film studios, a travelling circus, a horse stable, or possibly working freelance. Whether training guide dogs for the blind or teaching a lion to jump through a flam- ing hoop, the animal trainer usually works alone, spending long hours in close proximity with the animals in their care. An animal trainer can use the Psychology skill with animals as well as people.",
         "maxcredit": 40,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             
@@ -200,10 +200,10 @@
         "content": "Antiquarians appreciate timeless design and execution and the pow of lore.",
         "maxcredit": 40,
         "selections": [
-            ["artcraft"],
-            ["languages"],
-            ["interpersonal"],
-            ["any"]
+            ["Art/Craft"],
+            ["Other Language"],
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Appraise",
@@ -232,7 +232,7 @@
         "content": "Antique dealers usually own their own shop, retail items out of their homes, or go on extended buying trips, making a profit on reselling to urban stores.",
         "maxcredit": 50,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
             "Appraise",
@@ -263,8 +263,8 @@
         "content": "The study and exploration of the past. Primarily the identification, examination, and analysis of recovered materials relating to human history. The work involves painstaking research and meticulous study, not to mention a willing attitude to getting one\u2019s hands dirty.\n\nIn the 1920s, successful archaeologists became celeb- rities, seen as explorers and adventurers. While some used scientific methods, many were happy to apply brute force when unveiling the secrets of the past\u2014 the use of dynamite was sometimes common. Such bullish behavior would be frowned upon in modern times.",
         "maxcredit": 40,
         "selections": [
-            ["Navigate", "science"],
-            ["languages"]
+            ["Navigate", "Science"],
+            ["Other Language"]
         ],
         "skills": [
             "History",
@@ -303,7 +303,7 @@
             "Mathematics",
             "Psychology",
             "Accounting",
-            "Language Own"
+            "Own Language"
         ]
     },
     "Artist": {
@@ -336,12 +336,12 @@
         "content": "May be a painter, sculptor, etc. Sometimes self-absorbed and driven with a particular vision, sometimes blessed with a great talent that is able to inspire passion and under- standing. Talented or not, the artist\u2019s ego must be hardy and strong to surmount initial obstacles and critical appraisal, and to keep them working if success arrives. Some artists care not for material enrichment, while others have a keen entrepreneurial streak.",
         "maxcredit": 50,
         "selections": [
-            ["interpersonal"],
+            ["Interpersonal"],
             ["History", "Natural World"],
-            ["any"],
-            ["any"],
-            ["artcraft"],
-            ["language"]
+            ["All"],
+            ["All"],
+            ["Art/Craft"],
+            ["Other Language"]
         ],  
         "skills": [
             "Spot Hidden",
@@ -378,12 +378,12 @@
         "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 60,
         "selections": [
-            ["fighting"], 
-            ["firearms"]
+            ["Fighting"], 
+            ["Firearms"]
         ],
         "skills": [
             "Psychology",
-            "Electric Repair",
+            "Electrical Repair",
             "Disguise",
             "Locksmith",
             "Mechanical Repair",
@@ -420,8 +420,8 @@
         "content": "Although there are private sanitariums for those few who can afford them, the vast bulk of the mentally ill are housed in state and county facilities. Aside from a few doctors and nurses, they employ a large number of attendants, often chosen more for their str and siz rather than medical learning.",
         "maxcredit": 20,
         "selections": [
-            ["interpersonal"], 
-            ["interpersonal"]
+            ["Interpersonal"], 
+            ["Interpersonal"]
         ],
         "skills": [
             "Psychology",
@@ -462,8 +462,8 @@
         "content": "Probably plays in a professional baseball, football, cricket, or basketball team. This may be a major league team with a regular salary and national attention or\u2014particularly in the case of 1920s baseball\u2014one of many minor league teams, some of them owned and operated by major league owners. The latter pay barely enough to keep players fed and on the team.\n\nSuccessful professional athletes will enjoy a certain amount of celebrity within the arena of their expertise\u2014 more so in the present day where sporting heroes stand side by side with film stars on red carpets around the world.",
         "maxcredit": 70,
         "selections": [
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Brawl",
@@ -494,13 +494,13 @@
         "content": "An aviator is a stunt pilot, working at carnivals or offering daring leisure rides for those willing to pay. Often fame could be won by competing in organized air races, either cross-country or on fixed courses. During the twenties, Hollywood makes fair use of stunt pilots. A few aviators even find work as test pilots for aircraft manufacturers. Many avi- ators learned to fly during the Great War and, as a result, still hold commissions as officers in the Army, Navy, Marines, or Coast Guard. Younger pilots have either received military training during peacetime or learned on their own.\n\nAmerican flying aces of the World War still in the public limelight include: Eddie Rickenbacker, presently employed by Chrysler Corporation; Tommy Hitchcock, Jr., now a star on the polo fields; Reed Landis, son of Baseball Commis- sioner, Kenesaw Mountain Landis.",
         "maxcredit": 60,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Aircraft",
             "Accounting",
             "Mechanical Repair",
-            "Electric Repair",
+            "Electrical Repair",
             "Navigate",
             "Spot Hidden",
             "Listen"
@@ -536,16 +536,16 @@
         "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 75,
         "selections": [
-            ["Electric Repair", "Mechanical Repair"],
-            ["any"],
-            ["any"],
-            ["firearms"],
-            ["fighting"]
+            ["Electrical Repair", "Mechanical Repair"],
+            ["All"],
+            ["All"],
+            ["Firearms"],
+            ["Fighting"]
         ],
         "skills": [
             "Intimidate",
             "Locksmith",
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Drive Auto"
         ]
     },
@@ -569,9 +569,9 @@
         "content": "Normally not the owner of the bar, the bartender is every- one\u2019s friend. For some it\u2019s a career or their business, for many it's a means to an end.\n\nIn the 1920s the profession is made illegal by the Prohi- bition Act; however, there\u2019s no shortage of work for a bar- tender, as someone has to serve the drinks in the speakeasies and secret gin joints.",
         "maxcredit": 25,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
 
@@ -614,8 +614,8 @@
         "selections": [
             ["Botany", "Biology"],
             ["Listen", "Spot Hidden"],
-            ["survival", "languages"],
-            ["firearms"]],
+            ["Survival", "Other Language"],
+            ["Firearms"]],
         "skills": [
             "Stealth",
             "Track",
@@ -643,14 +643,14 @@
         "content": "A book dealer may be the owner of a retail outlet or niche mail order service, or specialize in buying trips across the country and even overseas. Many will have wealthy or regu- lar clients, who provide lists of sought-after and rare works.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"],
-            ["languages"]
+            ["Interpersonal"],
+            ["Other Language"]
         ],
         "skills": [
             "Drive Auto",
             "History",
             "Library Use",
-            "Language Own",
+            "Own Language",
             "Accounting",
             "Appraise"
         ]
@@ -674,7 +674,7 @@
         "era": 0,
         "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 30,
-        "selections": [["interpersonal"], ["interpersonal"], ["firearms"], ["fighting"]],
+        "selections": [["Interpersonal"], ["Interpersonal"], ["Firearms"], ["Fighting"]],
         "skills": [
 
             "Psychology",
@@ -712,7 +712,7 @@
         "era": 0,
         "content": "Bounty hunters track down and return fugitives to justice. Most often, freelancers are employed by Bail Bondsmen to track down bail jumpers. Bounty hunters may freely cross state lines in pursuit of their quarry and may show little regard for civil rights and other technicalities when captur- ing their prey. Breaking and entering, threats, and physical abuse are all part of the successful bounty hunter\u2019s bag of tricks. In modern times this may stem to illegal phone taps, computer hacking, and other covert surveillance.",
         "maxcredit": 30,
-        "selections": [["fighting", "firearms"], ["interpersonal"]
+        "selections": [["Fighting", "Firearms"], ["Interpersonal"]
         ],
         "skills": [
             "Electrical Repair",
@@ -743,7 +743,7 @@
         "content": "Professional boxers and wrestlers are managed by individuals (promoters) possibly backed by outside interests, and usually locked into contracts. Professional boxers and wrestlers work and train full-time.\n\nAmateur boxing competitions abound, a training ground for those aspiring to professional status. In addi- tion, amateur and post-professional boxers and wrestlers can sometimes be found making a living from illegal bare-knuckle fights, usually arranged by organized crime gangs or entrepreneurial locals.",
         "maxcredit": 60,
         "selections": [
-             ["any"], ["any"]
+             ["All"], ["All"]
         ],
         "skills": [
             "Dodge",
@@ -774,7 +774,7 @@
         "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 40,
         "selections": [
-            ["Electric Repair", "Mechanical Repair"]
+            ["Electrical Repair", "Mechanical Repair"]
         ],
         "skills": [
 
@@ -808,9 +808,9 @@
         "maxcredit": 40,
         "selections": [
             ["Appraise", "Accounting"], 
-            ["any"], 
-            ["languages"], 
-            ["artcraft"]
+            ["All"], 
+            ["Other Language"], 
+            ["Art/Craft"]
         ],
         "skills": [
 
@@ -840,9 +840,9 @@
         "content": "Professional drivers may work for a company, private individual, or possibly have their own cab or rig.\n\nTaxi drivers may work for large or small companies, or possibly have their own cab and license (medallion in the U.S.). Cab companies are usually set up so that drivers rent cabs and a dispatcher service from the company, technically making the drivers freelance operators. Taxis are required to be fitted with approved meters, periodically checked by the city\u2019s taxi board. Drivers are usually required to obtain a special license that includes a background check by the police detective bureau.\n\nA chauffeur is either directly employed by an individ- ual or firm, or works for an agency that hires both car and chauffeur out for single engagements or on a retainer basis.",
         "maxcredit": 40,
         "selections": [
-            ["any"], 
-            ["any"], 
-            ["interpersonal"]
+            ["All"], 
+            ["All"], 
+            ["Interpersonal"]
         ],
         "skills": [
             "Listen",
@@ -872,9 +872,9 @@
         "content": "The hierarchy of the Church usually assigns clergy to their respective parishes or sends them on evangelical missions, most often to a foreign country (see Missionary). Differ- ent churches have different priorities and hierarchies: for example, in the Catholic Church a priest may rise through the ranks of bishop, archbishop, and cardinal, while a Meth- odist pastor may in turn rise to district superintendent and bishop.\n\nMany clergy (not just Catholic priests) bear witness to confessions and, though they are not at liberty to divulge such secrets, they are free to act upon them.\n\nSome who work in the church are trained in professional skills, acting as doctors, lawyers, and scholars\u2014as appropri- ate, use the occupation template which best describes the nature of the investigator\u2019s work.",
         "maxcredit": 60,
         "selections": [
-            ["any"], 
-            ["interpersoal"], 
-            ["language"]],
+            ["All"], 
+            ["Interpersonal"], 
+            ["Other Language"]],
         "skills": [
             "Psychology",
             "Accounting",
@@ -903,14 +903,14 @@
         "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sizd locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
         "maxcredit": 20,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Library Use",
             "Accounting",
-            "Language Own",
+            "Own Language",
             "Law",
             "Listen"
         ]
@@ -945,7 +945,7 @@
         "content": "Sailors may be military or commercial.\n\nNaval sailors, like their counterparts in the Army, go through an initial period of basic training. Upon gradua- tion they are assigned rates and stations. Although many sailors serve in the traditional roles of Boatswain\u2019s Mate or Fireman rating (ship\u2019s engine man), the Navy also has a need for technically trained mechanics, radio operators, air controllers, etc. The highest enlisted rank is Chief Petty Officer, which carries with it a prestige respected by even high-ranking officers. Enlistments are for a fixed number of years\u2014in the U.S. Navy this is usually four years of active duty followed by two years of inactive reserve commitment, during which time the sailor can be called to serve in times of national emergency. \n\nCommercial sailors may work aboard a fishing vessel, charter boat, or haulage tankers, carrying oil or commodi- ties. In the U.S., charter boats work both coasts, as well as on the Great Lakes, catering to sport fisherman and vacationers. By far the greatest number of charter boats are found in Florida, on both the Gulf and ocean coasts.\n\nDuring Prohibition, many a charter boat captain found a lucrative trade in ferrying thirsty customers to the 3-mile limit, where foreign ships could sell alcohol. Likewise, smuggling for the bootleggers could pay well; however, the risks were high.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
 
@@ -978,14 +978,14 @@
         "content": "Usually designing, writing, debugging, and/or maintaining the source code of computer programs, the computer programmer is an expert in many different subjects, including formal logic and application platforms. May work freelance or within the confines of a software development house.\n\nThe computer technician is tasked with the development and main- tenance of computer systems and networks, often working alongside other office staff (such as project managers) to ensure systems maintain integrity and provide desired functionality. Similar occupations may include: Database Administrator, IT Systems Manager, Multimedia Developer, Network Administrator, Software Engineer, Webmaster, etc.\n\nThe computer hacker uses computers and computer networks as a means of protest to promote political ends (sometimes referred to as \"hacktivists\") or for criminal gain. Illegally breaking into computers and other user accounts is required, the outcome of which could be anything from defacing web pages, doxing, and swatting to email bombing designed to enact denials of service.",
         "maxcredit": 70,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Spot Hidden",
             "Computer Use",
-            "Electric Repair",
+            "Electrical Repair",
             "Electronics",
             "Library Use"
         ]
@@ -1010,13 +1010,13 @@
         "content": "Usually designing, writing, debugging, and/or maintaining the source code of computer programs, the computer programmer is an expert in many different subjects, including formal logic and application platforms. May work freelance or within the confines of a software development house.\n\nThe computer technician is tasked with the development and main- tenance of computer systems and networks, often working alongside other office staff (such as project managers) to ensure systems maintain integrity and provide desired functionality. Similar occupations may include: Database Administrator, IT Systems Manager, Multimedia Developer, Network Administrator, Software Engineer, Webmaster, etc.\n\nThe computer hacker uses computers and computer networks as a means of protest to promote political ends (sometimes referred to as \"hacktivists\") or for criminal gain. Illegally breaking into computers and other user accounts is required, the outcome of which could be anything from defacing web pages, doxing, and swatting to email bombing designed to enact denials of service.",
         "maxcredit": 70,
         "selections": [
-            ["any"],
-            ["any"]
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Mathematics",
             "Spot Hidden",
-            "Electric Repair",
+            "Electrical Repair",
             "Electronics",
             "Computer Use",
             "Library Use"
@@ -1042,9 +1042,9 @@
         "content": "Criminals come in all shapes, sizs, and shades of grey. Some are merely opportunistic jacks of all trades, such as pickpockets and thugs, while others are highly specialized, spending time researching and planning focused criminal enterprises. This latter group could include bank robbers, cat burglars, forgers, and confidence tricksters.\n\nThe criminal either works for someone, usually an organized \"mob\" or crime family, or works solo, perhaps oc- casionally teaming up with others when the reward is worth the effort and risk. Freelance thugs might work as muggers, stickup men, and armed robbers.\n\nWhether bootleggers, corner-boys, or thugs, these are the soldiers of organized crime. They are supported by criminal organizations and they are the ones usually expected to take the fall for the gangsters above them. Their silence and loyalty is expected and rewarded.\n\nConfidence tricksters are usually smooth talkers. Working alone or in a team, they descend on wealthy individuals or communities, fleecing their targets of their hard-earned savings. Some schemes are elaborate, involving teams of scam men and rented Buildings; others are simple affairs, transactions requiring only one con man and no more than a few minutes.\n\nA fence is someone who trades in stolen property, usu- ally taking in stolen goods and then selling them onto other criminals or (unwitting) legitimate customers. Principally a middleman between thieves and buyers, the fence either takes a cut of the profit or, more usually, buys the stolen goods at a very low price.\n\nForgers are the artists of the criminal world, specializing in forging official documents, deeds and transfers, and providing phony signatures. Beginners work manufacturing fake ID's for petty criminals, while the best engrave plates for counterfeiting currency.\n\nHit men are the cold-blooded killers of the underworld. Usually hired from somewhere out of town, they arrive, do their work, then quickly disappear. It\u2019s strictly business. Often sociopaths, who seem to lack the ability to empathize with other human beings. Many follow strict codes of behavior. In spite of this, many marry, raise children, and in all other ways behave like model citizens.\n\nSmuggling is always a lucrative and high-risk business. The smuggler usually has a public profession, such as boat captain, pilot, or businessman, allowing them to transport illicit products to a needy market.\n\nStreet punks are typically young street hoods, possibly looking for a chance to hook-up with real gangsters. Experience is probably limited to stealing cars, shoplifting, mugging, and burglary.",
         "maxcredit": 65,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["langauges"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["Other Language"]
         ],
         "skills": [
             "Listen",
@@ -1085,7 +1085,7 @@
         "maxcredit": 20,
         "selections": [
             ["Natural World", "First Aid"],
-            ["fighting", "firearms"]
+            ["Fighting", "Firearms"]
         ],
         "skills": [
             "Jump",
@@ -1116,9 +1116,9 @@
         "content": "May be equally termed an artisan or master craftsperson. The craftsperson is essentially skilled in the manual produc- tion of items or materials. Normally quite talented individ- uals, some gaining a high reputation for works of art, while others provide a needed community service.\n\nPossible trades include: furniture, jewelry, watchmaker, potter, blacksmith, textiles, calligraphy, sewing, carpentry, book binding glassblowing, toy maker, stained glass, and so on.",
         "maxcredit": 40,
         "selections": [
-                ["any"],
-                ["any"],
-                ["artcraft"]
+                ["All"],
+                ["All"],
+                ["Art/Craft"]
         ],
         "skills": [
             "Mechanical Repair",
@@ -1147,10 +1147,10 @@
         "content": "America has always generated new religions, from the New England Transcendentalists to the Children of God, as well as many others, right up to modern times. The leader is either a firm believer in the dogma they impart to the cult\u2019s members or simply in it for the money and pow\n\nDuring the 1920s, any number of char- ismatic cult leaders emerge. Some espouse forms of Christianity while others incor- porate Eastern mysticism and occult practices. These groups are particularly familiar to America\u2019s West Coast but are found all around the country in different forms. The southern Bible Belt supports many traveling tent shows featuring song, dance, and gospel reviv- al. Other countries also see such fringe religions springing up wherever there are those in need of something to believe in.",
         "maxcredit": 60,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Occult",
@@ -1179,9 +1179,9 @@
         "content": "Deprogramming is the act of persuading (or forcing) a person to abandon their belief or allegiance to a religious or social community. Normally, the deprogrammer is hired by relatives of an individual, who has joined some form of cult, in order to break them free (usually by kidnapping) and then subject them to psychological techniques to free them of their association (\"conditioning\") with the cult.\n\nLess extreme deprogrammers exist, who work with those who have voluntarily left a cult. In such cases the deprogrammer effectively acts as an exit counselor.",
         "maxcredit": 50,
         "selections": [
-            ["Brawl", "firearms"],
-            ["interpersonal"],
-            ["interpersonal"]
+            ["Brawl", "Firearms"],
+            ["Interpersonal"],
+            ["Interpersonal"]
         ],
         "skills": [
             "Drive Auto",
@@ -1211,8 +1211,8 @@
         "content": "Designers work in many fields, from fashion to furniture and most points in-between. The designer may work freelance, for a design house or for a business designing consumer products, processes, laws, games, graphics, and so on.\n\nThe investigator\u2019s particular design specialty might influence the choice of skills\u2014adjust the skills\nas appropriate.",
         "maxcredit": 60,
         "selections": [
-            ["any"],
-            ["artcraft"]
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Library Use",
@@ -1242,12 +1242,12 @@
         ],
         "era": 3,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["firearms"],
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["Firearms"],
             ["languges"]
         ],
         "skills": [
@@ -1274,7 +1274,7 @@
         "content": "Divers could work in the military, law enforcement, or in civilian occupations like sponge gathering, salvage, conser- vation, or even treasure hunting.",
         "maxcredit": 30,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "First Aid",
@@ -1305,7 +1305,7 @@
             }
         ],
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "First Aid",
@@ -1357,9 +1357,9 @@
         "content": "As opposed to someone who is poverty-stricken, the drifter\u2019s wandering life is chosen, perhaps compensating for a social, philosophical, or economic lack, or perhaps taken due to a desire to break free of societal constraints.\n\nThe drifter takes jobs, sometimes for days or months, however he or she is disposed to solve problems with the answer of mobility and isolation, not comfort and intimacy. The life of the road might seem especially American, but the same sort of life is chosen wherever travel itself is not systematically dangerous.",
         "maxcredit": 5,
         "selections": [
-            ["interpersonal"],
+            ["Interpersonal"],
             ["Locksmith", "Sleight of Hand"],
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Navigate",
@@ -1399,8 +1399,8 @@
         "content": "Professional drivers may work for a company, private individual, or possibly have their own cab or rig.\n\nTaxi drivers may work for large or small companies, or possibly have their own cab and license (medallion in the U.S.). Cab companies are usually set up so that drivers rent cabs and a dispatcher service from the company, technically making the drivers freelance operators. Taxis are required to be fitted with approved meters, periodically checked by the city\u2019s taxi board. Drivers are usually required to obtain a special license that includes a background check by the police detective bureau.\n\nA chauffeur is either directly employed by an individ- ual or firm, or works for an agency that hires both car and chauffeur out for single engagements or on a retainer basis.",
         "maxcredit": 20,
         "selections": [
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Navigate",
@@ -1431,14 +1431,14 @@
         "content": "Editors work assigning stories to reporters, writing newspa- per and magazine editorials, dealing with crises, and meet- ing deadlines. Occasionally they edit. Large newspapers have many editors, including managing editors who are more involved with business operations than news. Other editors specialize in fashion, sports, or some other area. Small news- papers may have only a single editor who, in fact, may also be the owner as well as the only full-time employee.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Accounting",
             "History",
-            "Language Own",
+            "Own Language",
             "Psychology",
             "Spot Hidden"
         ]
@@ -1464,7 +1464,7 @@
         "maxcredit": 90,
         "selections": [],
         "skills": [
-            "Language Own",
+            "Own Language",
             "Persuade",
             "Charm",
             "Psychology",
@@ -1494,15 +1494,15 @@
         "content": "A specialist in mechanical or electrical devices, employed in a civilian business or in the military, but also including in- ventors. The engineer applies scientific knowledge, mathematics and a liberal amount of ingenuity to design solutions for technical problems.",
         "maxcredit": 60,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Mechanical Repair",
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Engineering",
             "Physics",
             "Technical Drawing",
-            "Electric Repair",
+            "Electrical Repair",
             "Library Use"
         ]
     },
@@ -1526,11 +1526,11 @@
         "content": "This occupation might include clown, singer, dancer, come- dian, juggler, musician, or anyone else who earns a living in front of an audience. These people love to be seen, love to show what they do best, and love the consequent applause.\n\nPreviously to the 1920s, this profession lacked respect; however, the money that Hollywood stars can make in the 1920s changes most minds, and by the present day such a background is generally felt to be an advantage.",
         "maxcredit": 70,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["artcraft"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Psychology",
@@ -1579,9 +1579,9 @@
         "maxcredit": 80,
         "selections": [
             ["Climb", "Swim"],
-            ["languages"],
-            ["survival"],
-            ["firearms"]
+            ["Other Language"],
+            ["Survival"],
+            ["Firearms"]
         ],
         "skills": [
             "Jump",
@@ -1621,15 +1621,15 @@
         "maxcredit": 30,
         "selections": [
             ["Drive Wagon", "Drive Auto"],
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Track",
             "Farming",
             "Mechanical Repair",
             "Natural World",
-            "Op. Hv. Machine"
+            "Operate Heavy Machinery"
         ]
     },
     "Federal Agent": {
@@ -1652,9 +1652,9 @@
         "content": "There are a vast variety of federal law enforcement agencies and agents. Some are uniformed, such as the U.S. Marshals, while others, like the Federal Bureau of Investigation, are plainclothes and operate similar to detectives.",
         "maxcredit": 40,
         "selections": [
-            ["any"],
-            ["any"],
-            ["firearms"]
+            ["All"],
+            ["All"],
+            ["Firearms"]
         ],
         "skills": [
             "Stealth",
@@ -1685,8 +1685,8 @@
         "content": "",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Appraise",
@@ -1717,10 +1717,10 @@
         "content": "Usually a stage or film actor. Many stage actors have a back- ground in the classics and, considering themselves \u201clegiti- mate,\u201d have a tendency to look down upon the commercial efforts of the film industry, although by the late twentieth century this is diminished, with film actors able to command greater respect and higher fees.\n\nMovie stars and the film industry have long captured the interest of people across the world. Many stars are made overnight and most of them lead flashy, high profile lives, ever in the media spotlight.\n\nIn the 1920s, the theatrical center of the U.S. is in New York City, although there are major stages in most cities across the country. A similar situation exists in England, with touring repertory companies traveling the counties, with London the heart of theatrical shows. Touring companies travel by train, presenting new plays, as well as classics by Shakespeare and others. Some companies spend consider- able amounts of time touring foreign parts, such as Canada, Hawaii, Australia, and Europe.\n\nWith the introduction of \"talkies\" in the latter part of the 1920s, many stars of the silent films era cannot cope with the transition to sound. The arm-waving histrionics of silent actors give way to more subtle characterizations. John Gar- field and Francis Bushman are forgotten for new stars, such as Gary Cooper and Joan Crawford.",
         "maxcredit": 90,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Psychology",
@@ -1762,7 +1762,7 @@
         "skills": [
             "Jump",
             "Mechanical Repair",
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Climb",
             "Throw",
             "Dodge",
@@ -1790,13 +1790,13 @@
         "content": "Foreign correspondents are the elite of news reporters. They work on salary, enjoy expense accounts, and travel the globe. In the 1920s, the correspondent may work for a large newspaper, a radio network, or a national newsgroup. Mod- ern-day reporters might also work freelance or be employed to file reports for a television network, an Internet news provider, or international news agency.\n\nThe work can be very varied, often exciting, and some- times hazardous as natural disasters, political upheaval, and war are the primary focus of the foreign correspondent.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["languages"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
-            "Language Own",
+            "Own Language",
             "Listen",
             "Psychology",
             "History"
@@ -1853,7 +1853,7 @@
         "content": "",
         "maxcredit": 60,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Library Use",
@@ -1896,8 +1896,8 @@
         "maxcredit": 65,
         "selections": [
                 ["Disguise", "Acting"],
-                ["interpersonal"],
-                ["fighting", "firearms"],
+                ["Interpersonal"],
+                ["Fighting", "Firearms"],
                 ["Locksmith", "Mechanical Repair"]
         ],
         "skills": [
@@ -1937,8 +1937,8 @@
         "content": "Gamblers are the dandies of the criminal world. Sharp dressers, they usually possess bags of charm, either earthy or sophisticated. Whether frequenting the racetrack, card table, or casino, such individuals often base their life upon chance.\n\nMore sophisticated gamblers probably frequent the illegal casinos operated by organized crime. A few are known as poker players and are often involved in lengthy, high-stakes games where they may even be backed by outside investors. The lowest frequent alleys and dives, playing craps with loaded dice, or hustling in pool halls.",
         "maxcredit": 50,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"]
+            ["Interpersonal"],
+            ["Interpersonal"]
         ],
         "skills": [
             "Psychology",
@@ -1969,12 +1969,12 @@
         "content": "A gangster could be the boss of a whole city, part of a city, or merely an underling who works for the boss. Underlings usually have specific areas of responsibility, such as oversee- ing illicit shipments, collecting protection money, and so on. The boss oversees the business, makes deals, and determines how to solve problems. For the most part, the gangster boss is untouchable, able to field a small army of underlings to do his or her bidding, and so is unlikely to get their hands dirty.\n\nGangsterism rose to prominence in the 1920s. Neighborhood ethnic gangs, who had heretofore limited their activities to local protection schemes and small gambling rackets, discovered the immense profits to be made in the illegal beer and liquor industry. Before long they controlled whole sections of cities and warred with one another in the streets. Though most gangs are of ethnic origin\u2014Irish, Italian, African-American, and Jewish\u2014gangsters of nearly all nationalities are found within the ranks.\n\nIn modern times, the drug trade has overtaken other forms of organized crime to be the most lucrative route for many. Operating on very similar lines to their 1920s counterparts, the contemporary gangster boss also needs a range of underlings to promote, secure, and trade their business on the streets.\n\nAside from illegal liquor and narcotics, organized crime deals in prostitution, protection, gambling, and many other forms of corruption.",
         "maxcredit": 95,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["fighting"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Fighting"],
+            ["Firearms"]
         ],
         "skills": [
             "Spot Hidden",
@@ -2011,12 +2011,12 @@
         "content": "A gangster could be the boss of a whole city, part of a city, or merely an underling who works for the boss. Underlings usually have specific areas of responsibility, such as oversee- ing illicit shipments, collecting protection money, and so on. The boss oversees the business, makes deals, and determines how to solve problems. For the most part, the gangster boss is untouchable, able to field a small army of underlings to do his or her bidding, and so is unlikely to get their hands dirty.\n\nGangsterism rose to prominence in the 1920s. Neighborhood ethnic gangs, who had heretofore limited their activities to local protection schemes and small gambling rackets, discovered the immense profits to be made in the illegal beer and liquor industry. Before long they controlled whole sections of cities and warred with one another in the streets. Though most gangs are of ethnic origin\u2014Irish, Italian, African-American, and Jewish\u2014gangsters of nearly all nationalities are found within the ranks.\n\nIn modern times, the drug trade has overtaken other forms of organized crime to be the most lucrative route for many. Operating on very similar lines to their 1920s counterparts, the contemporary gangster boss also needs a range of underlings to promote, secure, and trade their business on the streets.\n\nAside from illegal liquor and narcotics, organized crime deals in prostitution, protection, gambling, and many other forms of corruption.",
         "maxcredit": 20,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["fighting"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Fighting"],
+            ["Firearms"]
         ],
         "skills": [
             "Psychology",
@@ -2043,10 +2043,10 @@
         "content": "A man or woman of good breeding, courteous behavior, and good conduct. Usually the term is applied to a member of the upper class who is independently wealthy (either by inheritance or regular allowance).\n\nIn the 1920s, such a person would certainly have had at least one servant (butler, valet, maid, chauffer) and probably a country and city residence. One does not necessarily have to be rich, as often family status is more important than family wealth in terms of the highest society.",
         "maxcredit": 90,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["languages"],
-            ["artcraft"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["Other Language"],
+            ["Art/Craft"]
         ],
         "skills": [
             "History",
@@ -2075,11 +2075,11 @@
         "content": "A female professional criminal. While many are fiercely independent, some are at the beck and call of mobster boyfriends\u2014however, in reality this could easily be the other way around, with the moll working her boyfriend for all she can before skedaddling with all the cash and furs she can carry.",
         "maxcredit": 80,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
             ["Brawl", "Handgun"],
-            ["artcraft"]
+            ["Art/Craft"]
         ],
         "skills": [
             "Listen",
@@ -2118,8 +2118,8 @@
         "maxcredit": 5,
         "selections": [
             ["Sleight of Hand", "Locksmith"],
-            ["any"],
-            ["artcraft"]
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Navigate",
@@ -2149,7 +2149,7 @@
         "content": "The typical hospital orderly is in charge of emptying waste, cleaning rooms, taxiing patients, and any other odd job requiring slightly more skill than that of a janitor.",
         "maxcredit": 15,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
             "Brawl",
@@ -2157,7 +2157,7 @@
             "Listen",
             "Mechanical Repair",
             "Psychology",
-            "Electric Repair",
+            "Electrical Repair",
             "Stealth"
         ]
     },
@@ -2181,14 +2181,14 @@
         "content": "",
         "maxcredit": 30,
         "selections": [
-            ["Art", "Photography"],
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Art/Craft", "Photography"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Library Use",
-            "Language Own",
+            "Own Language",
             "Psychology",
             "History"
         ]
@@ -2214,7 +2214,7 @@
         "maxcredit": 80,
         "selections": [],
         "skills": [
-            "Language Own",
+            "Own Language",
             "Persuade",
             "History",
             "Psychology",
@@ -2244,15 +2244,15 @@
         "content": "Working in a scientific environment, the assistant (or technician) performs laboratory and administrative tasks under the supervision of a lead scientist.\n\nTasks are varied and dependent on the scientific disci- pline of the lead scientist or laboratory, but could include: sampling, testing, recording and analyzing results, setting up or performing experiments, preparing specimens and samples, administering the day-to-day work of the labora- tory, and ensuring health and safety polices are adhered to.",
         "maxcredit": 30,
         "selections": [
-            ["any"],
-            ["languages"],
-            ["science"],
-            ["science"]
+            ["All"],
+            ["Other Language"],
+            ["Science"],
+            ["Science"]
         ],
         "skills": [
-            "Library",
+            "Library Use",
             "Spot Hidden",
-            "Electric Repair",
+            "Electrical Repair",
             "Chemistry"
         ]
     },
@@ -2276,10 +2276,10 @@
         "content": "Learned in the law of the state in which they serve, the law- yer acts as an attorney, counsel, or solicitor, able to relate abstract legal theories and knowledge to present solutions for their clients. May be hired or appointed by a court on an individual basis or may be privately retained by a wealthy client or business firm.\n\nIn the U.S., a lawyer tends to mean an attorney, while in England the term loosely refers to a variety of professions including barristers, solicitors, and legal executives.\n\nWith the right client, a lawyer could become a celebrity in his or her own right, and a small number do enjoy the media attention for political or financial gain.",
         "maxcredit": 80,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Accounting",
@@ -2308,16 +2308,16 @@
         "content": "Librarians are most often employed by public institutions or universities, responsible for cataloguing and maintaining stock, as well as dealing with lender enquiries. In modern times, the librarian is also a keeper of electronic media and databases.\n\nSome large businesses might employ a librarian to manage a large collection, and occasionally opportunities appear to take over custodial care of a private library for a wealthy collector.",
         "maxcredit": 35,
         "selections": [
-            ["any"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["languages"]
+            ["All"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Accounting",
             "Library Use",
-            "Language Own"
+            "Own Language"
         ]
     },
     "Lumberjack": {
@@ -2382,16 +2382,16 @@
         "content": "This occupation includes all types of trades requiring spe- cialized training, time on the job as an apprentice or trainee, etc. Carpenters, stonemasons, plumbers, electricians, mill- wrights, mechanics, and others all qualify as skilled trades. Usually they have their own unions\u2014almost guilds\u2014that bargain with contractors and corporate employers.",
         "maxcredit": 40,
         "selections": [
-            ["any"],
-            ["any"],
-            ["artcraft"]
+            ["All"],
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Climb",
             "Drive Auto",
-            "Electric Repair",
+            "Electrical Repair",
             "Mechanical Repair",
-            "Op. Hv. Machine"
+            "Operate Heavy Machinery"
         ]
     },
     "Middle/Senior Manager": {
@@ -2414,11 +2414,11 @@
         "content": "This could range from the lowest-level white-collar position of a clerk to a middle or senior manager. The employer could be a small- to medium-sizd locally owned business, up to a large national, or multinational corporation.\n\nClerks are habitually underpaid and the work is drudgery, with those recognized as having talent being earmarked for promotion someday. Middle and senior managers attract higher salaries, with greater responsibilities and say in how the business is managed day-to-day. Although unmarried white-collar workers are not infrequent, most executive types are family-oriented, with a spouse at home and children\u2014it is often expected of them.",
         "maxcredit": 80,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["languages"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Psychology",
@@ -2456,10 +2456,10 @@
         "content": "Officers are command rank and most commissions demand some form of higher edu. All armed services have es- tablished officer training programs that may include univer- sity edu\u2014in the U.S., most major universities provide cadet training programs, allowing simultaneous training for the military while attending school. Upon graduation the cadet is promoted to the rank of Army or Marine Second Lieutenant or Naval Ensign, and assigned to a station\n\nUsually such recruits owe the Government four years\u2019 active service, after which time they may return to civilian life. Many of the officers trained this way hold professional commissions and serve as doctors, lawyers, or engineers.\n\nThose looking for a career in the military may try to get themselves appointed to one of the military academies: the U.S. Army\u2019s West Point or the Navy\u2019s Annapolis, for exam- ple. Graduating from one of these schools earns the officer respect. Once out of school, some officers opt for special training, such as air pilot.\n\nOccasionally, an experienced and exceptionally worthy enlisted person is promoted to Warrant Officer. Although technically at the bottom of the officers\u2019 list of ranks, the time and experience required to achieve this promotion car- ries a respect and reverence far exceeding that of any junior or middle-grade officer. Most commissions are for life. Even a long-retired officer has the right to call himself Captain or General.",
         "maxcredit": 70,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["Firearms"]
         ],
         "skills": [
             "Navigate",
@@ -2498,10 +2498,10 @@
         "content": "",
         "maxcredit": 30,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Stealth",
             "Spot Hidden",
             "Climb",
@@ -2530,10 +2530,10 @@
         "content": "Missionaries visit remote corners of the globe dispensing the word of God to \u201cunfortunate primitives\u201d or \"lost souls\" in more civilized locales. May be Catholic, Protestant, Islamic, or from another branch of faith, such as the Church of the Latter-Day Saints, who specialize in two-year proselytizing missions to urban areas, including parts of the U.S. and Europe.\n\nSometimes a missionary may be independent of all except his or her own vision, or may be backed by some organization other than a church.\n\nChristian and Islamic proselytizers, as well as Buddhist, and Hindu teachers can be encountered worldwide in all eras.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["artcraft"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "First Aid",
@@ -2572,8 +2572,8 @@
         "content": "Mountain climbing as a sport became popular in the 19th century. Most climbers are weekend and vacation sportsmen and women; only a few have the reputations needed to attract the financing and sponsorship required for major climbs.\n\nBy the 1920s, all the major American and Alpine peaks have been conquered. After lengthy negotiations with the Tibetans, climbers were finally granted access to the highest peaks of the Himalayas. Regular assaults on Mt. Everest, the last unconquered peak in the world, were routinely covered by radio and newspapers. Expeditions in 1921, 1922, and 1924 all failed to reach the summit and resulted in the deaths of thirteen people.\n\nIn the modern-day, mountaineering (or Alpinism, as often termed by Europeans), may be sport, recreation, or a profession. If a profession, this could include climbing instructors, guides, athletes, or rescue services.",
         "maxcredit": 60,
         "selections": [
-            ["languages"],
-            ["survival"]
+            ["Other Language"],
+            ["Survival"]
         ],
         "skills": [
             "Track",
@@ -2604,7 +2604,7 @@
         "content": "A museum curator can be responsible for a large facility like a university or other publicly funded institution, or any sort of smaller museum, often specializing in local geology or other such topics.",
         "maxcredit": 30,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Accounting",
@@ -2646,11 +2646,11 @@
         "content": "May perform in an orchestra, group, or solo, with any instrument you care to think of. Getting noticed is hard and then getting a recording contract is difficult. Most musicians are poor and do not get noticed, eking a living by playing small venues as often as they can. A fortunate few might get regular work, such as play- ing a piano in a bar or hotel or within a city orchestra. For the minority, great success and wealth can\nbe found by being in the right place at the right time, plus having a modicum of talent.\n\nThe 1920s is, of course, the Jazz Age, and musicians work in small combos and\ndance orchestras in large and medium-sizd cities and towns across America. A few musicians living large cities, like Chicago or New York, find steady work in their hometown, but most spend significant amounts of time on the road, touring either by bus, automobile, or by train.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Listen",
@@ -2689,8 +2689,8 @@
         "maxcredit": 30,
         "selections": [
             ["Mechanical Repair", "Electrical Repair"],
-            ["fighting"],
-            ["firearms"]
+            ["Fighting"],
+            ["Firearms"]
         ],
         "skills": [
             "First Aid",
@@ -2720,7 +2720,7 @@
         "content": "Nurses are trained healthcare assistants, usually working in hospitals, nursing homes, or with General Practitioners. Generally, a nurse will assist an individual, sick or well, with activities contributing to health or recovery (or to a peaceful death) that a person might perform unaided if they had the necessary str, will, or knowledge.",
         "maxcredit": 30,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Biology",
@@ -2752,9 +2752,9 @@
         "content": "Occultists are students of esoteric secrets and arcane magic. They fully believe in paranormal abilities and actively attempt to learn about and discover these pows within themselves. Most are familiar with a broad range of different philosophies and magical theories, some believing that they can actually perform feats of magic\u2014the veracity of such abilities is left to the Keeper to determine.\n\nIt should be noted that, in the main, occultists are familiar with \"earthly magic\"\u2014the secrets of Mythos magic are unknown to them, save in tantalizing hints referenced in ancient books.",
         "maxcredit": 65,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["languages"]
+            ["Interpersonal"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Astronomy",
@@ -2794,8 +2794,8 @@
         "content": "The outdoor enthusiast spends much of his or her time living in the wilderness, often alone for long periods. Commonly skilled in hunting and fishing, and able to be self-sufficient in all but the harshest of environments. May be specialized in hiking, fishing, cross-country skiing, canoeing, climbing, and camping.\n\nThe outsdoorsman might work as a wilderness guide or ranger for a national park or outward bound center, or they may be financially independent, allowing them enjoy such a lifestyle without regard for paid employment, perhaps living as a hermit and only returning to civilization when the need arises.",
         "maxcredit": 20,
         "selections": [
-            ["firearms"],
-            ["survival"]
+            ["Firearms"],
+            ["Survival"]
         ],
         "skills": [
             "Listen",
@@ -2826,8 +2826,8 @@
         "content": "Parapsychologists do not pretend to enjoy extraordinary pows, but instead spend their efforts attempting to observe, record, and study such instances. Sometimes nick- named \u201cghost hunters,\u201d they make use of technology to try to capture hard evidence of paranormal activity that may be centered on a person or a location. A major portion of their time is spent debunking fake mediums and mistaken phenomena rather than recording actual evidence.\n\nSome parapsychologists will specialize in the study of particular phenomenon, such as extra sensory perception, telekinesis, hauntings, and others.\n\nPrestigious universities grant no degrees for parapsy- chology. Standards in the field are based entirely upon per- sonal reputation, and so the most acceptable representatives tend to hold degrees in related areas\u2014physics, psychology, or medicine.\n\nThose who choose this path are unusually sympathetic to the notion of invisible mystical pows and in validating that belief to the satisfaction of physical scientists. This would represent an unusual cohabitation of faith and doubt\u2014the parapsychologist may have difficulty separating the conflicting desires. A person uninterested in observation, experimentation, and proof is not a scientist, though he or she may be an occultist.",
         "maxcredit": 30,
         "selections": [
-            ["any"],
-            ["languages"]
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Psychology",
@@ -2858,7 +2858,7 @@
         "content": "Pharmacists have long been more closely regulated than physicians. They are licensed by individual states, most of them requiring a high school edu and three years of pharmacy school. A pharmacist may be employed in a hospital or a drug store, or perhaps they own a dispensary.",
         "maxcredit": 75,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
             "Latin",
@@ -2890,10 +2890,10 @@
         "content": "Photography as an art form has been around a long time, with most photographers working freelance, for an adver- tising firm, or in a portrait studio taking pictures of families. Others are employed in the newspaper, media, and film industries.\n\nThe elite of photographers are drawn from the worlds of art, journalism, and wildlife conservation. In each of these arenas a photographer may find fame, recognition, and financial reward.\n\nPhotojournalists are essentially reporters who use cameras, but who are also expected to write prose to accompany an image. In the 1920s, newsreels came into being; heavy, bulky 35mm film equipment was hauled around the globe in search of exciting news stories, sporting events, and bathing beauty pageants. A newsreel team usually numbers three: one of them an actual reporter who writes the copy, while the other two handle the camera, lights, etc. Voiceovers are done at a home studio, based on the written copy.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Psychology",
@@ -2923,10 +2923,10 @@
         "content": "Photography as an art form has been around a long time, with most photographers working freelance, for an adver- tising firm, or in a portrait studio taking pictures of families. Others are employed in the newspaper, media, and film industries.\n\nThe elite of photographers are drawn from the worlds of art, journalism, and wildlife conservation. In each of these arenas a photographer may find fame, recognition, and financial reward.\n\nPhotojournalists are essentially reporters who use cameras, but who are also expected to write prose to accompany an image. In the 1920s, newsreels came into being; heavy, bulky 35mm film equipment was hauled around the globe in search of exciting news stories, sporting events, and bathing beauty pageants. A newsreel team usually numbers three: one of them an actual reporter who writes the copy, while the other two handle the camera, lights, etc. Voiceovers are done at a home studio, based on the written copy.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["languages"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Photography",
@@ -2955,16 +2955,16 @@
         "content": "Professional aviators may be employed by business, for example the U.S. Mail, or work as pilots for a large or small commercial passenger line.\n\nIn the U.S. there was no national regulation of pilots until the passing of the Air Commerce Act of 1926, after which time pilots\u2019 licenses were required. Thus, many in this period work at carnivals, stunting, selling rides, or offering local air-taxi services in and out of small airports.\n\nSome pilots actively serve in the military. Many aviators learned to fly during their service and, as a result, still hold commissions as officers in the Armed Forces.",
         "maxcredit": 70,
         "selections": [
-            ["any"],
-            ["any"]
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Aircraft",
             "Astronomy",
-            "Electric Repair",
+            "Electrical Repair",
             "Mechanical Repair",
             "Navigate",
-            "Op. Hv. Machine"
+            "Operate Heavy Machinery"
         ]
     },
     "Police Detective": {
@@ -2998,10 +2998,10 @@
         "maxcredit": 50,
         "selections": [
             ["Acting", "Disguise"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Firearms"]
         ],
         "skills": [
             "Psychology",
@@ -3029,11 +3029,11 @@
         "content": "Professors are academics employed by colleges and universities.",
         "maxcredit": 70,
         "selections": [
-            ["any"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["languages"]
+            ["All"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Library Use",
@@ -3071,7 +3071,7 @@
         "content": "Though the days of the California Gold Rush and the Nevada Comstock Lode are long gone, the independent prospector is still a feature of the American West. Roaming the mountains, they endlessly search for the big strike that will make them rich. In these days, oil may be as good as gold.",
         "maxcredit": 10,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "History",
@@ -3103,10 +3103,10 @@
         "content": "Depending on circumstance, breeding, and background, a prostitute may be a high-rolling expensive call girl, male gigolo, or streetwalker. Often driven by circumstance, many dream of a way out. A few work completely independently; however, for most, they are lured and kept in the business by ruthless pimps whose only concern is cash.",
         "maxcredit": 50,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["artcraft"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Dodge",
@@ -3135,7 +3135,7 @@
         "content": "In the modern era a psychiatrist is a physician specialized in the diagnosis and treatment of mental disorders. Psychiatrists are trained in psychopharmacological treatments and are authorized to prescribe psychiatric medication, as well as order electroencephalograms, and computed brain-imaging studies.\n\nAt the turn of the twentieth century, psychoanalytic theories were still relatively new and aimed at attempting to explain phenomena that until recently had been considered to be biological in nature. As such, psychiatrists sought\nto establish their medical credentials, and differing perspectives of diagnosing and treating mental dis- orders began to be introduced. Until the 1930s, any physician could request being listed in the Directory of the American Medical Association as a specialist in psychiatry.",
         "maxcredit": 80,
         "selections": [
-            ["languages"]
+            ["Other Language"]
         ],
         "skills": [
             "Biology",
@@ -3167,8 +3167,8 @@
         "content": "While commonly known for the fields of psychotherapy and counseling, this is just one branch of psychology. Other specialists include organizational psychologists who work with businesses and governments, as well as academics conduct- ing research or teaching psychology. \n\nClinical psychologists may work with patients, using a range of therapeutic tools. Note the distinction between a psychologist and a psychiatrist who is a physician specialist.\n\nIn the 1920s, the study of human behavior was a rather new field and primarily focused on Freudian analysis.",
         "maxcredit": 40,
         "selections": [
-            ["any"],
-            ["any"]
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Accounting",
@@ -3199,10 +3199,10 @@
         "content": "",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
-            "Language Own",
+            "Own Language",
             "Listen",
             "Psychology",
             "Stealth",
@@ -3231,11 +3231,11 @@
         "content": "The academic world sponsors a good deal of research, particularly in the fields of astronomy, physics, and other theoretical sciences. The private sector employs thousands of researchers, especially chemists, pharmacists, and engineers. Oil companies hire many trained geologists. Researchers spend most of their time indoors, working and writing, but some go onto become field researchers.\n\nField researchers are usually highly experienced, inde- pendent, and resourceful, possibly employed by private in- terests or undertaking academic research for a university. Oil companies send geologists into the field to explore potential petroleum fields, anthropologists study primitive tribes in forgotten corners of the globe, and archaeologists spend years of their lives unearthing treasures in deserts and jun- gles, bargaining with native workers and local governments.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["languages"]
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["Other Language"]
         ],
         "skills": [
             "Spot Hidden",
@@ -3264,9 +3264,9 @@
         "maxcredit": 40,
         "selections": [
             ["Sleight of Hand", "Stealth"],
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Accounting",
@@ -3295,11 +3295,11 @@
         "content": "Natural philosophers who delve reality in the pursuit of knowledge. Where science is applied to creating useful items, one might employ an engineer, but if one wishes to expand the bounds of what is possible, one will require scientists.\n\nScientists are employed by businesses and universities to carry out research.\n\nAlthough specializing in one field of science, any sci- entist worth his or her salt will be well-versed in several branches of science. A scientist will also have a good com- mand of their own language, having done higher degrees and probably a Ph.D.",
         "maxcredit": 50,
         "selections": [
-            ["interpersonal"],
-            ["languages"],
-            ["science"],
-            ["science"],
-            ["science"]
+            ["Interpersonal"],
+            ["Other Language"],
+            ["Science"],
+            ["Science"],
+            ["Science"]
         ],
         "skills": [
             "Library Use",
@@ -3337,15 +3337,15 @@
         "maxcredit": 30,
         "selections": [
             ["Typing", "Short Hand"],
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"]
         ],
         "skills": [
             "Library Use",
             "Psychology",
             "Accounting",
-            "Language Own"
+            "Own Language"
         ]
     },
     "Shopkeeper": {
@@ -3378,8 +3378,8 @@
         "content": "The owner of a small shop, market stall, or perhaps restaurant. Usually self-employed, but may be the manager run- ning the shop on behalf of the owner. Possibly family-run, with relations also working on the premises, with normally few, if any, employees.\n\nThe 1920s saw many women opening their own hair- dressing and millinery shops.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"]
+            ["Interpersonal"],
+            ["Interpersonal"]
         ],
         "skills": [
             "Listen",
@@ -3387,7 +3387,7 @@
             "Psychology",
             "Accounting",
             "Spot Hidden",
-            "Electric Repair"
+            "Electrical Repair"
         ]
     },
     "Smuggler": {
@@ -3420,9 +3420,9 @@
         "content": "",
         "maxcredit": 60,
         "selections": [
-            ["interpersonal"],
+            ["Interpersonal"],
             ["Drive Auto", "Aircraft", "Boat"],
-            ["firearms"]
+            ["Firearms"]
         ],
         "skills": [
             "Navigate",
@@ -3462,12 +3462,12 @@
         "content": "This refers to the enlisted ranks of the Army and Marines and includes the lowest ranks of Private up through Gun- nery Sergeant (in U.S. terms). Although technically out- ranked by even the freshest of Second Lieutenants, Veteran Sergeants are respected by even the highest-ranking officers. In the U.S., standard enlistment is for six years, including four years\u2019 active duty and two in standby (inactive) reserve.\n\nAll enlisted persons receive basic training\u2014\u201cboot camp\u201d\u2014 where raw recruits are taught how to march, shoot, and salute. Upon graduation from basic training, most are assigned to the infantry, although the Army also needs soldiers for artillery and the tank corps. A few are trained for non-combat roles, such as air controller, mechanic, clerk, or even officer\u2019s stew- ard. Marines, while technically part of the Navy, are similar to soldiers in background, training, and skills.",
         "maxcredit": 30,
         "selections": [
-            ["First Aid", "Mechanical Repair", "languages"],
-            ["First Aid", "Mechanical Repair", "languages"],
+            ["First Aid", "Mechanical Repair", "Other Language"],
+            ["First Aid", "Mechanical Repair", "Other Language"],
             ["Swim", "Climb"],
-            ["firearms"],
-            ["fighting"],
-            ["survival"]
+            ["Firearms"],
+            ["Fighting"],
+            ["Survival"]
         ],
         "skills": [
             "Stealth",
@@ -3505,9 +3505,9 @@
         "maxcredit": 60,
         "selections": [
             ["Acting", "Disguise"],
-            ["interpersonal"],
-            ["languages"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Other Language"],
+            ["Firearms"]
         ],
         "skills": [
             "Listen",
@@ -3536,11 +3536,11 @@
         "content": "Usually a stage or film actor. Many stage actors have a back- ground in the classics and, considering themselves \u201clegiti- mate,\u201d have a tendency to look down upon the commercial efforts of the film industry, although by the late twentieth century this is diminished, with film actors able to command greater respect and higher fees.\n\nMovie stars and the film industry have long captured the interest of people across the world. Many stars are made overnight and most of them lead flashy, high profile lives, ever in the media spotlight.\n\nIn the 1920s, the theatrical center of the U.S. is in New York City, although there are major stages in most cities across the country. A similar situation exists in England, with touring repertory companies traveling the counties, with London the heart of theatrical shows. Touring companies travel by train, presenting new plays, as well as classics by Shakespeare and others. Some companies spend consider- able amounts of time touring foreign parts, such as Canada, Hawaii, Australia, and Europe.\n\nWith the introduction of \"talkies\" in the latter part of the 1920s, many stars of the silent films era cannot cope with the transition to sound. The arm-waving histrionics of silent actors give way to more subtle characterizations. John Gar- field and Francis Bushman are forgotten for new stars, such as Gary Cooper and Joan Crawford.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["fighting"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["Fighting"]
         ],
         "skills": [
             "Psychology",
@@ -3579,9 +3579,9 @@
         "content": "",
         "maxcredit": 10,
         "selections": [
-            ["interpersonal"],
-            ["fighting"],
-            ["firearms"]
+            ["Interpersonal"],
+            ["Fighting"],
+            ["Firearms"]
         ],
         "skills": [
             "Jump",
@@ -3611,12 +3611,12 @@
         "content": "May be a student enrolled at a college or university, or the employee of a company receiving minimal compensation for valuable on-the-job training.",
         "maxcredit": 10,
         "selections": [
-            ["Language Own", "languages"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["any"],
-            ["any"]
+            ["Own Language", "Other Language"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Library Use",
@@ -3653,9 +3653,9 @@
         "content": "The film and television industry employs stuntmen and women to simulate falls from Buildings, car crashes, and other catastrophes. Stunt performers will usually be trained in fighting techniques and stage combat. There is always risk in the performance of all stunt work, and health and safety is a key element.\n\nIn modern times, stunt performers will largely be members of a union where they have had to prove their creden- tials (such as advanced driver\u2019s license, diver\u2019s license, and so on). All television and film work will be supervised by a stunt director. However in the 1920s, there are no equivalent organizations nor any regulation of the industry. Accidents and fatalities are frequent.",
         "maxcredit": 50,
         "selections": [
-            ["pilot", "Drive Auto", "Diving", "Ride"],
-            ["Electric Repair", "Mechanical Repair"],
-            ["fighting"]
+            ["Pilot", "Drive Auto", "Diving", "Ride"],
+            ["Electrical Repair", "Mechanical Repair"],
+            ["Fighting"]
         ],
         "skills": [
             "Swim",
@@ -3685,7 +3685,7 @@
         "content": "Professional drivers may work for a company, private individual, or possibly have their own cab or rig.\n\nTaxi drivers may work for large or small companies, or possibly have their own cab and license (medallion in the U.S.). Cab companies are usually set up so that drivers rent cabs and a dispatcher service from the company, technically making the drivers freelance operators. Taxis are required to be fitted with approved meters, periodically checked by the city\u2019s taxi board. Drivers are usually required to obtain a special license that includes a background check by the police detective bureau.\n\nA chauffeur is either directly employed by an individ- ual or firm, or works for an agency that hires both car and chauffeur out for single engagements or on a retainer basis.",
         "maxcredit": 30,
         "selections": [
-            ["any"]
+            ["All"]
         ],
         "skills": [
             "Mechanical Repair",
@@ -3693,7 +3693,7 @@
             "Spot Hidden",
             "Accounting",
             "Drive Auto",
-            "Electric Repair",
+            "Electrical Repair",
             "Fast Talk"
         ]
     },
@@ -3727,8 +3727,8 @@
         "content": "In the sense of family allegiance, at least, tribalism is ev- erywhere. In a tribe, the primacy of kinship and custom is self-evident. A tribal group is nominally relatively small. In place of a blanket of law and general individual rights, the tribal personality defers to personal honor. Praise, vengeance, gifts, and glory\u2014all must be personal to the tribe member, and if leaders or enemies are to be treated as men of honor, they too must be personally known in some way. The notion of exile has real pow in such a setting.",
         "maxcredit": 15,
         "selections": [
-            ["fighting", "throw"],
-            ["survival"]
+            ["Fighting", "Throw"],
+            ["Survival"]
         ],
         "skills": [
             "Swim",
@@ -3759,7 +3759,7 @@
         "content": "Undertakers, also known as morticians or funeral directors, manage the business of funeral rites. This work includes the burial or cremation of the dead. With burials, the undertaker will perform embalming, as well as dressing, casketing, and cosmetising the app of the deceased\n\nUndertakers are licensed by the state. They either own their own funeral parlors or work for someone who does.",
         "maxcredit": 40,
         "selections": [
-            ["interpersonal"]
+            ["Interpersonal"]
         ],
         "skills": [
             "History",
@@ -3801,9 +3801,9 @@
         "content": "",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
+            ["Interpersonal"],
             ["Drive Auto", "Ride"],
-            ["firearms"]
+            ["Firearms"]
         ],
         "skills": [
             "Law",
@@ -3833,15 +3833,15 @@
         "content": "Union activists are organizers, leaders, and sometimes either visionaries or malcontents with an axe to grind. Normally a friend to the workers and an enemy of the bosses. Unions exist in all walk of life, be it stevedores, construction workers, miners, or actors.\n\nDuring the early twentieth century, union officials find themselves caught between big business wishing to destroy them, politicians alternately befriending and condemning them, communists and socialists trying to infiltrate their ranks, and criminal mobs trying to take them over.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"]
+            ["Interpersonal"],
+            ["Interpersonal"]
         ],
         "skills": [
             "Psychology",
             "Brawl",
             "Law",
             "Listen",
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Accounting"
         ]
     },
@@ -3875,16 +3875,16 @@
         "content": "Laborers include factory workers, mill hands, stevedores, road crews, miners, construction, and so on. Laborers fall into two camps: skilled and unskilled. While technically unskilled, the average laborer is often an expert in the use of pow tools, lifting gear, and other equipment to be found on site.",
         "maxcredit": 30,
         "selections": [
-            ["any"],
-            ["fighting"]
+            ["All"],
+            ["Fighting"]
         ],
         "skills": [
             "First Aid",
             "Mechanical Repair",
-            "Op. Hv. Machine",
+            "Operate Heavy Machinery",
             "Throw",
             "Drive Auto",
-            "Electric Repair"
+            "Electrical Repair"
         ]
     },
     "Waiter/Waitress": {
@@ -3917,10 +3917,10 @@
         "content": "Serves customers and clients within a hotel, bar, or other drinking or eating establishment. Traditionally low-paid, the waitress earns tips from clients by providing good service and trying to establish a rapport.\n\nA technically illegal profession during Prohibition (in the case of serving liquor), many job opportunities exist working in the illegal speakeasies owned by the mob.",
         "maxcredit": 20,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["artcraft"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["Art/Craft"]
         ],
         "skills": [
             "Listen",
@@ -3959,11 +3959,11 @@
         "content": "Intense and vision-driven, scorning an easy life, the zealot agitates for a better life for humanity, or for some advantage for the group imagined to be the most worthwhile part of humanity. Some fanatics promote their beliefs through violence; however, the peaceable majority may be just as implacable. All dream of the vindication of their beliefs.",
         "maxcredit": 30,
         "selections": [
-            ["interpersonal"],
-            ["interpersonal"],
-            ["any"],
-            ["any"],
-            ["any"]
+            ["Interpersonal"],
+            ["Interpersonal"],
+            ["All"],
+            ["All"],
+            ["All"]
         ],
         "skills": [
             "Psychology",

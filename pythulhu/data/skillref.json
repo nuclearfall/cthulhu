@@ -162,39 +162,11 @@
         "parent": null,
         "groups": []
     },
-    "Charm": {
-        "name": "Charm",
-        "pdfslot": "Charm",
-        "value": 15,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": null,
-        "groups": [
-            "interpersonal"
-        ]
-    },
     "Climb": {
         "name": "Climb",
         "pdfslot": "Climb",
         "value": 20,
         "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": null,
-        "groups": []
-    },
-    "Computer Use": {
-        "name": "Computer Use",
-        "pdfslot": "SkillDef_Custom",
-        "value": 15,
-        "era": 1,
         "rarity": "",
         "notes": "",
         "custom": false,
@@ -281,6 +253,19 @@
         "parent": null,
         "groups": []
     },
+    "Drive": {
+        "name": "Drive Auto",
+        "pdfslot": "Drive",
+        "value": 0,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": ["Drive Auto", "Drive Wagon"],
+        "parent": null,
+        "groups": []    
+    },
     "Drive Auto": {
         "name": "Drive Auto",
         "pdfslot": "Drive",
@@ -291,11 +276,24 @@
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": null,
+        "parent": "Drive",
+        "groups": []
+    },
+    "Drive Wagon": {
+        "name": "Drive Wagon",
+        "pdfslot": "Drive",
+        "value": 0,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": "Drive",
         "groups": []
     },
     "Electrical Repair": {
-        "name": "Electrical Repair",
+        "name": "Electric Repair",
         "pdfslot": "ElecRepair",
         "value": 10,
         "era": 0,
@@ -320,20 +318,18 @@
         "parent": null,
         "groups": []
     },
-    "Fast Talk": {
-        "name": "Fast Talk",
-        "pdfslot": "FastTalk",
-        "value": 5,
+    "Farming": {
+        "name": "Farming",
+        "skill": "Custom",
+        "value": 1,
         "era": 0,
         "rarity": "",
         "notes": "",
-        "custom": false,
+        "custom": true,
         "checked": false,
         "children": [],
         "parent": null,
-        "groups": [
-            "interpersonal"
-        ]
+        "groups": []
     },
     "Fighting": {
         "name": "Fighting",
@@ -573,6 +569,19 @@
         "parent": "Firearms",
         "groups": ["firearms"]
     },
+    "First Aid": {
+        "name": "First Aid",
+        "pdfslot": "FirstAid",
+        "value": 5,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": null,
+        "groups": []
+    },
     "History": {
         "name": "History",
         "pdfslot": "History",
@@ -596,8 +605,66 @@
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": null,
+        "parent": "Interpersonal",
         "groups": []
+    },
+    "Instrument": {
+        "name": "Instrument",
+        "pdfslot": "Custom",
+        "value": 1,
+        "era": 0,
+        "rarity": "Uncommon",
+        "notes": "",
+        "custom": true,
+        "checked": false,
+        "children": [],
+        "parent": "Interpersonal",
+        "groups": []
+    },
+    "Interpersonal": {
+        "name": "Persuade",
+        "pdfslot": "Persuade",
+        "value": 10,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": ["Charm", "Fast Talk", "Intimidate", "Persuade"],
+        "parent": null,
+        "groups": [
+            "interpersonal"
+        ]
+    },
+    "Charm": {
+        "name": "Charm",
+        "pdfslot": "Charm",
+        "value": 15,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": "Interpersonal",
+        "groups": [
+            "interpersonal"
+        ]
+    },
+    "Fast Talk": {
+        "name": "Fast Talk",
+        "pdfslot": "FastTalk",
+        "value": 5,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": null,
+        "groups": [
+            "interpersonal"
+        ]
     },
     "Intimidate": {
         "name": "Intimidate",
@@ -609,7 +676,22 @@
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": null,
+        "parent": "Interpersonal",
+        "groups": [
+            "interpersonal"
+        ]
+    },
+    "Persuade": {
+        "name": "Persuade",
+        "pdfslot": "Persuade",
+        "value": 10,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": "Interpersonal",
         "groups": [
             "interpersonal"
         ]
@@ -756,7 +838,7 @@
         "notes": "",
         "custom": false,
         "checked": false,
-        "children": ["languages"],
+        "children": [],
         "parent": "Other Language",
         "groups": []
     },
@@ -942,8 +1024,8 @@
         "parent": null,
         "groups": []
     },
-    "Medecine": {
-        "name": "Medecine",
+    "Medicine": {
+        "name": "Medicine",
         "pdfslot": "Medicine",
         "value": 1,
         "era": 0,
@@ -1006,21 +1088,6 @@
         "children": [],
         "parent": null,
         "groups": []
-    },
-    "Persuade": {
-        "name": "Persuade",
-        "pdfslot": "Persuade",
-        "value": 10,
-        "era": 0,
-        "rarity": "",
-        "notes": "",
-        "custom": false,
-        "checked": false,
-        "children": [],
-        "parent": null,
-        "groups": [
-            "interpersonal"
-        ]
     },
     "Pilot": {
         "name": "Pilot",
@@ -1135,7 +1202,7 @@
             "Geology",
             "Mathematics",
             "Meteorology",
-            "Pharamacy",
+            "Pharmacy",
             "Physics",
             "Zoology"
         ]
@@ -1218,6 +1285,19 @@
         "parent": "Science",
         "groups": ["science"]
     },
+    "Forensics": {
+        "name": "Forensics",
+        "skill": "Science",
+        "value": 1,
+        "era": 1,
+        "rarity": "",
+        "notes": "",
+        "custom": true,
+        "checked": false,
+        "children": [],
+        "parent": "Science",
+        "groups": ["science"]
+    },
     "Geology": {
         "name": "Geology",
         "pdfslot": "Science",
@@ -1234,7 +1314,7 @@
     "Mathematics": {
         "name": "Mathematics",
         "pdfslot": "Science",
-        "value": 1,
+        "value": 10,
         "era": 0,
         "rarity": "",
         "notes": "",
@@ -1257,8 +1337,8 @@
         "parent": "Science",
         "groups": ["science"]
     },
-    "Pharamacy": {
-        "name": "Pharamacy",
+    "Pharmacy": {
+        "name": "Pharmacy",
         "pdfslot": "Science",
         "value": 1,
         "era": 0,
@@ -1295,6 +1375,19 @@
         "children": [],
         "parent": "Science",
         "groups": ["science"]
+    },
+    "Short Hand": {
+        "name": "Short Hand",
+        "pdfslot": "Custom",
+        "value": 0,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": null,
+        "groups": []
     },
     "Sleight of Hand": {
         "name": "Sleight of Hand",
@@ -1434,6 +1527,19 @@
     "Track": {
         "name": "Track",
         "pdfslot": "Track",
+        "value": 10,
+        "era": 0,
+        "rarity": "",
+        "notes": "",
+        "custom": false,
+        "checked": false,
+        "children": [],
+        "parent": null,
+        "groups": []
+    },
+        "Typing": {
+        "name": "Typing",
+        "pdfslot": "Typing",
         "value": 10,
         "era": 0,
         "rarity": "",

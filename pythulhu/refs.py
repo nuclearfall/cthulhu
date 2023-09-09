@@ -13,9 +13,9 @@ skillref = getref("skillref")
 spellref = getref("spellref")
 weapref = getref("weapref")
 itemref = getref("itemref")
-topdftemp = getref("topdf")
-tojsontemp = getref("tojson")
-toprismtemp = getref("toprism")
+pdfref = getref("pdfref")
+jsonref = getref("jsonref")
+prismref = getref("prismref")
 
 def attrget(o, *args, default=None):
 	if not args:

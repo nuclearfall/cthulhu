@@ -1,50 +1,43 @@
 import json
-from .refs import topdf_template, tojson_template, toprism_template, attrget
+from refs import *
 from pprint import pprint
 import random
 from pathlib import Path
 import pickle
-from .skills import getslots
-import weapons
+from skills import getslots
+from dataparse import *
+#import weapons
 from uuid import uuid4
 
-with open("../data/character.json") as fp:
-    json_keys = json.load(fp)
-
-with open("../data/investigator.json") as fp:
-    pdf_keys = json.load(fp)
-
+random.seed()
 
 _primary = ["pow", "str", "con", "dex", "app", "siz", "edu", "int"]
 _secondary = ["mov", "db", "build", "hp", 
         "hp", "mp", "sanity", "max_sanity", "dodge"]
 _rolled = ["pow", "str", "con", "dex", "app", "siz", "edu", "int", "dodge"]
 
-class Investigator(Character):
-    def __init__(self, **kwargs):
-        super().__init__(kwargs)
-        self.gametype = "Investigator"
-        self.pdf = kwargs.get("pdf", topdf.items())
-        self.prism = kwargs.get("prism", toprism.items())
-        self.json = kwargs.get("json", tojson.items())
-        for k, v in kwargs.items():
-            if k in tojson_temp.keys():
-                setattr(self, k, v)
 
 
 class Character:
     def __init__(self, **kwargs):
         # characters can reliably be addressed by there cid in the charmap.
-        self.gametype = "NonPlayerCharacter")
+        self.keeper = None
+        self.gametype = "NonPlayerCharacter"
         self.gameid = str(uuid4()) 
-        self.skills = kwargs.get("skills", {}):
+        self.skills = kwargs.get("skills", {})
         self.ownlanguage = kwargs.get("language", "English")
+        self.skills = {}
 
     def skill_value(self, arg, skill=True):
         if skill is True:
             return attrget(self, "skills", arg, "value")
-        else
+        else:
             return getattr(self, arg)
+    #skills include characteristics
+    def connect_to_keeper(self, keeper):
+        return {"investigator": self, "request": "accept"}
+    def getskill(self, skillname):
+        return self.skills.get(skillname) or {"name": skillname, "value": self.__dict__.get(skillname, 0)}
 
     def improvement_check(self, key, count=1):
         val = getattr(self, key)
@@ -54,21 +47,24 @@ class Character:
         setattr(self, key, val)
 
     def getchars(self, primary=True, secondary=False, result={}):
-        if "primary" is True:
+        if primary is True:
             result = self.primary()
-        if "secondary" is True:
+        if secondary is True:
             result = {**self.result, **self.secondary()}
+        else:
+            result = self.__dict__
         return result
+
+    def skillroll(self, skill=None, oppskill=None, challenge=REGULAR, bonus=0, penalty=0,):
+        skill = self.getskill(skill)
+        return skillroll(skill=skill, challenge=challenge, bonus=bonus, penalty=penalty) if not oppskill else opposed_skillroll(
+                skill, oppskill, bonus=bonus, penalty=penalty)
 
     def primary(self, result={}):
         return {k: getattr(self, k) for k in _primary}
 
     def secondary(self, result={}):
         return {k: getattr(self, k) for k in _secondary}
-
-    def update_character(self, **kwargs):
-        for key, val in kwargs:
-            setattr(self, key, val)
 
     def purchase(item, ptype="item", cash=False):
         cost, key, data = items.purchase_item(item, ptype)
@@ -120,7 +116,7 @@ class Character:
                 self.pdfset_values("Skill_"+pdfslot, value)
         return None
 
-    def to_pdf(self, template=topdf_template, result={}):
+    def to_pdf(self, template=topdftemp, result={}):
         self.dodge = self.skills.get("Dodge").get("value")
         self.pdf = template
         skill_keys = [k for k in template.keys() if k.startswith("Skill")]
@@ -131,7 +127,6 @@ class Character:
             # include Brawl challenge difficulties as an exception in Weapons.
             if tkey.startswith("Weapon"):
                 if tkey == "Weapon_Regular0":
-                    print("match")
                     self.pdf["Weapon_Regular0"] = self.skills.get("Brawl").get("value")
                     self.pdf["Weapon_Hard0"] = int(self.skills.get("Brawl").get("value") / 2)
                     self.pdf["Weapon_Extreme0"] = int(self.skills.get("Brawl").get("value") / 5)
@@ -145,13 +140,13 @@ class Character:
                 self.pdf[tkey] = ""
         return self.pdf
 
-    def to_json(self, template=tojson_template):
+    def to_json(self, template=tojsontemp):
         for k, v in self.__dict__.items():
             if k in template:
                 template[k] = v
         return template
 
-    def to_prism(self, template=toprism_template):
+    def to_prism(self, template=toprismtemp):
         pass 
 
     def pass_data(self, key, location):
@@ -159,6 +154,17 @@ class Character:
 
     def post(self, value, location):
         pass 
+
+class Investigator(Character):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.gametype = "Investigator"
+        #self.pdf = kwargs.get("pdf", topdftemp.items())
+        #self.prism = kwargs.get("prism", toprism.items())
+        #self.json = kwargs.get("json", tojson.items())
+        for k, v in kwargs.items():
+            if k in tojsontemp.keys():
+                setattr(self, k, v)
 
 def save(investigator, path):
     path = Path(path)

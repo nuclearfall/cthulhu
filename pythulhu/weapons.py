@@ -1,10 +1,9 @@
 import json
+from refs import *
 
-with open("../data/weapons.json") as fp:
-    weapon_ref = json.load(fp).get("weapons")
 def weapon_str(wname, key="name", cond=True):
 
-	for val in weapon_ref:
+	for val in weapref:
 		name = val.get("name")
 		ident = val.get(key)
 		if isinstance(ident, int):

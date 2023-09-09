@@ -7,7 +7,7 @@
 			"ageHigh": 19,
 			"penalties": 
 			[
-				[-5, "str", "SIZ"],
+				[-5, "str", "siz"],
 				[-5, "edu"]
 			]
 		},
@@ -79,7 +79,7 @@
 			"edu_checks": 4
 		}
 	},
-	"Build_and_Db": 
+	"buildanddb": 
 	[
 		{
 			"highValue": 64,
@@ -95,7 +95,7 @@
 		},
 		{
 			"highValue": 124,
-			"lowValue": 65,
+			"lowValue": 85,
 			"DamageBonus": "0",
 			"Build": 0
 		},

@@ -2,16 +2,19 @@ import json
 import skills as skl
 from pprint import pprint
 import random
+from refs import *
 
-with open("../data/occupations.json", "r") as fp:
-	occ_defs = json.load(fp)
+
+
+# with open("../data/occupations.json", "r") as fp:
+# 	occref = json.load(fp)
 
 class Occupation:
 	def __init__(self, parent, occ_name, choice=[], mincredit=True):
 		self.parent = parent
 		self.skillset = {}
 		self.skillpoints = 0
-		self.scenarios = occ_defs.get(occ_name).get("scenarios")
+		self.scenarios = occref.get(occ_name).get("scenarios")
 
  
 
@@ -84,28 +87,28 @@ class Occupation:
 
 
 
-# def occupation_names(occupations=occ_defs):
+# def occupation_names(occupations=occref):
 # 	return [o for o in occupations.keys()]
 
-# def skills_list(name, occupations=occ_defs):
+# def skills_list(name, occupations=occref):
 # 	return [skill for skill in skills.find(occupations.get(name).get("skills"))]
 
-# def skills_dict(name, occupations=occ_defs):
+# def skills_dict(name, occupations=occref):
 # 	results = {}
 # 	for skill_name in occupations.get(name).get("skills"):
 # 		results[skill_name] = skills.find(key="name", val=skill_name)
 # 	return results
 
-# def selections(name, occupations=occ_defs):
+# def selections(name, occupations=occref):
 # 	return occupations.get(name).get("selections")
 
-# def get_occupation(name, occupations=occ_defs):
+# def get_occupation(name, occupations=occref):
 # 	return occupations.get(name)
 
-# def is_occupation(name, occupations=occ_defs):
+# def is_occupation(name, occupations=occref):
 # 	return True if occupations.get(name) else False
 
-# 	def skill_point_scenarios(name, occupations=occ_defs):
+# 	def skill_point_scenarios(name, occupations=occref):
 # 		occupation = occupations.get(name)
 # 		return occupation.get("scenarios")
 
@@ -120,10 +123,10 @@ class Occupation:
 
 
 
-if __name__ == "__main__":
-	name = "Acrobat"
-	job = Occupation(name)
-	pprint(job.content)
+# if __name__ == "__main__":
+# 	name = "Acrobat"
+# 	job = Occupation(name)
+# 	pprint(job.content)
 
 
 

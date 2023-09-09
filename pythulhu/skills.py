@@ -44,115 +44,57 @@ def getslots():
 
 ERAS = ["All", "Modern", "Lovecraftian"]
 
+def getskval(name):
+	return skillref.get(name).get("value")
 def exclude_from(_list, exclude=[]):
-	return [s for s in skill_list if s not in exclude]
+	return [s for s in _list if s not in exclude]
 def kv_pair(name, skills=skillref):
 	for k, v in skillref.items():
 		if k.get("name") == name:
 			return (k, v)
 	return None
-def groups():
-	return ["languages", "science", "firearms", "artcraft", "fighting", 
-				"survival", "pilot", "interpersonal"]
-def is_child(name=None, skill=None):
+
+def is_child(name=None, skill=None, skills=skillref):
 	if isinstance(name, str):
-		return True if find(name=name) is not None else False
+		return True if skills.get(name).get("parent") else False
 	else:
 		return True if skill.get("parent") else False
 
 def is_parent(skill, skills=skillref):
 	if isinstance(skill, str):
-		return True if skillref.get(skill) and skillref.get(skill).get("children") is not None else False
+		return True if skillref.get(skill) and skillref.get(skill).get("children") else False
 	else:
 		return True if skill.get("children") else False
 
 def is_uncommon(skill, skills=skillref):
 	return True if skill.get("rarity") == "Uncommon" else False
 
-def modernlist(skill_list, skills=skillref):
-	for skill in skill_list:
-		if isinstance(skill, str):
-			skill = skills.get(skill)
-	return [s for s in skills if s.get("era") != 1]
-
-def inera(skill, era, skills=skillref):
-	if isinstance(skill, str):
-		skill = skills.get(skill)
-	return True if skill.get("era") == era else False
-
 def is_group(name):
-	return True if name in self.groups else False
+	return True if name in groups() else False
 
 def is_member(skill, group):
 	return True if group in skill.get("groups") else False
+# includes list allows keeper to specifically include Cthulhu Mythos.
+def chargen(era=0, include=[], exclude=[], skills=skillref):
+	exclude += ["Cthulhu Mythos"]
+	return [sk for sk in skillref if sk not in exclude and skillref[sk].get(
+			"era") == era] + include
 
-def _lookup(key=None, val=None, skills=skillref):
-	if key and val:
-		return [sk for sk in skills if skills.get(sk).get(key) == val]
+def skill_subset(skill_list, era=0, excludes=[], skills=skillref):
+	return {k:v for k, v in skills.items() if k in skill_list and k not in excludes and v.get("era") == era}
 
 def members(group, results=[]):
 	for val in skillref.values():
-		if group in val.get("groups"):
+		if group in val.get("groups", []):
 			results.append(val.get("name"))
 	return results
-
-def get_skillset(result=[]):
-	return [(v.get("name"), v.get("value")) for v in skillref.values()]
-def _firearms():
-	return _lookup(key="parent", val="Firearms")
-
-def _fighting():
-	return _lookup(key="parent", val="Fighting")
-
-def _science():
-	return _lookup(key="parent", val="Science")
-
-def _language():
-	return _lookup(key="parent", val="Other Language")
-
-def _survival():
-	return _lookup(key="parent", val="Survival")
-
-def _science():
-	return _lookup(key="parent", val="Science")
-
-def _interpersonal():
-	return _lookup(key="group", val="interpersonal")
 
 def names(current_skills=[], skills=skillref):
 	return [k for k in skills.keys(
 			) if k in skills and k not in current_skills]
 
-def children_of(skill=None, skills=skillref):
-	if isinstance(skill, str):
-		return skills.get(name).get("children")
-	else:
-		return skill.get("children")
-
-def groupies(group=None, skills=skillref, ret_type=dict):
-		# if a specific
-	groups = {k:v, for k, v in skills.items() if v.get("group")}
-	if skill is None and ret_type == dict:
-		return parents
-	if skill is None and ret_type == list or ret_type == tuple:
-		return ret_type([v for v in parents.values()])
-	if skill and ret_type == dict:
-		return {k:v for k, v in parents.items() if v.get("parent") == skill}
-	if skill and ret_type == list or ret_type == tuple:
-		return ret_type([v for k, v in skills.values(), if v.get("parent") == skill])
-
-def children(parent:str, skills=skillref, ret_type:dict):
-	# if a specific
-	parents = {k:v, for k, v in skills.items() if v.get("parent")}
-	if parent is None and ret_type == dict:
-		return parents
-	if parent is None and ret_type == list or ret_type == tuple:
-		return ret_type([v for v in parents.values()])
-	if parent and ret_type == dict:
-		return {k:v for k, v in parents.items() if v.get("parent") == parent}
-	if parent and ret_type == list or ret_type == tuple:
-		return ret_type([v for k, v in skills.values(), if v.get("parent") == parent])
-
+def children(parent, skills=skillref, exclude=[]):
+	return [c for c in skillref.get(parent).get("children") if c not in exclude]
 
 def parents(skills=skillref):
 	return {k:v for k, v in skills.items() if v.get("children")}
@@ -237,59 +179,61 @@ def skill_init(name, value=0, keys=["name", "parent", "value", "pdfslot"], skill
 		return {k: v+value for k, v in skill.items() if k in keys}
 
 
-class SkillGroup:
-	def __init__(self, name, skills=skillref, era=0, issubgroup=False):
-		self.skills = {}
-		self.groups = groups()
+# class SkillGroup:
+# 	def __init__(self, name, skills=skillref, era=0, issubgroup=False):
+# 		self.skills = {}
+# 		self.groups = groups()
 
-		for key, val in skills.items():
-			children, groups, parent = rgetlist(val, "children", "groups", "parent")
-			if issubgroup is False and groups:
-				groupobj = SkillGroup(group, skills=members(group), era=era, issubgroup=True)
-				try:
-					getattr(group)
-				setattr(self, group, groupobj)
-				# all other grouped are specialties and should be saved under their parent group.
-				if "interpersonal" in group:
-					self.skills[k] = v
-			if children and not issubgroup:
-				groupobj = SkillGroup(group, skills=children(k), era=era, issubgroup=True)
-				setattr(self, sanitize_key(k), groupobj)
-			if parent:
-				pass
-			else:
-				setattr(self, sanitize_key(k), val)
-		self.name = name
-	def find(self, key):
-		return self.skills.get(key)
-	def list(self, selectable=True):
-		return [v for v in self.skills.values()]
-	def pdfset_skill(investigator, choice, slotdefs):
-		skname, value = choice
-		skill = find(key="name", val=skname)
-		pdfslot = skill.get("pdfslot")
-		pdfslot = pdfslot
-		value += skill.get("value", 0)
-		pdf_children = [sn for sn in slotdefs]
-		if skname == "Brawling" or pdfslot not in pdf_children:
-			investigator.pdf["Skill_"+pdfslot] = value 
-		elif len(slotdefs.get(pdfslot)) == 0 or pdfslot == "Skill_Custom":
-			pdfnum = slotdefs["Custom"].pop(0)
-			investigator.pdf["SkillDef_Custom"+pdfnum] = skname
-			investigator.pdf["Skill_Custom"+num] = value
-		else:
-			pdfnum = slotdefs[pdfslot].pop(0)
-			investigator.pdf["SkillDef_"+pdfslot+pdfnum] = skname 
-			investigator.pdf["Skill_"+pdfslot+pdfnum] = value
+# 		for key, val in skills.items():
+# 			children, groups, parent = rgetlist(val, "children", "groups", "parent")
+# 			if issubgroup is False and groups:
+# 				groupobj = SkillGroup(group, skills=members(group), era=era, issubgroup=True)
+# 				try:
+# 					getattr(group)
+# 				except:
+# 					raise KeyError
+# 				setattr(self, group, groupobj)
+# 				# all other grouped are specialties and should be saved under their parent group.
+# 				if "interpersonal" in group:
+# 					self.skills[k] = v
+# 			if children and not issubgroup:
+# 				groupobj = SkillGroup(group, skills=children(k), era=era, issubgroup=True)
+# 				setattr(self, sanitize_key(k), groupobj)
+# 			if parent:
+# 				pass
+# 			else:
+# 				setattr(self, sanitize_key(k), val)
+# 		self.name = name
+# 	def find(self, key):
+# 		return self.skills.get(key)
+# 	def list(self, selectable=True):
+# 		return [v for v in self.skills.values()]
+# 	def pdfset_skill(investigator, choice, slotdefs):
+# 		skname, value = choice
+# 		skill = find(key="name", val=skname)
+# 		pdfslot = skill.get("pdfslot")
+# 		pdfslot = pdfslot
+# 		value += skill.get("value", 0)
+# 		pdf_children = [sn for sn in slotdefs]
+# 		if skname == "Brawling" or pdfslot not in pdf_children:
+# 			investigator.pdf["Skill_"+pdfslot] = value 
+# 		elif len(slotdefs.get(pdfslot)) == 0 or pdfslot == "Skill_Custom":
+# 			pdfnum = slotdefs["Custom"].pop(0)
+# 			investigator.pdf["SkillDef_Custom"+pdfnum] = skname
+# 			investigator.pdf["Skill_Custom"+num] = value
+# 		else:
+# 			pdfnum = slotdefs[pdfslot].pop(0)
+# 			investigator.pdf["SkillDef_"+pdfslot+pdfnum] = skname 
+# 			investigator.pdf["Skill_"+pdfslot+pdfnum] = value
 
-class Skill:
-	def __init__(self, group:SkillGroup, name:str, data:dict):
-		self.group = group
-		self.name = name
-		for key, val in data.items():
-			setattr(self, sanitize_key(key), val)
-	def roll_against(self):
-		pass
+# class Skill:
+# 	def __init__(self, group:SkillGroup, name:str, data:dict):
+# 		self.group = group
+# 		self.name = name
+# 		for key, val in data.items():
+# 			setattr(self, sanitize_key(key), val)
+# 	def roll_against(self):
+# 		pass
 
 
 if __name__ == "__main__":
