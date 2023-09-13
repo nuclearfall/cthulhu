@@ -958,70 +958,6 @@
             "Swim"
         ]
     },
-    "Computer Hacker": {
-        "name": "Computer Hacker",
-        "contacts": "IT workers, specialized Internet web communities, political groups, criminal enter- prises.",
-        "mincredit": 10,
-        "scenarios": [
-            {
-                "str": 0,
-                "edu": 4,
-                "dex": 0,
-                "con": 0,
-                "app": 0,
-                "siz": 0,
-                "pow": 0,
-                "int": 0
-            }
-        ],
-        "era": 1,
-        "content": "Usually designing, writing, debugging, and/or maintaining the source code of computer programs, the computer programmer is an expert in many different subjects, including formal logic and application platforms. May work freelance or within the confines of a software development house.\n\nThe computer technician is tasked with the development and main- tenance of computer systems and networks, often working alongside other office staff (such as project managers) to ensure systems maintain integrity and provide desired functionality. Similar occupations may include: Database Administrator, IT Systems Manager, Multimedia Developer, Network Administrator, Software Engineer, Webmaster, etc.\n\nThe computer hacker uses computers and computer networks as a means of protest to promote political ends (sometimes referred to as \"hacktivists\") or for criminal gain. Illegally breaking into computers and other user accounts is required, the outcome of which could be anything from defacing web pages, doxing, and swatting to email bombing designed to enact denials of service.",
-        "maxcredit": 70,
-        "selections": [
-            ["Interpersonal"],
-            ["All"],
-            ["All"]
-        ],
-        "skills": [
-            "Spot Hidden",
-            "Computer Use",
-            "Electrical Repair",
-            "Electronics",
-            "Library Use"
-        ]
-    },
-    "Computer Programmer/Technician": {
-        "name": "Computer Programmer/Technician",
-        "contacts": "Other IT workers, corporate workers and managers, specialized Internet web communities.",
-        "mincredit": 10,
-        "scenarios": [
-            {
-                "int": 0,
-                "siz": 0,
-                "edu": 4,
-                "pow": 0,
-                "con": 0,
-                "str": 0,
-                "app": 0,
-                "dex": 0
-            }
-        ],
-        "era": 1,
-        "content": "Usually designing, writing, debugging, and/or maintaining the source code of computer programs, the computer programmer is an expert in many different subjects, including formal logic and application platforms. May work freelance or within the confines of a software development house.\n\nThe computer technician is tasked with the development and main- tenance of computer systems and networks, often working alongside other office staff (such as project managers) to ensure systems maintain integrity and provide desired functionality. Similar occupations may include: Database Administrator, IT Systems Manager, Multimedia Developer, Network Administrator, Software Engineer, Webmaster, etc.\n\nThe computer hacker uses computers and computer networks as a means of protest to promote political ends (sometimes referred to as \"hacktivists\") or for criminal gain. Illegally breaking into computers and other user accounts is required, the outcome of which could be anything from defacing web pages, doxing, and swatting to email bombing designed to enact denials of service.",
-        "maxcredit": 70,
-        "selections": [
-            ["All"],
-            ["All"]
-        ],
-        "skills": [
-            "Mathematics",
-            "Spot Hidden",
-            "Electrical Repair",
-            "Electronics",
-            "Computer Use",
-            "Library Use"
-        ]
-    },
     "Conman": {
         "name": "Conman",
         "contacts": "Other confidence artists, freelance criminals.",
@@ -1248,7 +1184,7 @@
             ["All"],
             ["All"],
             ["Firearms"],
-            ["languges"]
+            ["Other Language"]
         ],
         "skills": [
             "Ride"
@@ -1309,7 +1245,7 @@
         ],
         "skills": [
             "First Aid",
-            "Medecine",
+            "Medicine",
             "Latin",
             "Psychology",
             "Biology",

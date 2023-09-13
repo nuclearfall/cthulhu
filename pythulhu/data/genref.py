@@ -1,82 +1,63 @@
 {
-"age_modifiers": 
+"agemods": 
 {
-	"to20":
+	range(15, 20):
 	{
-		"ageLow": 15,
-		"ageHigh": 19,
 		"penalties": 
 		[
 			[-5, "str", "siz"],
 			[-5, "edu"]
 		]
 	},
-	"to40": 
+	range(20,40): 
 	{
-		"ageLow": 20,
-		"ageHigh": 39,
-		"penalties": [],
-		"edu_checks": 1
+		improvement_check: 1
 	},
-	"to50": 
+	range(40,50): 
 	{
-		"ageLow": 40,
-		"ageHigh": 49,
 		"penalties": 
 		[
 			[-5, "str", "dex", "con"],
 			[-5, "app"],
 			[-1, "mov"]
 		],
-		"edu_checks": 2
+		improvement_check: 2
 	},
-	"to60": 
+	range(50, 60): 
 	{
-		"ageLow": 50,
-		"ageHigh": 59,
 		"penalties": 
 		[
 			[-10, "str", "dex", "con"],
 			[-10, "app"],
 			[-2, "mov"]
 		],
-		"edu_checks": 3
+		improvement_check: 3
 	},
-	"to70": 
+	range(60,70): 
 	{
-		"ageLow": 60,
-		"ageHigh": 69,
 		"penalties": 
 		[
 			[-20, "str", "dex", "con"],
 			[-15, "app"],
 			[-3, "mov"]
 		],
-		"edu_checks": 4
+		improvement_check: 4
 	},
-	"to80": 
+	range(70,80): 
 	{
-		"ageLow": 70,
-		"ageHigh": 79,
-		"penalties": 
-		[
-			[-40, "str", "dex", "con"],
-			[-20, "app"],
-			[-4, "mov"]
-		],
-		"edu_checks": 4
+		outofprime_appadj
+		improvement_check
 	},
-	"tilDeath": 
+	range(80,100): 
 	{
-		"ageLow": 80,
-		"ageHigh": 100,
+		outofprime_appadj: -25,
 		"penalties": 
 		[
 			[-80, ["str", "dex", "con"]],
 			[-25, "app"],
 			[-5, "mov"]
 		],
-		"edu_checks": 4
+		improvement_check: 4
 	}
 },
 	"buildanddb": 

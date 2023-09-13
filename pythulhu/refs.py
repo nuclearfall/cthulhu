@@ -1,5 +1,6 @@
 import json
 import pkgutil
+import random	
 
 DATA_PATH = "./data"
 
@@ -8,6 +9,7 @@ def getref(key):
 	return json.loads(pkgutil.get_data(__name__, f"data/{path}").decode())
 
 genref = getref("genref")
+nameref = getref("nameref")
 occref = getref("occref")
 skillref = getref("skillref")
 spellref = getref("spellref")
@@ -16,6 +18,10 @@ itemref = getref("itemref")
 pdfref = getref("pdfref")
 jsonref = getref("jsonref")
 prismref = getref("prismref")
+
+def constrainedsum(n, total):
+		dividers = sorted(random.sample(range(1, total), n - 1))
+		return [a - b for a, b in zip(dividers + [total], [0] + dividers)]
 
 def attrget(o, *args, default=None):
 	if not args:
@@ -26,7 +32,7 @@ def attrget(o, *args, default=None):
 
 def rget(d, *args, default=None):
 	if not args:
-		return d
+		return d or default
 	else:
 		key, *args = args 
 		return rget(d.get(key), *args, default=default)
@@ -56,22 +62,3 @@ def trueforall(ls):
 	
 def trueforone(ls):
 	return reduce(lambda x, y: x or y, ls)
-
-# with open("pdf_template.json") as fp:
-# 	pdf_keys = json.load(fp)
-# with open("json_template.json") as fp:
-# 	json_keys = json.load(fp)
-# with open("prism_template.json") as fp:
-# 	json_keys = json.load(fp)	
-# with open("create_ref.json") as fp:
-# 	create_refs = json.load(fp)
-# with open("occ_ref.json") as fp:
-# 	occ_ref = json.load(fp)
-# with open("skill_ref.json") as fp:
-# 	skill_ref = json.load(fp)
-# with open("weapon_ref.json") as fp:
-# 	weapon_ref = json.load(fp)
-# with open("item_ref.json") as fp:
-# 	item_ref = json.load(fp)
-# with open("spell_ref.json") as fp:
-# 	spell_ref = json.load(fp)

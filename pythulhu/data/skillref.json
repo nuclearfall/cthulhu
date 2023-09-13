@@ -622,9 +622,9 @@
         "groups": []
     },
     "Interpersonal": {
-        "name": "Persuade",
-        "pdfslot": "Persuade",
-        "value": 10,
+        "name": "Interpersonal",
+        "pdfslot": "Interpersonal",
+        "value": 0,
         "era": 0,
         "rarity": "",
         "notes": "",
@@ -661,7 +661,7 @@
         "custom": false,
         "checked": false,
         "children": [],
-        "parent": null,
+        "parent": "Interpersonal",
         "groups": [
             "interpersonal"
         ]

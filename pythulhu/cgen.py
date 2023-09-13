@@ -116,7 +116,7 @@ class CharacterGen:
 							k=1, weights=[0.02, 0.65, 0.2, 0.1, 0.05])
 		return age_range[0]
 
-	def age_adjust(self, choices=None, age=20, random_age=False):
+	def age_adjust(self, choices=None, age=30, random_age=False):
 		self.set_age_reference()
 		if random_age is True:
 			self.set_age_reference()
@@ -125,23 +125,9 @@ class CharacterGen:
 			for penalty in selection:
 				if len(penalty) > 2:
 					points, *stats = penalty
-					distro = self.constrained_pos_sum(len(stats), abs(points))
+					distro = refs.constrained_pos_sum(len(stats), abs(points))
 					choices = list(zip(stats, distro))
-		elif choices:
-			self.set_age_reference()
-			choices = validate_input_type(choices, (dict, tuple, list), 
-					"Invalid type for selection.")
-			total = 0
-			while choices:
-				choices = list(choices)
-				key, pen = choices.pop()
-				self.penchars(key, pen)
-				total += abs(pen)
-			if total != abs(sum([p[0] for p in self.penalties if len(p) > 2])):
-				raise ValueError("Penalty value does not equal required total.")
 
-		self.character.improvement_check("edu")
-		return True
 
 	def penchars(self, key, penalty):
 		val = getattr(self.character, key)

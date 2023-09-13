@@ -15,7 +15,15 @@ ChallengeLevel = {5:"FUMBLE", 4: "FAIL", 3:"REGULAR", 2:"HARD", 1:"EXTREME", 0:"
 
 def dtens(fn=max, count=1):
 	return dunits(count=count, lowval=0, highval=90, step=10, fn=fn)
+def statroll(three=["pow", "str", "con", "dex", "app", "luck"],
+				twoplus=["siz", "edu", "int"], rolls={}):
+	for key in twoplus:
+		rolls[key] = (dunits(count=2, highval=6, fn=sum) + 6) * 5
+	for key in three:
+		rolls[key] = dunits(count=3, highval=6, fn=sum) * 5
+	return rolls
 	
+
 # dunits has a lot of super extra flags, but can do a lot of really cool things taking **kwargs from a dict
 def dunits(lowval=1, highval=10, fn=max, step=1, count=1, add=0, sub=0, mul=1, div=1, lim=99, flr=1):
 	return fn([max(min((int(random.randrange(lowval, highval+1, step=step)*mul/div)+add-sub), lim), 1) for i in range(count)])
